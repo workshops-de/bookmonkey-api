@@ -7,6 +7,8 @@ var app = express()
 // tell express to use body parser
 app.use(express.bodyParser())
 
+app.use(express.static(__dirname + '/static'))
+
 // define a global application object
 var SERVER = {}
 

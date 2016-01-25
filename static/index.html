@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bookmonkey API</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <h1>Bookmonkey API</h1>
+    
+    <h2><code>HTTP GET <a href="/books" target="_blank">/books</a></code></h2>
+    <h3>Response:</h3>
+    <pre>
+      [
+        {
+          title: "…",
+          subtitle: "…",
+          isbn: "…",
+          abstract: "…",
+          numPages: 123,
+          author: "…",
+          publisher: {
+            name: "…",
+            url: "http://….tld"
+          },
+        },
+        …
+      ]
+    </pre>
+    
+    <h2><code>HTTP GET <a href="/books/978-3-89864-829-5" target="_blank">/books/:isbn</a></code></h2>
+    <h3>Response:</h3>
+    <pre>
+      {
+        title: "…",
+        subtitle: "…",
+        isbn: "…",
+        abstract: "…",
+        numPages: 123,
+        author: "…",
+        publisher: {
+          name: "…",
+          url: "http://….tld"
+        },
+      }
+    </pre>
+    
+    <h2><code>HTTP POST /books</code></h2>
+    <h3>Payload:</h3>
+    <pre>
+      {
+        title: "…",
+        subtitle: "…",
+        isbn: "…",
+        abstract: "…",
+        numPages: 123,
+        author: "…",
+        publisher: {
+          name: "…",
+          url: "http://….tld"
+        },
+      }
+    </pre>
+    <h3>Response:</h3>
+    <pre>true</pre>
+    
+    <h2><code>HTTP PUT /books/:isbn</code></h2>
+    <h3>Payload:</h3>
+    <pre>
+      {
+        title: "…",
+        subtitle: "…",
+        isbn: "…",
+        abstract: "…",
+        numPages: 123,
+        author: "…",
+        publisher: {
+          name: "…",
+          url: "http://….tld"
+        },
+      }
+    </pre>
+    <h3>Response:</h3>
+    <pre>true</pre>
+    
+    <h2><code>HTTP DELETE /books</code></h2>
+    <h3>Response:</h3>
+    <pre>true</pre>
+  </div>
+</body>
+</html>
