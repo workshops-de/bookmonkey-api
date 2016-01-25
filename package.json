@@ -1,5 +1,5 @@
 {
-    "name": "bookmonkey-simple-backend",
+    "name": "bookmonkey-api",
     "description": "A simple backend for the BookMonkey example application.",
     "version": "1.0.0",
     "dependencies": {
