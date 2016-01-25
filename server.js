@@ -123,10 +123,6 @@ app.get('/books', function (req, res) {
   res.json(SERVER._books)
 })
 
-app.get('/tags', function (req, res) {
-  res.json(SERVER.getTags())
-})
-
 app.get('/books/:isbn', function (req, res) {
   var book = SERVER.getBookByIsbn(req.params.isbn)
 
