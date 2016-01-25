@@ -113,21 +113,21 @@ app.all('*', function (req, res, next) {
 })
 
 // define an API to allow to restore the default books
-app.get('/api/reset', function (req, res) {
+app.get('/reset', function (req, res) {
   SERVER._books = SERVER.deepCopy(SERVER.__initBooks)
   res.json(SERVER._books)
 })
 
 // define REST resources
-app.get('/api/books', function (req, res) {
+app.get('/books', function (req, res) {
   res.json(SERVER._books)
 })
 
-app.get('/api/tags', function (req, res) {
+app.get('/tags', function (req, res) {
   res.json(SERVER.getTags())
 })
 
-app.get('/api/books/:isbn', function (req, res) {
+app.get('/books/:isbn', function (req, res) {
   var book = SERVER.getBookByIsbn(req.params.isbn)
 
   if (book) {
@@ -138,12 +138,12 @@ app.get('/api/books/:isbn', function (req, res) {
   }
 })
 
-app.post('/api/books', function (req, res) {
+app.post('/books', function (req, res) {
   SERVER._books.push(req.body)
   res.json(true)
 })
 
-app.put('/api/books/:isbn', function (req, res) {
+app.put('/books/:isbn', function (req, res) {
   var book = SERVER.updateBook(req.body)
 
   if (book) {
@@ -154,7 +154,7 @@ app.put('/api/books/:isbn', function (req, res) {
   }
 })
 
-app.delete('/api/books/:isbn', function (req, res) {
+app.delete('/books/:isbn', function (req, res) {
   var book = SERVER.deleteBookByIsbn(req.params.isbn)
 
   if (book) {
