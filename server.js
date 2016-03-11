@@ -21,6 +21,7 @@ SERVER.__initBooks = [
     abstract: 'JavaScript ist längst nicht mehr nur für klassische Webprogrammierer interessant.',
     numPages: 302,
     author: 'Oliver Ochs',
+    imageUrl: 'http://ecx.images-amazon.com/images/I/41rGAvWAk4L._SX341_BO1,204,203,200_.jpg',
     publisher: {
       name: 'dpunkt.verlag',
       url: 'http://dpunkt.de/'
@@ -33,6 +34,7 @@ SERVER.__initBooks = [
     abstract: 'Nach dem Webbrowser erobert JavaScript nun auch den Webserver.',
     numPages: 334,
     author: 'Golo Roden',
+    imageUrl: 'http://ecx.images-amazon.com/images/I/41snnV6uZ5L._SX338_BO1,204,203,200_.jpg',
     publisher: {
       name: 'dpunkt.verlag',
       url: 'http://dpunkt.de/'
@@ -45,6 +47,7 @@ SERVER.__initBooks = [
     abstract: 'Entwickeln oder warten Sie JavaScript-Webapplikationen und haben immer ein ungutes Gefühl, wenn Sie Ihre Software in Betrieb nehmen? Dann wird es höchste Zeit, dass Sie sich mit testgetriebener Entwicklung vertraut machen. Dieses Buch zeigt JavaScript-Entwicklern, wie Test-Driven Development (TDD) in der Praxis funktionieren kann.',
     numPages: 234,
     author: 'Sebastian Springer',
+    imageUrl: 'http://ecx.images-amazon.com/images/I/413t%2BRW4WnL._SX342_BO1,204,203,200_.jpg',
     publisher: {
       name: 'dpunkt.verlag',
       url: 'http://dpunkt.de/'
