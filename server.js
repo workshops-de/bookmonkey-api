@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // import express
 var express = require('express')
 
