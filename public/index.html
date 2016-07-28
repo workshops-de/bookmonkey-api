@@ -30,7 +30,7 @@
       ]
     </pre>
     
-    <h2><code>HTTP GET <a href="/books/978-3-89864-829-5" target="_blank">/books/:isbn</a></code></h2>
+    <h2><code>HTTP GET <a href="/books/978-0-20163-361-0" target="_blank">/books/:isbn</a></code></h2>
     <h3>Response:</h3>
     <pre>
       {
@@ -64,7 +64,20 @@
       }
     </pre>
     <h3>Response:</h3>
-    <pre>true</pre>
+    <pre>
+      {
+        title: "…",
+        subtitle: "…",
+        isbn: "…",
+        abstract: "…",
+        numPages: 123,
+        author: "…",
+        publisher: {
+          name: "…",
+          url: "http://….tld"
+        },
+      }
+    </pre>
     
     <h2><code>HTTP PUT /books/:isbn</code></h2>
     <h3>Payload:</h3>
@@ -83,11 +96,24 @@
       }
     </pre>
     <h3>Response:</h3>
-    <pre>true</pre>
+    <pre>
+      {
+        title: "…",
+        subtitle: "…",
+        isbn: "…",
+        abstract: "…",
+        numPages: 123,
+        author: "…",
+        publisher: {
+          name: "…",
+          url: "http://….tld"
+        },
+      }
+    </pre>
     
     <h2><code>HTTP DELETE /books/:isbn</code></h2>
     <h3>Response:</h3>
-    <pre>true</pre>
+    <pre>Ok</pre>
   </div>
 </body>
 </html>
