@@ -14,5 +14,5 @@ router.db._.id = 'isbn'
 server.use(router)
 const port = process.env.PORT || 4730
 server.listen(port, function () {
-  console.log('JSON Server is running')
+  console.log(`JSON Server is running on port ${port}`)
 })
