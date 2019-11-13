@@ -10,7 +10,8 @@
       "publisher": {
         "name": "Addison-Wesley",
         "url": "http://www.addison-wesley.de/"
-      }
+      },
+      "cover": "covers/978-0-20163-361-0.jpg"
     },
     {
       "title": "REST und HTTP",
@@ -22,19 +23,21 @@
       "publisher": {
         "name": "dpunkt.verlag",
         "url": "http://dpunkt.de/"
-      }
+      },
+      "cover": "covers/978-3-86490-120-1.jpg"
     },
     {
       "title": "Eloquent JavaScript",
       "subtitle": "A Modern Introduction to Programming",
-      "isbn": " 978-1-59327-584-6",
+      "isbn": "978-1-59327-584-6",
       "abstract": "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.",
       "numPages": 472,
       "author": "Marijn Haverbeke",
       "publisher": {
         "name": "No Starch Press",
         "url": "https://www.nostarch.com/"
-      }
+      },
+      "cover": "covers/978-1-59327-584-6.jpg"
     }
   ]
 }
