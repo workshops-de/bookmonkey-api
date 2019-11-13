@@ -11,7 +11,7 @@
         "name": "Addison-Wesley",
         "url": "http://www.addison-wesley.de/"
       },
-      "cover": "covers/978-0-20163-361-0.jpg"
+      "cover": "http://localhost:4730/covers/978-0-20163-361-0.jpg"
     },
     {
       "title": "REST und HTTP",
@@ -24,7 +24,7 @@
         "name": "dpunkt.verlag",
         "url": "http://dpunkt.de/"
       },
-      "cover": "covers/978-3-86490-120-1.jpg"
+      "cover": "http://localhost:4730/covers/978-3-86490-120-1.jpg"
     },
     {
       "title": "Eloquent JavaScript",
@@ -37,7 +37,7 @@
         "name": "No Starch Press",
         "url": "https://www.nostarch.com/"
       },
-      "cover": "covers/978-1-59327-584-6.jpg"
+      "cover": "http://localhost:4730/covers/978-1-59327-584-6.jpg"
     }
   ]
 }
