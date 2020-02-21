@@ -1,7 +1,7 @@
 {
   "name": "bookmonkey-api",
   "description": "A simple backend for the BookMonkey example application.",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "dependencies": {
     "json-server": "^0.15.1"
   },
