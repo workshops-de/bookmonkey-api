@@ -9,8 +9,6 @@ const middlewares = jsonServer.defaults({
 
 server.use(middlewares)
 
-router.db._.id = 'isbn'
-
 server.use(router)
 const port = process.env.PORT || 4730
 server.listen(port, function () {

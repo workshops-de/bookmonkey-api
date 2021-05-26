@@ -1,181 +1,327 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Bookmonkey API</title>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bookmonkey API</title>
 
-  <meta name="robots" content="noindex, follow">
-  <link rel="stylesheet" href="bootstrap.min.css">
-  <link rel="stylesheet" href="highlight.androidstudio.css">
-  <script src="highlight.pack.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-</head>
-<body>
+    <meta name="robots" content="noindex, follow" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="highlight.androidstudio.css" />
+    <script src="highlight.pack.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-toggleable navbar-inverse bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Bookmonkey API</a>
 
-<!-- Navigation -->
-<nav class="navbar navbar-toggleable navbar-inverse bg-primary">
-  <div class="container">
-    <a class="navbar-brand" href="#">Bookmonkey API</a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#list">List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#detail">Detail</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#create">Create</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#update">Update</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#delete">Delete</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#operations">Further Operations</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#list">List</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#detail">Detail</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#create">Create</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#update">Update</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#delete">Delete</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <!-- Content -->
+    <main class="container mt-4">
+      <!-- Book List -->
+      <h2 id="list">Book List</h2>
+      <p>GET <a href="/books" target="_blank">/books</a></p>
+      <strong>Response:</strong>
+      <pre class="mb-4">
+        <code class="json">
+          [
+            {
+              title: "…",
+              subtitle: "…",
+              isbn: "…",
+              abstract: "…",
+              numPages: 123,
+              author: "…",
+              publisher: "…",
+              price: "$..",
+              cover: "http://….png"
+            },
+            …
+          ]
+        </code>
+      </pre>
 
-<!-- Content -->
-<main class="container mt-4">
+      <!-- Book Detail -->
+      <h2 id="detail">Book Detail</h2>
+      <p>
+        GET <a href="/books/9781787125421" target="_blank">/books/:isbn</a>
+      </p>
+      <strong>Response:</strong>
+      <pre class="mb-4">
+        <code class="json">
+          {
+            title: "…",
+            subtitle: "…",
+            isbn: "…",
+            abstract: "…",
+            numPages: 123,
+            author: "…",
+            publisher: "…",
+            price: "$..",
+            cover: "http://….png"
+          }
+        </code>
+      </pre>
 
-  <!-- Book List -->
-  <h2 id="list">Book List</h2>
-  <p>GET <a href="/books" target="_blank">/books</a></p>
-  <strong>Response:</strong>
-  <pre class="mb-4"><code class="json">
-    [
-      {
-        title: "…",
-        subtitle: "…",
-        isbn: "…",
-        abstract: "…",
-        numPages: 123,
-        author: "…",
-        publisher: {
-          name: "…",
-          url: "http://….tld"
-        },
-        "cover": "http://….jpg"
-      },
-      …
-    ]
-  </code></pre>
+      <!-- Book Create -->
+      <h2 id="create">Book Create</h2>
+      <p>POST <a href="/books" target="_blank">/books</a></p>
+      <p>Include a <code>Content-Type: application/json</code> header to use the JSON in the request body. Otherwise it will return a 2XX status code, but without changes being made to the data.</p>
 
-  <!-- Book Detail -->
-  <h2 id="detail">Book Detail</h2>
-  <p>GET <a href="/books/978-0-20163-361-0" target="_blank">/books/:isbn</a></p>
-  <strong>Response:</strong>
-  <pre class="mb-4"><code class="json">
-    {
-      title: "…",
-      subtitle: "…",
-      isbn: "…",
-      abstract: "…",
-      numPages: 123,
-      author: "…",
-      publisher: {
-        name: "…",
-        url: "http://….tld"
-      },
-      "cover": "http://….jpg"
-    }
-  </code></pre>
+      <div class="row">
+        <div class="col-6">
+          <strong>Payload:</strong>
+          <pre class="mb-4">
+            <code class="json">
+              {
+                title: "…",
+                subtitle: "…",
+                isbn: "…",
+                abstract: "…",
+                numPages: 123,
+                author: "…",
+                publisher: "…",
+                price: "$..",
+                cover: "http://….png"
+              }
+            </code>
+          </pre>
+        </div>
+        <div class="col-6">
+          <strong>Response:</strong>
+          <pre class="mb-4">
+            <code class="json">
+              {
+                title: "…",
+                subtitle: "…",
+                isbn: "…",
+                abstract: "…",
+                numPages: 123,
+                author: "…",
+                publisher: "…",
+                price: "$..",
+                cover: "http://….png"
+              }
+            </code>
+          </pre>
+        </div>
+      </div>
 
-  <!-- Book Create -->
-  <h2 id="create">Book Create</h2>
-  <p>POST <a href="/books" target="_blank">/books</a></p>
+      <!-- Book Update -->
+      <h2 id="update">Book Update</h2>
+      <p>
+        PUT <a href="/books/9781787125421" target="_blank">/books/:isbn</a>
+      </p>
+      <p>Include a <code>Content-Type: application/json</code> header to use the JSON in the request body. Otherwise it will return a 2XX status code, but without changes being made to the data.</p>
 
-  <div class="row">
-  <div class="col-6">
-  <strong>Payload:</strong>
-  <pre class="mb-4"><code class="json">
-    {
-      title: "…",
-      subtitle: "…",
-      isbn: "…",
-      abstract: "…",
-      numPages: 123,
-      author: "…",
-      publisher: {
-        name: "…",
-        url: "http://….tld"
-      },
-      "cover": "http://….jpg"
-    }
-  </code></pre>
-  </div>
-  <div class="col-6">
-  <strong>Response:</strong>
-  <pre class="mb-4"><code class="json">
-    {
-      title: "…",
-      subtitle: "…",
-      isbn: "…",
-      abstract: "…",
-      numPages: 123,
-      author: "…",
-      publisher: {
-        name: "…",
-        url: "http://….tld"
-      },
-      "cover": "http://….jpg"
-    }
-  </code></pre>
-  </div>
-  </div>
+      <div class="row">
+        <div class="col-6">
+          <strong>Payload:</strong>
+          <pre class="mb-4">
+            <code class="json">
+              {
+                title: "…",
+                subtitle: "…",
+                isbn: "…",
+                abstract: "…",
+                numPages: 123,
+                author: "…",
+                publisher: "…",
+                price: "$..",
+                cover: "http://….png"
+              }
+            </code>
+          </pre>
+        </div>
+        <div class="col-6">
+          <strong>Response:</strong>
+          <pre class="mb-4">
+            <code class="json">
+              {
+                title: "…",
+                subtitle: "…",
+                isbn: "…",
+                abstract: "…",
+                numPages: 123,
+                author: "…",
+                publisher: "…",
+                price: "$..",
+                cover: "http://….png"
+              }
+            </code>
+          </pre>
+        </div>
+      </div>
 
-  <!-- Book Update -->
-  <h2 id="update">Book Update</h2>
-  <p>PUT <a href="/books/978-0-20163-361-0" target="_blank">/books/:isbn</a></p>
+      <!-- Book Delete -->
+      <h2 id="delete">Book Delete</h2>
+      <p>
+        DELETE
+        <a href="/books/9781787125421" target="_blank">/books/:isbn</a>
+      </p>
+      <strong>Response:</strong>
+      <pre class="mb-4">
+        <code class="json">
+          Ok
+        </code>
+      </pre>
 
-  <div class="row">
-  <div class="col-6">
-  <strong>Payload:</strong>
-  <pre class="mb-4"><code class="json">
-    {
-      title: "…",
-      subtitle: "…",
-      isbn: "…",
-      abstract: "…",
-      numPages: 123,
-      author: "…",
-      publisher: {
-        name: "…",
-        url: "http://….tld"
-      },
-      "cover": "http://….jpg"
-    }
-  </code></pre>
-  </div>
-  <div class="col-6">
-  <strong>Response:</strong>
-  <pre class="mb-4"><code class="json">
-    {
-      title: "…",
-      subtitle: "…",
-      isbn: "…",
-      abstract: "…",
-      numPages: 123,
-      author: "…",
-      publisher: {
-        name: "…",
-        url: "http://….tld"
-      },
-      "cover": "http://….jpg"
-    }
-  </code></pre>
-  </div>
-  </div>
+      <h2 id="operations">Operations</h2>
 
-  <!-- Book Delete -->
-  <h2 id="delete">Book Delete</h2>
-  <p>DELETE <a href="/books/978-0-20163-361-0" target="_blank">/books/:isbn</a></p>
-  <strong>Response:</strong>
-  <pre class="mb-4"><code class="json">
-    Ok
-  </code></pre>
-</main>
-</body>
+      <!-- Pagination -->
+      <h2 id="pagination">Pagination</h2>
+      <p>GET <a href="/books?_page=2&_limit=10" target="_blank">/books?_page=2&_limit=10</a></p>
+      <p>Use <code>_page</code> and optionally <code>_limit</code> to paginate returned data. 10 items are returned by default</p>
+      <p>In the <code>Link</code> header you'll get <code>first</code>, <code>prev</code>, <code>next</code> and <code>last</code> links.</p>
+
+      <strong>Response:</strong>
+      <pre class="mb-4">
+        <code class="json">
+          [
+            {
+              title: "…",
+              subtitle: "…",
+              isbn: "…",
+              abstract: "…",
+              numPages: 123,
+              author: "…",
+              publisher: "…",
+              price: "$..",
+              cover: "http://….png"
+            },
+            …
+          ]
+        </code>
+      </pre>
+
+      <!-- Sort -->
+      <h2 id="sort">Sort</h2>
+      <p>GET <a href="/books?_sort=title&_order=desc" target="_blank">/books?_sort=title&_order=desc</a></p>
+      <p>Add <code>_sort</code> and <sort>_order</sort> (ascending order by default)</p>
+      <p>Use a comma-separated list for multiple fields.</p>
+
+      <strong>Response:</strong>
+      <pre class="mb-4">
+        <code class="json">
+          [
+            {
+              title: "…",
+              subtitle: "…",
+              isbn: "…",
+              abstract: "…",
+              numPages: 123,
+              author: "…",
+              publisher: "…",
+              price: "$..",
+              cover: "http://….png"
+            },
+            …
+          ]
+        </code>
+      </pre>
+
+      <!-- Slice -->
+      <h2 id="slice">Slice</h2>
+      <p>GET <a href="/books?_start=10&_end=20" target="_blank">/books?_start=10&_end=20</a></p>
+      <p>Add <code>_start</code> and <code>_end</code> or <code>_limit</code> (an <code>X-Total-Count</code> header is included in the response)</p>
+      <p>Works exactly as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice" target="_blank">Array.slice</a> (i.e. <code>_start</code> is inclusive and <code>_end</code> exclusive)</p>
+
+      <strong>Response:</strong>
+      <pre class="mb-4">
+        <code class="json">
+          [
+            {
+              title: "…",
+              subtitle: "…",
+              isbn: "…",
+              abstract: "…",
+              numPages: 123,
+              author: "…",
+              publisher: "…",
+              price: "$..",
+              cover: "http://….png"
+            },
+            …
+          ]
+        </code>
+      </pre>
+
+      <!-- Operators -->
+      <h2 id="operators">Operators</h2>
+      <p>GET <a href="/books?numPages_gte=100&numPages_lte=500" target="_blank">/books?numPages_gte=100&numPages_lte=500</a></p>
+      <p>Add <code>_gte</code> or <code>_lte</code> for getting a range</p>
+      <p>Add <code>_ne</code> to exclude a value</p>
+      <p>Add <code>_like</code> to filter (RegExp supported)</p>
+
+      <strong>Response:</strong>
+      <pre class="mb-4">
+        <code class="json">
+          [
+            {
+              title: "…",
+              subtitle: "…",
+              isbn: "…",
+              abstract: "…",
+              numPages: 123,
+              author: "…",
+              publisher: "…",
+              price: "$..",
+              cover: "http://….png"
+            },
+            …
+          ]
+        </code>
+      </pre>
+
+      <!-- Full-text search -->
+      <h2 id="search">Full-text search</h2>
+      <p>GET <a href="/books?q=vue" target="_blank">/books?q=vue</a></p>
+      <p>Add <code>q</code> for a full-text search</p>
+      
+      <strong>Response:</strong>
+      <pre class="mb-4">
+        <code class="json">
+          [
+            {
+              title: "…",
+              subtitle: "…",
+              isbn: "…",
+              abstract: "…",
+              numPages: 123,
+              author: "…",
+              publisher: "…",
+              price: "$..",
+              cover: "http://….png"
+            },
+            …
+          ]
+        </code>
+      </pre>
+    </main>
+  </body>
 </html>
