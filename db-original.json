@@ -1,4 +1,11 @@
 {
+  "users": [
+    {
+      "email": "admin@bookmonkey.api",
+      "password": "$2a$10$Evsbmwpt5JIsDb3hSRklq.u7zapUWPCNPl8EFE1igm9B1bqroGfSq",
+      "id": 1
+    }
+  ],
   "books": [
     {
       "id": "1001606140805",
@@ -10,7 +17,8 @@
       "publisher": "Leanpub",
       "price": "$0.00",
       "numPages": 115,
-      "cover": "http://localhost:4730/covers/1001606140805.png"
+      "cover": "http://localhost:4730/covers/1001606140805.png",
+      "userId": 1
     },
     {
       "id": "9780071494618",
@@ -22,7 +30,8 @@
       "publisher": "McGraw-Hill",
       "price": "$12.03",
       "numPages": 258,
-      "cover": "http://localhost:4730/covers/9780071494618.png"
+      "cover": "http://localhost:4730/covers/9780071494618.png",
+      "userId": 1
     },
     {
       "id": "9780071740647",
@@ -34,7 +43,8 @@
       "publisher": "McGraw-Hill",
       "price": "$9.50",
       "numPages": 482,
-      "cover": "http://localhost:4730/covers/9780071740647.png"
+      "cover": "http://localhost:4730/covers/9780071740647.png",
+      "userId": 1
     },
     {
       "id": "9780134655536",
@@ -46,7 +56,8 @@
       "publisher": "Addison-Wesley",
       "price": "$33.16",
       "numPages": 640,
-      "cover": "http://localhost:4730/covers/9780134655536.png"
+      "cover": "http://localhost:4730/covers/9780134655536.png",
+      "userId": 1
     },
     {
       "id": "9780596522308",
@@ -58,7 +69,8 @@
       "publisher": "O'Reilly Media",
       "price": "$4.65",
       "numPages": 256,
-      "cover": "http://localhost:4730/covers/9780596522308.png"
+      "cover": "http://localhost:4730/covers/9780596522308.png",
+      "userId": 1
     },
     {
       "id": "9780596527525",
@@ -70,7 +82,8 @@
       "publisher": "O'Reilly Media",
       "price": "$4.13",
       "numPages": 480,
-      "cover": "http://localhost:4730/covers/9780596527525.png"
+      "cover": "http://localhost:4730/covers/9780596527525.png",
+      "userId": 1
     },
     {
       "id": "9780596529260",
@@ -82,7 +95,8 @@
       "publisher": "O'Reilly Media",
       "price": "$2.60",
       "numPages": 448,
-      "cover": "http://localhost:4730/covers/9780596529260.png"
+      "cover": "http://localhost:4730/covers/9780596529260.png",
+      "userId": 1
     },
     {
       "id": "9780596529963",
@@ -94,7 +108,8 @@
       "publisher": "O'Reilly Media",
       "price": "$3.49",
       "numPages": 128,
-      "cover": "http://localhost:4730/covers/9780596529963.png"
+      "cover": "http://localhost:4730/covers/9780596529963.png",
+      "userId": 1
     },
     {
       "id": "9780735649705",
@@ -106,7 +121,8 @@
       "publisher": "Microsoft Press",
       "price": "$34.21",
       "numPages": 352,
-      "cover": "http://localhost:4730/covers/9780735649705.png"
+      "cover": "http://localhost:4730/covers/9780735649705.png",
+      "userId": 1
     },
     {
       "id": "9780735660120",
@@ -118,7 +134,8 @@
       "publisher": "Microsoft Press",
       "price": "$19.95",
       "numPages": 294,
-      "cover": "http://localhost:4730/covers/9780735660120.png"
+      "cover": "http://localhost:4730/covers/9780735660120.png",
+      "userId": 1
     },
     {
       "id": "9780974514093",
@@ -130,7 +147,8 @@
       "publisher": "The Pragmatic Programmers",
       "price": "$6.96",
       "numPages": 275,
-      "cover": "http://localhost:4730/covers/9780974514093.png"
+      "cover": "http://localhost:4730/covers/9780974514093.png",
+      "userId": 1
     },
     {
       "id": "9780980576832",
@@ -142,7 +160,8 @@
       "publisher": "SitePoint",
       "price": "$5.50",
       "numPages": 300,
-      "cover": "http://localhost:4730/covers/9780980576832.png"
+      "cover": "http://localhost:4730/covers/9780980576832.png",
+      "userId": 1
     },
     {
       "id": "9781430239697",
@@ -154,7 +173,8 @@
       "publisher": "Apress",
       "price": "$29.99",
       "numPages": 124,
-      "cover": "http://localhost:4730/covers/9781430239697.png"
+      "cover": "http://localhost:4730/covers/9781430239697.png",
+      "userId": 1
     },
     {
       "id": "9781430246206",
@@ -166,7 +186,8 @@
       "publisher": "Apress",
       "price": "$34.47",
       "numPages": 312,
-      "cover": "http://localhost:4730/covers/9781430246206.png"
+      "cover": "http://localhost:4730/covers/9781430246206.png",
+      "userId": 1
     },
     {
       "id": "9781430257820",
@@ -178,7 +199,8 @@
       "publisher": "Apress",
       "price": "$33.55",
       "numPages": 416,
-      "cover": "http://localhost:4730/covers/9781430257820.png"
+      "cover": "http://localhost:4730/covers/9781430257820.png",
+      "userId": 1
     },
     {
       "id": "9781430258667",
@@ -190,7 +212,8 @@
       "publisher": "Apress",
       "price": "$36.11",
       "numPages": 368,
-      "cover": "http://localhost:4730/covers/9781430258667.png"
+      "cover": "http://localhost:4730/covers/9781430258667.png",
+      "userId": 1
     },
     {
       "id": "9781430259831",
@@ -202,7 +225,8 @@
       "publisher": "Apress",
       "price": "$41.39",
       "numPages": 472,
-      "cover": "http://localhost:4730/covers/9781430259831.png"
+      "cover": "http://localhost:4730/covers/9781430259831.png",
+      "userId": 1
     },
     {
       "id": "9781449309961",
@@ -214,7 +238,8 @@
       "publisher": "O'Reilly Media",
       "price": "$15.99",
       "numPages": 156,
-      "cover": "http://localhost:4730/covers/9781449309961.png"
+      "cover": "http://localhost:4730/covers/9781449309961.png",
+      "userId": 1
     },
     {
       "id": "9781449316976",
@@ -226,7 +251,8 @@
       "publisher": "O'Reilly Media",
       "price": "$15.00",
       "numPages": 298,
-      "cover": "http://localhost:4730/covers/9781449316976.png"
+      "cover": "http://localhost:4730/covers/9781449316976.png",
+      "userId": 1
     },
     {
       "id": "9781449319274",
@@ -238,7 +264,8 @@
       "publisher": "O'Reilly Media",
       "price": "$9.00",
       "numPages": 624,
-      "cover": "http://localhost:4730/covers/9781449319274.png"
+      "cover": "http://localhost:4730/covers/9781449319274.png",
+      "userId": 1
     },
     {
       "id": "9781449320515",
@@ -250,7 +277,8 @@
       "publisher": "O'Reilly Media",
       "price": "$3.88",
       "numPages": 172,
-      "cover": "http://localhost:4730/covers/9781449320515.png"
+      "cover": "http://localhost:4730/covers/9781449320515.png",
+      "userId": 1
     },
     {
       "id": "9781449323578",
@@ -262,7 +290,8 @@
       "publisher": "O'Reilly Media",
       "price": "$26.21",
       "numPages": 230,
-      "cover": "http://localhost:4730/covers/9781449323578.png"
+      "cover": "http://localhost:4730/covers/9781449323578.png",
+      "userId": 1
     },
     {
       "id": "9781449332914",
@@ -274,7 +303,8 @@
       "publisher": "O'Reilly Media",
       "price": "$8.92",
       "numPages": 226,
-      "cover": "http://localhost:4730/covers/9781449332914.png"
+      "cover": "http://localhost:4730/covers/9781449332914.png",
+      "userId": 1
     },
     {
       "id": "9781449337711",
@@ -286,7 +316,8 @@
       "publisher": "O'Reilly Media",
       "price": "$31.99",
       "numPages": 538,
-      "cover": "http://localhost:4730/covers/9781449337711.png"
+      "cover": "http://localhost:4730/covers/9781449337711.png",
+      "userId": 1
     },
     {
       "id": "9781449356569",
@@ -298,7 +329,8 @@
       "publisher": "O'Reilly Media",
       "price": "$50.99",
       "numPages": 118,
-      "cover": "http://localhost:4730/covers/9781449356569.png"
+      "cover": "http://localhost:4730/covers/9781449356569.png",
+      "userId": 1
     },
     {
       "id": "9781449362966",
@@ -310,7 +342,8 @@
       "publisher": "O'Reilly Media",
       "price": "$29.90",
       "numPages": 404,
-      "cover": "http://localhost:4730/covers/9781449362966.png"
+      "cover": "http://localhost:4730/covers/9781449362966.png",
+      "userId": 1
     },
     {
       "id": "9781449372620",
@@ -322,7 +355,8 @@
       "publisher": "O'Reilly Media",
       "price": "$14.00",
       "numPages": 258,
-      "cover": "http://localhost:4730/covers/9781449372620.png"
+      "cover": "http://localhost:4730/covers/9781449372620.png",
+      "userId": 1
     },
     {
       "id": "9781484201497",
@@ -334,7 +368,8 @@
       "publisher": "Apress",
       "price": "$57.12",
       "numPages": 232,
-      "cover": "http://localhost:4730/covers/9781484201497.png"
+      "cover": "http://localhost:4730/covers/9781484201497.png",
+      "userId": 1
     },
     {
       "id": "9781484209530",
@@ -346,7 +381,8 @@
       "publisher": "Apress",
       "price": "$42.39",
       "numPages": 496,
-      "cover": "http://localhost:4730/covers/9781484209530.png"
+      "cover": "http://localhost:4730/covers/9781484209530.png",
+      "userId": 1
     },
     {
       "id": "9781484210536",
@@ -358,7 +394,8 @@
       "publisher": "Apress",
       "price": "$29.18",
       "numPages": 312,
-      "cover": "http://localhost:4730/covers/9781484210536.png"
+      "cover": "http://localhost:4730/covers/9781484210536.png",
+      "userId": 1
     },
     {
       "id": "9781484226094",
@@ -370,7 +407,8 @@
       "publisher": "Apress",
       "price": "$24.99",
       "numPages": 208,
-      "cover": "http://localhost:4730/covers/9781484226094.png"
+      "cover": "http://localhost:4730/covers/9781484226094.png",
+      "userId": 1
     },
     {
       "id": "9781484233832",
@@ -382,7 +420,8 @@
       "publisher": "Apress",
       "price": "$44.99",
       "numPages": 407,
-      "cover": "http://localhost:4730/covers/9781484233832.png"
+      "cover": "http://localhost:4730/covers/9781484233832.png",
+      "userId": 1
     },
     {
       "id": "9781484237380",
@@ -394,7 +433,8 @@
       "publisher": "Apress",
       "price": "$27.57",
       "numPages": 278,
-      "cover": "http://localhost:4730/covers/9781484237380.png"
+      "cover": "http://localhost:4730/covers/9781484237380.png",
+      "userId": 1
     },
     {
       "id": "9781484238424",
@@ -406,7 +446,8 @@
       "publisher": "Apress",
       "price": "$36.97",
       "numPages": 546,
-      "cover": "http://localhost:4730/covers/9781484238424.png"
+      "cover": "http://localhost:4730/covers/9781484238424.png",
+      "userId": 1
     },
     {
       "id": "9781484252772",
@@ -418,7 +459,8 @@
       "publisher": "Apress",
       "price": "$34.99",
       "numPages": 328,
-      "cover": "http://localhost:4730/covers/9781484252772.png"
+      "cover": "http://localhost:4730/covers/9781484252772.png",
+      "userId": 1
     },
     {
       "id": "9781484265888",
@@ -430,7 +472,8 @@
       "publisher": "Apress",
       "price": "$28.75",
       "numPages": 256,
-      "cover": "http://localhost:4730/covers/9781484265888.png"
+      "cover": "http://localhost:4730/covers/9781484265888.png",
+      "userId": 1
     },
     {
       "id": "9781491902592",
@@ -442,7 +485,8 @@
       "publisher": "O'Reilly Media",
       "price": "$25.80",
       "numPages": 214,
-      "cover": "http://localhost:4730/covers/9781491902592.png"
+      "cover": "http://localhost:4730/covers/9781491902592.png",
+      "userId": 1
     },
     {
       "id": "9781491910290",
@@ -454,7 +498,8 @@
       "publisher": "O'Reilly Media",
       "price": "$14.00",
       "numPages": 256,
-      "cover": "http://localhost:4730/covers/9781491910290.png"
+      "cover": "http://localhost:4730/covers/9781491910290.png",
+      "userId": 1
     },
     {
       "id": "9781491912553",
@@ -466,7 +511,8 @@
       "publisher": "O'Reilly Media",
       "price": "$7.00",
       "numPages": 326,
-      "cover": "http://localhost:4730/covers/9781491912553.png"
+      "cover": "http://localhost:4730/covers/9781491912553.png",
+      "userId": 1
     },
     {
       "id": "9781491915592",
@@ -478,7 +524,8 @@
       "publisher": "O'Reilly Media",
       "price": "$29.99",
       "numPages": 396,
-      "cover": "http://localhost:4730/covers/9781491915592.png"
+      "cover": "http://localhost:4730/covers/9781491915592.png",
+      "userId": 1
     },
     {
       "id": "9781491933091",
@@ -490,7 +537,8 @@
       "publisher": "O'Reilly Media",
       "price": "$18.59",
       "numPages": 180,
-      "cover": "http://localhost:4730/covers/9781491933091.png"
+      "cover": "http://localhost:4730/covers/9781491933091.png",
+      "userId": 1
     },
     {
       "id": "9781491944806",
@@ -502,7 +550,8 @@
       "publisher": "O'Reilly Media",
       "price": "$11.00",
       "numPages": 184,
-      "cover": "http://localhost:4730/covers/9781491944806.png"
+      "cover": "http://localhost:4730/covers/9781491944806.png",
+      "userId": 1
     },
     {
       "id": "9781491945902",
@@ -514,7 +563,8 @@
       "publisher": "O'Reilly Media",
       "price": "$21.97",
       "numPages": 258,
-      "cover": "http://localhost:4730/covers/9781491945902.png"
+      "cover": "http://localhost:4730/covers/9781491945902.png",
+      "userId": 1
     },
     {
       "id": "9781491960202",
@@ -526,7 +576,8 @@
       "publisher": "O'Reilly Media",
       "price": "$45.00",
       "numPages": 700,
-      "cover": "http://localhost:4730/covers/9781491960202.png"
+      "cover": "http://localhost:4730/covers/9781491960202.png",
+      "userId": 1
     },
     {
       "id": "9781491985571",
@@ -538,7 +589,8 @@
       "publisher": "O'Reilly Media",
       "price": "$35.87",
       "numPages": 308,
-      "cover": "http://localhost:4730/covers/9781491985571.png"
+      "cover": "http://localhost:4730/covers/9781491985571.png",
+      "userId": 1
     },
     {
       "id": "9781491991732",
@@ -550,7 +602,8 @@
       "publisher": "O'Reilly Media",
       "price": "$28.99",
       "numPages": 316,
-      "cover": "http://localhost:4730/covers/9781491991732.png"
+      "cover": "http://localhost:4730/covers/9781491991732.png",
+      "userId": 1
     },
     {
       "id": "9781492053118",
@@ -562,7 +615,8 @@
       "publisher": "O'Reilly Media",
       "price": "$24.99",
       "numPages": 330,
-      "cover": "http://localhost:4730/covers/9781492053118.png"
+      "cover": "http://localhost:4730/covers/9781492053118.png",
+      "userId": 1
     },
     {
       "id": "9781492058564",
@@ -574,7 +628,8 @@
       "publisher": "O'Reilly Media",
       "price": "$0.00",
       "numPages": 127,
-      "cover": "http://localhost:4730/covers/9781492058564.png"
+      "cover": "http://localhost:4730/covers/9781492058564.png",
+      "userId": 1
     },
     {
       "id": "9781593274870",
@@ -586,7 +641,8 @@
       "publisher": "No Starch Press",
       "price": "$20.99",
       "numPages": 264,
-      "cover": "http://localhost:4730/covers/9781593274870.png"
+      "cover": "http://localhost:4730/covers/9781593274870.png",
+      "userId": 1
     },
     {
       "id": "9781617293771",
@@ -598,7 +654,8 @@
       "publisher": "Manning",
       "price": "$15.29",
       "numPages": 376,
-      "cover": "http://localhost:4730/covers/9781617293771.png"
+      "cover": "http://localhost:4730/covers/9781617293771.png",
+      "userId": 1
     },
     {
       "id": "9781680500820",
@@ -610,7 +667,8 @@
       "publisher": "The Pragmatic Programmers",
       "price": "$28.02",
       "numPages": 306,
-      "cover": "http://localhost:4730/covers/9781680500820.png"
+      "cover": "http://localhost:4730/covers/9781680500820.png",
+      "userId": 1
     },
     {
       "id": "9781680502435",
@@ -622,7 +680,8 @@
       "publisher": "The Pragmatic Programmers",
       "price": "$18.99",
       "numPages": 218,
-      "cover": "http://localhost:4730/covers/9781680502435.png"
+      "cover": "http://localhost:4730/covers/9781680502435.png",
+      "userId": 1
     },
     {
       "id": "9781680506365",
@@ -634,7 +693,8 @@
       "publisher": "The Pragmatic Programmers",
       "price": "$30.27",
       "numPages": 238,
-      "cover": "http://localhost:4730/covers/9781680506365.png"
+      "cover": "http://localhost:4730/covers/9781680506365.png",
+      "userId": 1
     },
     {
       "id": "9781680506822",
@@ -646,7 +706,8 @@
       "publisher": "The Pragmatic Programmers",
       "price": "$47.95",
       "numPages": 350,
-      "cover": "http://localhost:4730/covers/9781680506822.png"
+      "cover": "http://localhost:4730/covers/9781680506822.png",
+      "userId": 1
     },
     {
       "id": "9781680507263",
@@ -658,7 +719,8 @@
       "publisher": "The Pragmatic Programmers",
       "price": "$26.95",
       "numPages": 154,
-      "cover": "http://localhost:4730/covers/9781680507263.png"
+      "cover": "http://localhost:4730/covers/9781680507263.png",
+      "userId": 1
     },
     {
       "id": "9781782160786",
@@ -670,7 +732,8 @@
       "publisher": "Packt Publishing",
       "price": "$14.99",
       "numPages": 140,
-      "cover": "http://localhost:4730/covers/9781782160786.png"
+      "cover": "http://localhost:4730/covers/9781782160786.png",
+      "userId": 1
     },
     {
       "id": "9781782160922",
@@ -682,7 +745,8 @@
       "publisher": "Packt Publishing",
       "price": "$29.99",
       "numPages": 256,
-      "cover": "http://localhost:4730/covers/9781782160922.png"
+      "cover": "http://localhost:4730/covers/9781782160922.png",
+      "userId": 1
     },
     {
       "id": "9781782163169",
@@ -694,7 +758,8 @@
       "publisher": "Packt Publishing",
       "price": "$29.99",
       "numPages": 342,
-      "cover": "http://localhost:4730/covers/9781782163169.png"
+      "cover": "http://localhost:4730/covers/9781782163169.png",
+      "userId": 1
     },
     {
       "id": "9781782164364",
@@ -706,7 +771,8 @@
       "publisher": "Packt Publishing",
       "price": "$22.99",
       "numPages": 174,
-      "cover": "http://localhost:4730/covers/9781782164364.png"
+      "cover": "http://localhost:4730/covers/9781782164364.png",
+      "userId": 1
     },
     {
       "id": "9781782164760",
@@ -718,7 +784,8 @@
       "publisher": "Packt Publishing",
       "price": "$12.99",
       "numPages": 60,
-      "cover": "http://localhost:4730/covers/9781782164760.png"
+      "cover": "http://localhost:4730/covers/9781782164760.png",
+      "userId": 1
     },
     {
       "id": "9781782167891",
@@ -730,7 +797,8 @@
       "publisher": "Packt Publishing",
       "price": "$26.99",
       "numPages": 242,
-      "cover": "http://localhost:4730/covers/9781782167891.png"
+      "cover": "http://localhost:4730/covers/9781782167891.png",
+      "userId": 1
     },
     {
       "id": "9781782168799",
@@ -742,7 +810,8 @@
       "publisher": "Packt Publishing",
       "price": "$12.99",
       "numPages": 76,
-      "cover": "http://localhost:4730/covers/9781782168799.png"
+      "cover": "http://localhost:4730/covers/9781782168799.png",
+      "userId": 1
     },
     {
       "id": "9781782170686",
@@ -754,7 +823,8 @@
       "publisher": "Packt Publishing",
       "price": "$29.99",
       "numPages": 270,
-      "cover": "http://localhost:4730/covers/9781782170686.png"
+      "cover": "http://localhost:4730/covers/9781782170686.png",
+      "userId": 1
     },
     {
       "id": "9781782178125",
@@ -766,7 +836,8 @@
       "publisher": "Packt Publishing",
       "price": "$23.99",
       "numPages": 128,
-      "cover": "http://localhost:4730/covers/9781782178125.png"
+      "cover": "http://localhost:4730/covers/9781782178125.png",
+      "userId": 1
     },
     {
       "id": "9781783280919",
@@ -778,7 +849,8 @@
       "publisher": "Packt Publishing",
       "price": "$29.99",
       "numPages": 306,
-      "cover": "http://localhost:4730/covers/9781783280919.png"
+      "cover": "http://localhost:4730/covers/9781783280919.png",
+      "userId": 1
     },
     {
       "id": "9781783282234",
@@ -790,7 +862,8 @@
       "publisher": "Packt Publishing",
       "price": "$17.99",
       "numPages": 104,
-      "cover": "http://localhost:4730/covers/9781783282234.png"
+      "cover": "http://localhost:4730/covers/9781783282234.png",
+      "userId": 1
     },
     {
       "id": "9781783286355",
@@ -802,7 +875,8 @@
       "publisher": "Packt Publishing",
       "price": "$14.99",
       "numPages": 80,
-      "cover": "http://localhost:4730/covers/9781783286355.png"
+      "cover": "http://localhost:4730/covers/9781783286355.png",
+      "userId": 1
     },
     {
       "id": "9781783287093",
@@ -814,7 +888,8 @@
       "publisher": "Packt Publishing",
       "price": "$26.99",
       "numPages": 330,
-      "cover": "http://localhost:4730/covers/9781783287093.png"
+      "cover": "http://localhost:4730/covers/9781783287093.png",
+      "userId": 1
     },
     {
       "id": "9781783287192",
@@ -826,7 +901,8 @@
       "publisher": "Packt Publishing",
       "price": "$20.99",
       "numPages": 140,
-      "cover": "http://localhost:4730/covers/9781783287192.png"
+      "cover": "http://localhost:4730/covers/9781783287192.png",
+      "userId": 1
     },
     {
       "id": "9781783552092",
@@ -838,7 +914,8 @@
       "publisher": "Packt Publishing",
       "price": "$26.99",
       "numPages": 214,
-      "cover": "http://localhost:4730/covers/9781783552092.png"
+      "cover": "http://localhost:4730/covers/9781783552092.png",
+      "userId": 1
     },
     {
       "id": "9781783552115",
@@ -850,7 +927,8 @@
       "publisher": "Packt Publishing",
       "price": "$29.99",
       "numPages": 290,
-      "cover": "http://localhost:4730/covers/9781783552115.png"
+      "cover": "http://localhost:4730/covers/9781783552115.png",
+      "userId": 1
     },
     {
       "id": "9781783552955",
@@ -862,7 +940,8 @@
       "publisher": "Packt Publishing",
       "price": "$14.99",
       "numPages": 138,
-      "cover": "http://localhost:4730/covers/9781783552955.png"
+      "cover": "http://localhost:4730/covers/9781783552955.png",
+      "userId": 1
     },
     {
       "id": "9781783559961",
@@ -874,7 +953,8 @@
       "publisher": "Packt Publishing",
       "price": "$39.99",
       "numPages": 392,
-      "cover": "http://localhost:4730/covers/9781783559961.png"
+      "cover": "http://localhost:4730/covers/9781783559961.png",
+      "userId": 1
     },
     {
       "id": "9781783980048",
@@ -886,7 +966,8 @@
       "publisher": "Packt Publishing",
       "price": "$13.99",
       "numPages": 112,
-      "cover": "http://localhost:4730/covers/9781783980048.png"
+      "cover": "http://localhost:4730/covers/9781783980048.png",
+      "userId": 1
     },
     {
       "id": "9781783981083",
@@ -898,7 +979,8 @@
       "publisher": "Packt Publishing",
       "price": "$29.99",
       "numPages": 358,
-      "cover": "http://localhost:4730/covers/9781783981083.png"
+      "cover": "http://localhost:4730/covers/9781783981083.png",
+      "userId": 1
     },
     {
       "id": "9781783981267",
@@ -910,7 +992,8 @@
       "publisher": "Packt Publishing",
       "price": "$38.17",
       "numPages": 382,
-      "cover": "http://localhost:4730/covers/9781783981267.png"
+      "cover": "http://localhost:4730/covers/9781783981267.png",
+      "userId": 1
     },
     {
       "id": "9781783981465",
@@ -922,7 +1005,8 @@
       "publisher": "Packt Publishing",
       "price": "$17.99",
       "numPages": 202,
-      "cover": "http://localhost:4730/covers/9781783981465.png"
+      "cover": "http://localhost:4730/covers/9781783981465.png",
+      "userId": 1
     },
     {
       "id": "9781783981885",
@@ -934,7 +1018,8 @@
       "publisher": "Packt Publishing",
       "price": "$29.46",
       "numPages": 406,
-      "cover": "http://localhost:4730/covers/9781783981885.png"
+      "cover": "http://localhost:4730/covers/9781783981885.png",
+      "userId": 1
     },
     {
       "id": "9781783982844",
@@ -946,7 +1031,8 @@
       "publisher": "Packt Publishing",
       "price": "$17.99",
       "numPages": 154,
-      "cover": "http://localhost:4730/covers/9781783982844.png"
+      "cover": "http://localhost:4730/covers/9781783982844.png",
+      "userId": 1
     },
     {
       "id": "9781783983100",
@@ -958,7 +1044,8 @@
       "publisher": "Packt Publishing",
       "price": "$25.99",
       "numPages": 176,
-      "cover": "http://localhost:4730/covers/9781783983100.png"
+      "cover": "http://localhost:4730/covers/9781783983100.png",
+      "userId": 1
     },
     {
       "id": "9781783983285",
@@ -970,7 +1057,8 @@
       "publisher": "Packt Publishing",
       "price": "$19.95",
       "numPages": 354,
-      "cover": "http://localhost:4730/covers/9781783983285.png"
+      "cover": "http://localhost:4730/covers/9781783983285.png",
+      "userId": 1
     },
     {
       "id": "9781783983667",
@@ -982,7 +1070,8 @@
       "publisher": "Packt Publishing",
       "price": "$23.99",
       "numPages": 186,
-      "cover": "http://localhost:4730/covers/9781783983667.png"
+      "cover": "http://localhost:4730/covers/9781783983667.png",
+      "userId": 1
     },
     {
       "id": "9781783983988",
@@ -994,7 +1083,8 @@
       "publisher": "Packt Publishing",
       "price": "$27.99",
       "numPages": 184,
-      "cover": "http://localhost:4730/covers/9781783983988.png"
+      "cover": "http://localhost:4730/covers/9781783983988.png",
+      "userId": 1
     },
     {
       "id": "9781783984404",
@@ -1006,7 +1096,8 @@
       "publisher": "Packt Publishing",
       "price": "$35.99",
       "numPages": 336,
-      "cover": "http://localhost:4730/covers/9781783984404.png"
+      "cover": "http://localhost:4730/covers/9781783984404.png",
+      "userId": 1
     },
     {
       "id": "9781783988525",
@@ -1018,7 +1109,8 @@
       "publisher": "Packt Publishing",
       "price": "$47.52",
       "numPages": 312,
-      "cover": "http://localhost:4730/covers/9781783988525.png"
+      "cover": "http://localhost:4730/covers/9781783988525.png",
+      "userId": 1
     },
     {
       "id": "9781784392222",
@@ -1030,7 +1122,8 @@
       "publisher": "Packt Publishing",
       "price": "$26.99",
       "numPages": 232,
-      "cover": "http://localhost:4730/covers/9781784392222.png"
+      "cover": "http://localhost:4730/covers/9781784392222.png",
+      "userId": 1
     },
     {
       "id": "9781784392932",
@@ -1042,7 +1135,8 @@
       "publisher": "Packt Publishing",
       "price": "$35.99",
       "numPages": 224,
-      "cover": "http://localhost:4730/covers/9781784392932.png"
+      "cover": "http://localhost:4730/covers/9781784392932.png",
+      "userId": 1
     },
     {
       "id": "9781784395841",
@@ -1054,7 +1148,8 @@
       "publisher": "Packt Publishing",
       "price": "$20.99",
       "numPages": 174,
-      "cover": "http://localhost:4730/covers/9781784395841.png"
+      "cover": "http://localhost:4730/covers/9781784395841.png",
+      "userId": 1
     },
     {
       "id": "9781784396152",
@@ -1066,7 +1161,8 @@
       "publisher": "Packt Publishing",
       "price": "$27.99",
       "numPages": 160,
-      "cover": "http://localhost:4730/covers/9781784396152.png"
+      "cover": "http://localhost:4730/covers/9781784396152.png",
+      "userId": 1
     },
     {
       "id": "9781785287527",
@@ -1078,7 +1174,8 @@
       "publisher": "Packt Publishing",
       "price": "$38.01",
       "numPages": 300,
-      "cover": "http://localhost:4730/covers/9781785287527.png"
+      "cover": "http://localhost:4730/covers/9781785287527.png",
+      "userId": 1
     },
     {
       "id": "9781785289972",
@@ -1090,7 +1187,8 @@
       "publisher": "Packt Publishing",
       "price": "$23.95",
       "numPages": 150,
-      "cover": "http://localhost:4730/covers/9781785289972.png"
+      "cover": "http://localhost:4730/covers/9781785289972.png",
+      "userId": 1
     },
     {
       "id": "9781785885891",
@@ -1102,7 +1200,8 @@
       "publisher": "Packt Publishing",
       "price": "$34.99",
       "numPages": 414,
-      "cover": "http://localhost:4730/covers/9781785885891.png"
+      "cover": "http://localhost:4730/covers/9781785885891.png",
+      "userId": 1
     },
     {
       "id": "9781785886775",
@@ -1114,7 +1213,8 @@
       "publisher": "Packt Publishing",
       "price": "$39.99",
       "numPages": 384,
-      "cover": "http://localhost:4730/covers/9781785886775.png"
+      "cover": "http://localhost:4730/covers/9781785886775.png",
+      "userId": 1
     },
     {
       "id": "9781786462909",
@@ -1126,7 +1226,8 @@
       "publisher": "Packt Publishing",
       "price": "$39.99",
       "numPages": 512,
-      "cover": "http://localhost:4730/covers/9781786462909.png"
+      "cover": "http://localhost:4730/covers/9781786462909.png",
+      "userId": 1
     },
     {
       "id": "9781787125421",
@@ -1138,7 +1239,8 @@
       "publisher": "Packt Publishing",
       "price": "$31.02",
       "numPages": 354,
-      "cover": "http://localhost:4730/covers/9781787125421.png"
+      "cover": "http://localhost:4730/covers/9781787125421.png",
+      "userId": 1
     },
     {
       "id": "9781787284197",
@@ -1150,7 +1252,8 @@
       "publisher": "Packt Publishing",
       "price": "$39.99",
       "numPages": 406,
-      "cover": "http://localhost:4730/covers/9781787284197.png"
+      "cover": "http://localhost:4730/covers/9781787284197.png",
+      "userId": 1
     },
     {
       "id": "9781787286214",
@@ -1162,7 +1265,8 @@
       "publisher": "Packt Publishing",
       "price": "$44.99",
       "numPages": 406,
-      "cover": "http://localhost:4730/covers/9781787286214.png"
+      "cover": "http://localhost:4730/covers/9781787286214.png",
+      "userId": 1
     },
     {
       "id": "9781788299053",
@@ -1174,7 +1278,8 @@
       "publisher": "Packt Publishing",
       "price": "$31.99",
       "numPages": 288,
-      "cover": "http://localhost:4730/covers/9781788299053.png"
+      "cover": "http://localhost:4730/covers/9781788299053.png",
+      "userId": 1
     },
     {
       "id": "9781788392211",
@@ -1186,7 +1291,8 @@
       "publisher": "Packt Publishing",
       "price": "$31.99",
       "numPages": 278,
-      "cover": "http://localhost:4730/covers/9781788392211.png"
+      "cover": "http://localhost:4730/covers/9781788392211.png",
+      "userId": 1
     },
     {
       "id": "9781788395038",
@@ -1198,7 +1304,8 @@
       "publisher": "Packt Publishing",
       "price": "$39.99",
       "numPages": 368,
-      "cover": "http://localhost:4730/covers/9781788395038.png"
+      "cover": "http://localhost:4730/covers/9781788395038.png",
+      "userId": 1
     },
     {
       "id": "9781788622882",
@@ -1210,7 +1317,8 @@
       "publisher": "Packt Publishing",
       "price": "$44.99",
       "numPages": 478,
-      "cover": "http://localhost:4730/covers/9781788622882.png"
+      "cover": "http://localhost:4730/covers/9781788622882.png",
+      "userId": 1
     },
     {
       "id": "9781788623322",
@@ -1222,7 +1330,8 @@
       "publisher": "Packt Publishing",
       "price": "$29.99",
       "numPages": 178,
-      "cover": "http://localhost:4730/covers/9781788623322.png"
+      "cover": "http://localhost:4730/covers/9781788623322.png",
+      "userId": 1
     },
     {
       "id": "9781788629690",
@@ -1234,7 +1343,8 @@
       "publisher": "Packt Publishing",
       "price": "$44.99",
       "numPages": 500,
-      "cover": "http://localhost:4730/covers/9781788629690.png"
+      "cover": "http://localhost:4730/covers/9781788629690.png",
+      "userId": 1
     },
     {
       "id": "9781788831147",
@@ -1246,7 +1356,8 @@
       "publisher": "Packt Publishing",
       "price": "$35.99",
       "numPages": 366,
-      "cover": "http://localhost:4730/covers/9781788831147.png"
+      "cover": "http://localhost:4730/covers/9781788831147.png",
+      "userId": 1
     },
     {
       "id": "9781788833912",
@@ -1258,7 +1369,8 @@
       "publisher": "Packt Publishing",
       "price": "$37.37",
       "numPages": 420,
-      "cover": "http://localhost:4730/covers/9781788833912.png"
+      "cover": "http://localhost:4730/covers/9781788833912.png",
+      "userId": 1
     },
     {
       "id": "9781788837682",
@@ -1270,7 +1382,8 @@
       "publisher": "Packt Publishing",
       "price": "$35.99",
       "numPages": 544,
-      "cover": "http://localhost:4730/covers/9781788837682.png"
+      "cover": "http://localhost:4730/covers/9781788837682.png",
+      "userId": 1
     },
     {
       "id": "9781788991513",
@@ -1282,7 +1395,8 @@
       "publisher": "Packt Publishing",
       "price": "$49.99",
       "numPages": 404,
-      "cover": "http://localhost:4730/covers/9781788991513.png"
+      "cover": "http://localhost:4730/covers/9781788991513.png",
+      "userId": 1
     },
     {
       "id": "9781788995405",
@@ -1294,7 +1408,8 @@
       "publisher": "Packt Publishing",
       "price": "$39.99",
       "numPages": 332,
-      "cover": "http://localhost:4730/covers/9781788995405.png"
+      "cover": "http://localhost:4730/covers/9781788995405.png",
+      "userId": 1
     },
     {
       "id": "9781789133363",
@@ -1306,7 +1421,8 @@
       "publisher": "Packt Publishing",
       "price": "$29.99",
       "numPages": 210,
-      "cover": "http://localhost:4730/covers/9781789133363.png"
+      "cover": "http://localhost:4730/covers/9781789133363.png",
+      "userId": 1
     },
     {
       "id": "9781789138733",
@@ -1318,7 +1434,8 @@
       "publisher": "Packt Publishing",
       "price": "$29.99",
       "numPages": 114,
-      "cover": "http://localhost:4730/covers/9781789138733.png"
+      "cover": "http://localhost:4730/covers/9781789138733.png",
+      "userId": 1
     },
     {
       "id": "9781789341171",
@@ -1330,7 +1447,8 @@
       "publisher": "Packt Publishing",
       "price": "$44.99",
       "numPages": 404,
-      "cover": "http://localhost:4730/covers/9781789341171.png"
+      "cover": "http://localhost:4730/covers/9781789341171.png",
+      "userId": 1
     },
     {
       "id": "9781789532227",
@@ -1342,7 +1460,8 @@
       "publisher": "Packt Publishing",
       "price": "$35.99",
       "numPages": 500,
-      "cover": "http://localhost:4730/covers/9781789532227.png"
+      "cover": "http://localhost:4730/covers/9781789532227.png",
+      "userId": 1
     },
     {
       "id": "9781789532883",
@@ -1354,7 +1473,8 @@
       "publisher": "Packt Publishing",
       "price": "$29.99",
       "numPages": 116,
-      "cover": "http://localhost:4730/covers/9781789532883.png"
+      "cover": "http://localhost:4730/covers/9781789532883.png",
+      "userId": 1
     },
     {
       "id": "9781789612486",
@@ -1366,7 +1486,8 @@
       "publisher": "Packt Publishing",
       "price": "$29.99",
       "numPages": 192,
-      "cover": "http://localhost:4730/covers/9781789612486.png"
+      "cover": "http://localhost:4730/covers/9781789612486.png",
+      "userId": 1
     },
     {
       "id": "9781789953299",
@@ -1378,7 +1499,8 @@
       "publisher": "Packt Publishing",
       "price": "$49.99",
       "numPages": 796,
-      "cover": "http://localhost:4730/covers/9781789953299.png"
+      "cover": "http://localhost:4730/covers/9781789953299.png",
+      "userId": 1
     },
     {
       "id": "9781789959567",
@@ -1390,7 +1512,8 @@
       "publisher": "Packt Publishing",
       "price": "$39.99",
       "numPages": 698,
-      "cover": "http://localhost:4730/covers/9781789959567.png"
+      "cover": "http://localhost:4730/covers/9781789959567.png",
+      "userId": 1
     },
     {
       "id": "9781789959901",
@@ -1402,7 +1525,8 @@
       "publisher": "Packt Publishing",
       "price": "$49.99",
       "numPages": 704,
-      "cover": "http://localhost:4730/covers/9781789959901.png"
+      "cover": "http://localhost:4730/covers/9781789959901.png",
+      "userId": 1
     },
     {
       "id": "9781838648800",
@@ -1414,7 +1538,8 @@
       "publisher": "Packt Publishing",
       "price": "$38.18",
       "numPages": 824,
-      "cover": "http://localhost:4730/covers/9781838648800.png"
+      "cover": "http://localhost:4730/covers/9781838648800.png",
+      "userId": 1
     },
     {
       "id": "9781839211560",
@@ -1426,7 +1551,8 @@
       "publisher": "Packt Publishing",
       "price": "$38.18",
       "numPages": 408,
-      "cover": "http://localhost:4730/covers/9781839211560.png"
+      "cover": "http://localhost:4730/covers/9781839211560.png",
+      "userId": 1
     },
     {
       "id": "9781847193254",
@@ -1438,7 +1564,8 @@
       "publisher": "Packt Publishing",
       "price": "$26.99",
       "numPages": 408,
-      "cover": "http://localhost:4730/covers/9781847193254.png"
+      "cover": "http://localhost:4730/covers/9781847193254.png",
+      "userId": 1
     },
     {
       "id": "9781847193414",
@@ -1450,7 +1577,8 @@
       "publisher": "Packt Publishing",
       "price": "$20.99",
       "numPages": 232,
-      "cover": "http://localhost:4730/covers/9781847193414.png"
+      "cover": "http://localhost:4730/covers/9781847193414.png",
+      "userId": 1
     },
     {
       "id": "9781847195401",
@@ -1462,7 +1590,8 @@
       "publisher": "Packt Publishing",
       "price": "$24.29",
       "numPages": 336,
-      "cover": "http://localhost:4730/covers/9781847195401.png"
+      "cover": "http://localhost:4730/covers/9781847195401.png",
+      "userId": 1
     },
     {
       "id": "9781847198006",
@@ -1474,7 +1603,8 @@
       "publisher": "Packt Publishing",
       "price": "$35.99",
       "numPages": 440,
-      "cover": "http://localhost:4730/covers/9781847198006.png"
+      "cover": "http://localhost:4730/covers/9781847198006.png",
+      "userId": 1
     },
     {
       "id": "9781849511520",
@@ -1486,7 +1616,8 @@
       "publisher": "Packt Publishing",
       "price": "$35.99",
       "numPages": 436,
-      "cover": "http://localhost:4730/covers/9781849511520.png"
+      "cover": "http://localhost:4730/covers/9781849511520.png",
+      "userId": 1
     },
     {
       "id": "9781849511568",
@@ -1498,7 +1629,8 @@
       "publisher": "Packt Publishing",
       "price": "$23.99",
       "numPages": 308,
-      "cover": "http://localhost:4730/covers/9781849511568.png"
+      "cover": "http://localhost:4730/covers/9781849511568.png",
+      "userId": 1
     },
     {
       "id": "9781849515849",
@@ -1510,7 +1642,8 @@
       "publisher": "Packt Publishing",
       "price": "$26.99",
       "numPages": 376,
-      "cover": "http://localhost:4730/covers/9781849515849.png"
+      "cover": "http://localhost:4730/covers/9781849515849.png",
+      "userId": 1
     },
     {
       "id": "9781849517706",
@@ -1522,7 +1655,8 @@
       "publisher": "Packt Publishing",
       "price": "$26.99",
       "numPages": 194,
-      "cover": "http://localhost:4730/covers/9781849517706.png"
+      "cover": "http://localhost:4730/covers/9781849517706.png",
+      "userId": 1
     },
     {
       "id": "9781849518505",
@@ -1534,7 +1668,8 @@
       "publisher": "Packt Publishing",
       "price": "$14.99",
       "numPages": 174,
-      "cover": "http://localhost:4730/covers/9781849518505.png"
+      "cover": "http://localhost:4730/covers/9781849518505.png",
+      "userId": 1
     },
     {
       "id": "9781849518826",
@@ -1546,7 +1681,8 @@
       "publisher": "Packt Publishing",
       "price": "$12.99",
       "numPages": 60,
-      "cover": "http://localhost:4730/covers/9781849518826.png"
+      "cover": "http://localhost:4730/covers/9781849518826.png",
+      "userId": 1
     },
     {
       "id": "9781849519786",
@@ -1558,7 +1694,8 @@
       "publisher": "Packt Publishing",
       "price": "$12.99",
       "numPages": 85,
-      "cover": "http://localhost:4730/covers/9781849519786.png"
+      "cover": "http://localhost:4730/covers/9781849519786.png",
+      "userId": 1
     },
     {
       "id": "9781849686846",
@@ -1570,7 +1707,8 @@
       "publisher": "Packt Publishing",
       "price": "$10.00",
       "numPages": 284,
-      "cover": "http://localhost:4730/covers/9781849686846.png"
+      "cover": "http://localhost:4730/covers/9781849686846.png",
+      "userId": 1
     },
     {
       "id": "9781849691024",
@@ -1582,7 +1720,8 @@
       "publisher": "Packt Publishing",
       "price": "$29.99",
       "numPages": 338,
-      "cover": "http://localhost:4730/covers/9781849691024.png"
+      "cover": "http://localhost:4730/covers/9781849691024.png",
+      "userId": 1
     },
     {
       "id": "9781849694346",
@@ -1594,7 +1733,8 @@
       "publisher": "Packt Publishing",
       "price": "$26.99",
       "numPages": 288,
-      "cover": "http://localhost:4730/covers/9781849694346.png"
+      "cover": "http://localhost:4730/covers/9781849694346.png",
+      "userId": 1
     },
     {
       "id": "9781849694742",
@@ -1606,7 +1746,8 @@
       "publisher": "Packt Publishing",
       "price": "$26.99",
       "numPages": 268,
-      "cover": "http://localhost:4730/covers/9781849694742.png"
+      "cover": "http://localhost:4730/covers/9781849694742.png",
+      "userId": 1
     },
     {
       "id": "9781849695428",
@@ -1618,7 +1759,8 @@
       "publisher": "Packt Publishing",
       "price": "$26.99",
       "numPages": 338,
-      "cover": "http://localhost:4730/covers/9781849695428.png"
+      "cover": "http://localhost:4730/covers/9781849695428.png",
+      "userId": 1
     },
     {
       "id": "9781849695442",
@@ -1630,7 +1772,8 @@
       "publisher": "Packt Publishing",
       "price": "$26.99",
       "numPages": 204,
-      "cover": "http://localhost:4730/covers/9781849695442.png"
+      "cover": "http://localhost:4730/covers/9781849695442.png",
+      "userId": 1
     },
     {
       "id": "9781849695947",
@@ -1642,7 +1785,8 @@
       "publisher": "Packt Publishing",
       "price": "$26.99",
       "numPages": 276,
-      "cover": "http://localhost:4730/covers/9781849695947.png"
+      "cover": "http://localhost:4730/covers/9781849695947.png",
+      "userId": 1
     },
     {
       "id": "9781849696548",
@@ -1654,7 +1798,8 @@
       "publisher": "Packt Publishing",
       "price": "$6.49",
       "numPages": 236,
-      "cover": "http://localhost:4730/covers/9781849696548.png"
+      "cover": "http://localhost:4730/covers/9781849696548.png",
+      "userId": 1
     },
     {
       "id": "9781849696883",
@@ -1666,7 +1811,8 @@
       "publisher": "Packt Publishing",
       "price": "$14.99",
       "numPages": 72,
-      "cover": "http://localhost:4730/covers/9781849696883.png"
+      "cover": "http://localhost:4730/covers/9781849696883.png",
+      "userId": 1
     },
     {
       "id": "9781849699792",
@@ -1678,7 +1824,8 @@
       "publisher": "Packt Publishing",
       "price": "$26.99",
       "numPages": 418,
-      "cover": "http://localhost:4730/covers/9781849699792.png"
+      "cover": "http://localhost:4730/covers/9781849699792.png",
+      "userId": 1
     },
     {
       "id": "9781932394061",
@@ -1690,7 +1837,8 @@
       "publisher": "Manning",
       "price": "$18.08",
       "numPages": 624,
-      "cover": "http://localhost:4730/covers/9781932394061.png"
+      "cover": "http://localhost:4730/covers/9781932394061.png",
+      "userId": 1
     },
     {
       "id": "9781934356838",
@@ -1702,7 +1850,8 @@
       "publisher": "The Pragmatic Programmers",
       "price": "$2.10",
       "numPages": 334,
-      "cover": "http://localhost:4730/covers/9781934356838.png"
+      "cover": "http://localhost:4730/covers/9781934356838.png",
+      "userId": 1
     },
     {
       "id": "9781937785635",
@@ -1714,7 +1863,8 @@
       "publisher": "The Pragmatic Programmers",
       "price": "$27.40",
       "numPages": 302,
-      "cover": "http://localhost:4730/covers/9781937785635.png"
+      "cover": "http://localhost:4730/covers/9781937785635.png",
+      "userId": 1
     },
     {
       "id": "9781937785642",
@@ -1726,7 +1876,8 @@
       "publisher": "The Pragmatic Programmers",
       "price": "$4.77",
       "numPages": 232,
-      "cover": "http://localhost:4730/covers/9781937785642.png"
+      "cover": "http://localhost:4730/covers/9781937785642.png",
+      "userId": 1
     },
     {
       "id": "1001592208463",
@@ -1738,7 +1889,8 @@
       "publisher": "Leanpub",
       "price": "$0.00",
       "numPages": 185,
-      "cover": "http://localhost:4730/covers/1001592208463.png"
+      "cover": "http://localhost:4730/covers/1001592208463.png",
+      "userId": 1
     },
     {
       "id": "1001621860488",
@@ -1750,7 +1902,8 @@
       "publisher": "Syncfusion",
       "price": "$0.00",
       "numPages": 89,
-      "cover": "http://localhost:4730/covers/1001621860488.png"
+      "cover": "http://localhost:4730/covers/1001621860488.png",
+      "userId": 1
     },
     {
       "id": "9780132356138",
@@ -1762,7 +1915,8 @@
       "publisher": "Addison-Wesley",
       "price": "$20.00",
       "numPages": 408,
-      "cover": "http://localhost:4730/covers/9780132356138.png"
+      "cover": "http://localhost:4730/covers/9780132356138.png",
+      "userId": 1
     },
     {
       "id": "9780134843551",
@@ -1774,7 +1928,8 @@
       "publisher": "Addison-Wesley",
       "price": "$21.63",
       "numPages": 304,
-      "cover": "http://localhost:4730/covers/9780134843551.png"
+      "cover": "http://localhost:4730/covers/9780134843551.png",
+      "userId": 1
     },
     {
       "id": "9780321591319",
@@ -1786,7 +1941,8 @@
       "publisher": "Addison-Wesley",
       "price": "$8.58",
       "numPages": 384,
-      "cover": "http://localhost:4730/covers/9780321591319.png"
+      "cover": "http://localhost:4730/covers/9780321591319.png",
+      "userId": 1
     },
     {
       "id": "9780321705143",
@@ -1798,7 +1954,8 @@
       "publisher": "Addison-Wesley",
       "price": "$4.27",
       "numPages": 352,
-      "cover": "http://localhost:4730/covers/9780321705143.png"
+      "cover": "http://localhost:4730/covers/9780321705143.png",
+      "userId": 1
     },
     {
       "id": "9780321753885",
@@ -1810,7 +1967,8 @@
       "publisher": "Addison-Wesley",
       "price": "$8.82",
       "numPages": 272,
-      "cover": "http://localhost:4730/covers/9780321753885.png"
+      "cover": "http://localhost:4730/covers/9780321753885.png",
+      "userId": 1
     },
     {
       "id": "9780321767363",
@@ -1822,7 +1980,8 @@
       "publisher": "Addison-Wesley",
       "price": "$13.69",
       "numPages": 256,
-      "cover": "http://localhost:4730/covers/9780321767363.png"
+      "cover": "http://localhost:4730/covers/9780321767363.png",
+      "userId": 1
     },
     {
       "id": "9780321772749",
@@ -1834,7 +1993,8 @@
       "publisher": "Addison-Wesley",
       "price": "$12.86",
       "numPages": 320,
-      "cover": "http://localhost:4730/covers/9780321772749.png"
+      "cover": "http://localhost:4730/covers/9780321772749.png",
+      "userId": 1
     },
     {
       "id": "9780321832054",
@@ -1846,7 +2006,8 @@
       "publisher": "Addison-Wesley",
       "price": "$21.41",
       "numPages": 600,
-      "cover": "http://localhost:4730/covers/9780321832054.png"
+      "cover": "http://localhost:4730/covers/9780321832054.png",
+      "userId": 1
     },
     {
       "id": "9780321910578",
@@ -1858,7 +2019,8 @@
       "publisher": "Addison-Wesley",
       "price": "$5.43",
       "numPages": 304,
-      "cover": "http://localhost:4730/covers/9780321910578.png"
+      "cover": "http://localhost:4730/covers/9780321910578.png",
+      "userId": 1
     },
     {
       "id": "9780470080306",
@@ -1870,7 +2032,8 @@
       "publisher": "Wiley",
       "price": "$5.99",
       "numPages": 412,
-      "cover": "http://localhost:4730/covers/9780470080306.png"
+      "cover": "http://localhost:4730/covers/9780470080306.png",
+      "userId": 1
     },
     {
       "id": "9780470098240",
@@ -1882,7 +2045,8 @@
       "publisher": "Wiley",
       "price": "$5.99",
       "numPages": 384,
-      "cover": "http://localhost:4730/covers/9780470098240.png"
+      "cover": "http://localhost:4730/covers/9780470098240.png",
+      "userId": 1
     },
     {
       "id": "9780470167779",
@@ -1894,7 +2058,8 @@
       "publisher": "Wiley",
       "price": "$12.99",
       "numPages": 672,
-      "cover": "http://localhost:4730/covers/9780470167779.png"
+      "cover": "http://localhost:4730/covers/9780470167779.png",
+      "userId": 1
     },
     {
       "id": "9780470385357",
@@ -1906,7 +2071,8 @@
       "publisher": "Wiley",
       "price": "$6.98",
       "numPages": 336,
-      "cover": "http://localhost:4730/covers/9780470385357.png"
+      "cover": "http://localhost:4730/covers/9780470385357.png",
+      "userId": 1
     },
     {
       "id": "9780470398364",
@@ -1918,7 +2084,8 @@
       "publisher": "Wiley",
       "price": "$35.41",
       "numPages": 352,
-      "cover": "http://localhost:4730/covers/9780470398364.png"
+      "cover": "http://localhost:4730/covers/9780470398364.png",
+      "userId": 1
     },
     {
       "id": "9780470414644",
@@ -1930,7 +2097,8 @@
       "publisher": "Wrox",
       "price": "$18.83",
       "numPages": 888,
-      "cover": "http://localhost:4730/covers/9780470414644.png"
+      "cover": "http://localhost:4730/covers/9780470414644.png",
+      "userId": 1
     },
     {
       "id": "9780470560938",
@@ -1942,7 +2110,8 @@
       "publisher": "Wiley",
       "price": "$15.50",
       "numPages": 360,
-      "cover": "http://localhost:4730/covers/9780470560938.png"
+      "cover": "http://localhost:4730/covers/9780470560938.png",
+      "userId": 1
     },
     {
       "id": "9780470560969",
@@ -1954,7 +2123,8 @@
       "publisher": "Wiley",
       "price": "$3.74",
       "numPages": 384,
-      "cover": "http://localhost:4730/covers/9780470560969.png"
+      "cover": "http://localhost:4730/covers/9780470560969.png",
+      "userId": 1
     },
     {
       "id": "9780470640326",
@@ -1966,7 +2136,8 @@
       "publisher": "Wiley",
       "price": "$8.99",
       "numPages": 648,
-      "cover": "http://localhost:4730/covers/9780470640326.png"
+      "cover": "http://localhost:4730/covers/9780470640326.png",
+      "userId": 1
     },
     {
       "id": "9780470682272",
@@ -1978,7 +2149,8 @@
       "publisher": "Wiley",
       "price": "$62.99",
       "numPages": 666,
-      "cover": "http://localhost:4730/covers/9780470682272.png"
+      "cover": "http://localhost:4730/covers/9780470682272.png",
+      "userId": 1
     },
     {
       "id": "9780470849064",
@@ -1990,7 +2162,8 @@
       "publisher": "Wiley",
       "price": "$6.98",
       "numPages": 306,
-      "cover": "http://localhost:4730/covers/9780470849064.png"
+      "cover": "http://localhost:4730/covers/9780470849064.png",
+      "userId": 1
     },
     {
       "id": "9780471463627",
@@ -2002,7 +2175,8 @@
       "publisher": "Wiley",
       "price": "$6.70",
       "numPages": 480,
-      "cover": "http://localhost:4730/covers/9780471463627.png"
+      "cover": "http://localhost:4730/covers/9780471463627.png",
+      "userId": 1
     },
     {
       "id": "9780596000950",
@@ -2014,7 +2188,8 @@
       "publisher": "O'Reilly Media",
       "price": "$17.45",
       "numPages": 264,
-      "cover": "http://localhost:4730/covers/9780596000950.png"
+      "cover": "http://localhost:4730/covers/9780596000950.png",
+      "userId": 1
     },
     {
       "id": "9780596002244",
@@ -2026,7 +2201,8 @@
       "publisher": "O'Reilly Media",
       "price": "$10.07",
       "numPages": 308,
-      "cover": "http://localhost:4730/covers/9780596002244.png"
+      "cover": "http://localhost:4730/covers/9780596002244.png",
+      "userId": 1
     },
     {
       "id": "9780596002695",
@@ -2038,7 +2214,8 @@
       "publisher": "O'Reilly Media",
       "price": "$17.27",
       "numPages": 280,
-      "cover": "http://localhost:4730/covers/9780596002695.png"
+      "cover": "http://localhost:4730/covers/9780596002695.png",
+      "userId": 1
     },
     {
       "id": "9780596005603",
@@ -2050,7 +2227,8 @@
       "publisher": "O'Reilly Media",
       "price": "$3.49",
       "numPages": 368,
-      "cover": "http://localhost:4730/covers/9780596005603.png"
+      "cover": "http://localhost:4730/covers/9780596005603.png",
+      "userId": 1
     },
     {
       "id": "9780596008659",
@@ -2062,7 +2240,8 @@
       "publisher": "O'Reilly Media",
       "price": "$3.99",
       "numPages": 370,
-      "cover": "http://localhost:4730/covers/9780596008659.png"
+      "cover": "http://localhost:4730/covers/9780596008659.png",
+      "userId": 1
     },
     {
       "id": "9780596009878",
@@ -2074,7 +2253,8 @@
       "publisher": "O'Reilly Media",
       "price": "$8.98",
       "numPages": 830,
-      "cover": "http://localhost:4730/covers/9780596009878.png"
+      "cover": "http://localhost:4730/covers/9780596009878.png",
+      "userId": 1
     },
     {
       "id": "9780596155131",
@@ -2086,7 +2266,8 @@
       "publisher": "O'Reilly Media",
       "price": "$32.21",
       "numPages": 672,
-      "cover": "http://localhost:4730/covers/9780596155131.png"
+      "cover": "http://localhost:4730/covers/9780596155131.png",
+      "userId": 1
     },
     {
       "id": "9780596155254",
@@ -2098,7 +2279,8 @@
       "publisher": "O'Reilly Media",
       "price": "$27.99",
       "numPages": 464,
-      "cover": "http://localhost:4730/covers/9780596155254.png"
+      "cover": "http://localhost:4730/covers/9780596155254.png",
+      "userId": 1
     },
     {
       "id": "9780596156817",
@@ -2110,7 +2292,8 @@
       "publisher": "O'Reilly Media",
       "price": "$3.72",
       "numPages": 368,
-      "cover": "http://localhost:4730/covers/9780596156817.png"
+      "cover": "http://localhost:4730/covers/9780596156817.png",
+      "userId": 1
     },
     {
       "id": "9780596157074",
@@ -2122,7 +2305,8 @@
       "publisher": "O'Reilly Media",
       "price": "$3.50",
       "numPages": 496,
-      "cover": "http://localhost:4730/covers/9780596157074.png"
+      "cover": "http://localhost:4730/covers/9780596157074.png",
+      "userId": 1
     },
     {
       "id": "9780596157135",
@@ -2134,7 +2318,8 @@
       "publisher": "O'Reilly Media",
       "price": "$15.00",
       "numPages": 528,
-      "cover": "http://localhost:4730/covers/9780596157135.png"
+      "cover": "http://localhost:4730/covers/9780596157135.png",
+      "userId": 1
     },
     {
       "id": "9780596159832",
@@ -2146,7 +2331,8 @@
       "publisher": "O'Reilly Media",
       "price": "$3.65",
       "numPages": 858,
-      "cover": "http://localhost:4730/covers/9780596159832.png"
+      "cover": "http://localhost:4730/covers/9780596159832.png",
+      "userId": 1
     },
     {
       "id": "9780596510503",
@@ -2158,7 +2344,8 @@
       "publisher": "O'Reilly Media",
       "price": "$4.45",
       "numPages": 320,
-      "cover": "http://localhost:4730/covers/9780596510503.png"
+      "cover": "http://localhost:4730/covers/9780596510503.png",
+      "userId": 1
     },
     {
       "id": "9780596514013",
@@ -2170,7 +2357,8 @@
       "publisher": "O'Reilly Media",
       "price": "$3.74",
       "numPages": 432,
-      "cover": "http://localhost:4730/covers/9780596514013.png"
+      "cover": "http://localhost:4730/covers/9780596514013.png",
+      "userId": 1
     },
     {
       "id": "9780596514242",
@@ -2182,7 +2370,8 @@
       "publisher": "O'Reilly Media",
       "price": "$31.54",
       "numPages": 480,
-      "cover": "http://localhost:4730/covers/9780596514242.png"
+      "cover": "http://localhost:4730/covers/9780596514242.png",
+      "userId": 1
     },
     {
       "id": "9780596514433",
@@ -2194,7 +2383,8 @@
       "publisher": "O'Reilly Media",
       "price": "$26.15",
       "numPages": 274,
-      "cover": "http://localhost:4730/covers/9780596514433.png"
+      "cover": "http://localhost:4730/covers/9780596514433.png",
+      "userId": 1
     },
     {
       "id": "9780596514839",
@@ -2206,7 +2396,8 @@
       "publisher": "O'Reilly Media",
       "price": "$21.87",
       "numPages": 314,
-      "cover": "http://localhost:4730/covers/9780596514839.png"
+      "cover": "http://localhost:4730/covers/9780596514839.png",
+      "userId": 1
     },
     {
       "id": "9780596515089",
@@ -2218,7 +2409,8 @@
       "publisher": "O'Reilly Media",
       "price": "$25.03",
       "numPages": 400,
-      "cover": "http://localhost:4730/covers/9780596515089.png"
+      "cover": "http://localhost:4730/covers/9780596515089.png",
+      "userId": 1
     },
     {
       "id": "9780596515805",
@@ -2230,7 +2422,8 @@
       "publisher": "O'Reilly Media",
       "price": "$3.73",
       "numPages": 496,
-      "cover": "http://localhost:4730/covers/9780596515805.png"
+      "cover": "http://localhost:4730/covers/9780596515805.png",
+      "userId": 1
     },
     {
       "id": "9780596516253",
@@ -2242,7 +2435,8 @@
       "publisher": "O'Reilly Media",
       "price": "$3.49",
       "numPages": 336,
-      "cover": "http://localhost:4730/covers/9780596516253.png"
+      "cover": "http://localhost:4730/covers/9780596516253.png",
+      "userId": 1
     },
     {
       "id": "9780596516680",
@@ -2254,7 +2448,8 @@
       "publisher": "O'Reilly Media",
       "price": "$24.49",
       "numPages": 912,
-      "cover": "http://localhost:4730/covers/9780596516680.png"
+      "cover": "http://localhost:4730/covers/9780596516680.png",
+      "userId": 1
     },
     {
       "id": "9780596518455",
@@ -2266,7 +2461,8 @@
       "publisher": "O'Reilly Media",
       "price": "$14.40",
       "numPages": 608,
-      "cover": "http://localhost:4730/covers/9780596518455.png"
+      "cover": "http://localhost:4730/covers/9780596518455.png",
+      "userId": 1
     },
     {
       "id": "9780596518578",
@@ -2278,7 +2474,8 @@
       "publisher": "O'Reilly Media",
       "price": "$6.43",
       "numPages": 160,
-      "cover": "http://localhost:4730/covers/9780596518578.png"
+      "cover": "http://localhost:4730/covers/9780596518578.png",
+      "userId": 1
     },
     {
       "id": "9780596519209",
@@ -2290,7 +2487,8 @@
       "publisher": "O'Reilly Media",
       "price": "$10.19",
       "numPages": 320,
-      "cover": "http://localhost:4730/covers/9780596519209.png"
+      "cover": "http://localhost:4730/covers/9780596519209.png",
+      "userId": 1
     },
     {
       "id": "9780596520304",
@@ -2302,7 +2500,8 @@
       "publisher": "O'Reilly Media",
       "price": "$19.11",
       "numPages": 498,
-      "cover": "http://localhost:4730/covers/9780596520304.png"
+      "cover": "http://localhost:4730/covers/9780596520304.png",
+      "userId": 1
     },
     {
       "id": "9780596521127",
@@ -2314,7 +2513,8 @@
       "publisher": "O'Reilly Media",
       "price": "$3.81",
       "numPages": 320,
-      "cover": "http://localhost:4730/covers/9780596521127.png"
+      "cover": "http://localhost:4730/covers/9780596521127.png",
+      "userId": 1
     },
     {
       "id": "9780596527433",
@@ -2326,7 +2526,8 @@
       "publisher": "O'Reilly Media",
       "price": "$8.54",
       "numPages": 608,
-      "cover": "http://localhost:4730/covers/9780596527433.png"
+      "cover": "http://localhost:4730/covers/9780596527433.png",
+      "userId": 1
     },
     {
       "id": "9780596528386",
@@ -2338,7 +2539,8 @@
       "publisher": "O'Reilly Media",
       "price": "$4.38",
       "numPages": 982,
-      "cover": "http://localhost:4730/covers/9780596528386.png"
+      "cover": "http://localhost:4730/covers/9780596528386.png",
+      "userId": 1
     },
     {
       "id": "9780596529307",
@@ -2350,7 +2552,8 @@
       "publisher": "O'Reilly Media",
       "price": "$4.30",
       "numPages": 176,
-      "cover": "http://localhost:4730/covers/9780596529307.png"
+      "cover": "http://localhost:4730/covers/9780596529307.png",
+      "userId": 1
     },
     {
       "id": "9780596529314",
@@ -2362,7 +2565,8 @@
       "publisher": "O'Reilly Media",
       "price": "$3.83",
       "numPages": 256,
-      "cover": "http://localhost:4730/covers/9780596529314.png"
+      "cover": "http://localhost:4730/covers/9780596529314.png",
+      "userId": 1
     },
     {
       "id": "9780596529321",
@@ -2374,7 +2578,8 @@
       "publisher": "O'Reilly Media",
       "price": "$11.00",
       "numPages": 368,
-      "cover": "http://localhost:4730/covers/9780596529321.png"
+      "cover": "http://localhost:4730/covers/9780596529321.png",
+      "userId": 1
     },
     {
       "id": "9780596800697",
@@ -2386,7 +2591,8 @@
       "publisher": "O'Reilly Media",
       "price": "$17.23",
       "numPages": 272,
-      "cover": "http://localhost:4730/covers/9780596800697.png"
+      "cover": "http://localhost:4730/covers/9780596800697.png",
+      "userId": 1
     },
     {
       "id": "9780596801687",
@@ -2398,7 +2604,8 @@
       "publisher": "O'Reilly Media",
       "price": "$18.00",
       "numPages": 314,
-      "cover": "http://localhost:4730/covers/9780596801687.png"
+      "cover": "http://localhost:4730/covers/9780596801687.png",
+      "userId": 1
     },
     {
       "id": "9780596802790",
@@ -2410,7 +2617,8 @@
       "publisher": "O'Reilly Media",
       "price": "$19.59",
       "numPages": 240,
-      "cover": "http://localhost:4730/covers/9780596802790.png"
+      "cover": "http://localhost:4730/covers/9780596802790.png",
+      "userId": 1
     },
     {
       "id": "9780596803025",
@@ -2422,7 +2630,8 @@
       "publisher": "O'Reilly Media",
       "price": "$26.15",
       "numPages": 304,
-      "cover": "http://localhost:4730/covers/9780596803025.png"
+      "cover": "http://localhost:4730/covers/9780596803025.png",
+      "userId": 1
     },
     {
       "id": "9780596804947",
@@ -2434,7 +2643,8 @@
       "publisher": "O'Reilly Media",
       "price": "$3.74",
       "numPages": 416,
-      "cover": "http://localhost:4730/covers/9780596804947.png"
+      "cover": "http://localhost:4730/covers/9780596804947.png",
+      "userId": 1
     },
     {
       "id": "9780596805524",
@@ -2446,7 +2656,8 @@
       "publisher": "O'Reilly Media",
       "price": "$14.95",
       "numPages": 1098,
-      "cover": "http://localhost:4730/covers/9780596805524.png"
+      "cover": "http://localhost:4730/covers/9780596805524.png",
+      "userId": 1
     },
     {
       "id": "9780596805821",
@@ -2458,7 +2669,8 @@
       "publisher": "O'Reilly Media",
       "price": "$31.99",
       "numPages": 448,
-      "cover": "http://localhost:4730/covers/9780596805821.png"
+      "cover": "http://localhost:4730/covers/9780596805821.png",
+      "userId": 1
     },
     {
       "id": "9780596806026",
@@ -2470,7 +2682,8 @@
       "publisher": "O'Reilly Media",
       "price": "$19.39",
       "numPages": 224,
-      "cover": "http://localhost:4730/covers/9780596806026.png"
+      "cover": "http://localhost:4730/covers/9780596806026.png",
+      "userId": 1
     },
     {
       "id": "9780596806132",
@@ -2482,7 +2695,8 @@
       "publisher": "O'Reilly Media",
       "price": "$7.98",
       "numPages": 560,
-      "cover": "http://localhost:4730/covers/9780596806132.png"
+      "cover": "http://localhost:4730/covers/9780596806132.png",
+      "userId": 1
     },
     {
       "id": "9780596806156",
@@ -2494,7 +2708,8 @@
       "publisher": "O'Reilly Media",
       "price": "$3.37",
       "numPages": 320,
-      "cover": "http://localhost:4730/covers/9780596806156.png"
+      "cover": "http://localhost:4730/covers/9780596806156.png",
+      "userId": 1
     },
     {
       "id": "9780596807788",
@@ -2506,7 +2721,8 @@
       "publisher": "O'Reilly Media",
       "price": "$2.20",
       "numPages": 512,
-      "cover": "http://localhost:4730/covers/9780596807788.png"
+      "cover": "http://localhost:4730/covers/9780596807788.png",
+      "userId": 1
     },
     {
       "id": "9780672329166",
@@ -2518,7 +2734,8 @@
       "publisher": "Addison-Wesley",
       "price": "$5.96",
       "numPages": 1008,
-      "cover": "http://localhost:4730/covers/9780672329166.png"
+      "cover": "http://localhost:4730/covers/9780672329166.png",
+      "userId": 1
     },
     {
       "id": "9780672335907",
@@ -2530,7 +2747,8 @@
       "publisher": "SAMS Publishing",
       "price": "$23.35",
       "numPages": 464,
-      "cover": "http://localhost:4730/covers/9780672335907.png"
+      "cover": "http://localhost:4730/covers/9780672335907.png",
+      "userId": 1
     },
     {
       "id": "9780735626218",
@@ -2542,7 +2760,8 @@
       "publisher": "Microsoft Press",
       "price": "$17.37",
       "numPages": 352,
-      "cover": "http://localhost:4730/covers/9780735626218.png"
+      "cover": "http://localhost:4730/covers/9780735626218.png",
+      "userId": 1
     },
     {
       "id": "9780735639027",
@@ -2554,7 +2773,8 @@
       "publisher": "Microsoft Press",
       "price": "$7.99",
       "numPages": 544,
-      "cover": "http://localhost:4730/covers/9780735639027.png"
+      "cover": "http://localhost:4730/covers/9780735639027.png",
+      "userId": 1
     },
     {
       "id": "9780764524721",
@@ -2566,7 +2786,8 @@
       "publisher": "Wiley",
       "price": "$23.08",
       "numPages": 378,
-      "cover": "http://localhost:4730/covers/9780764524721.png"
+      "cover": "http://localhost:4730/covers/9780764524721.png",
+      "userId": 1
     },
     {
       "id": "9780764574986",
@@ -2578,7 +2799,8 @@
       "publisher": "Wiley",
       "price": "$3.74",
       "numPages": 960,
-      "cover": "http://localhost:4730/covers/9780764574986.png"
+      "cover": "http://localhost:4730/covers/9780764574986.png",
+      "userId": 1
     },
     {
       "id": "9780975841945",
@@ -2590,7 +2812,8 @@
       "publisher": "SitePoint",
       "price": "$9.14",
       "numPages": 297,
-      "cover": "http://localhost:4730/covers/9780975841945.png"
+      "cover": "http://localhost:4730/covers/9780975841945.png",
+      "userId": 1
     },
     {
       "id": "9780975841969",
@@ -2602,7 +2825,8 @@
       "publisher": "SitePoint",
       "price": "$3.49",
       "numPages": 182,
-      "cover": "http://localhost:4730/covers/9780975841969.png"
+      "cover": "http://localhost:4730/covers/9780975841969.png",
+      "userId": 1
     },
     {
       "id": "9780980455236",
@@ -2614,7 +2838,8 @@
       "publisher": "SitePoint",
       "price": "$24.62",
       "numPages": 152,
-      "cover": "http://localhost:4730/covers/9780980455236.png"
+      "cover": "http://localhost:4730/covers/9780980455236.png",
+      "userId": 1
     },
     {
       "id": "9780980455274",
@@ -2626,7 +2851,8 @@
       "publisher": "SitePoint",
       "price": "$2.95",
       "numPages": 438,
-      "cover": "http://localhost:4730/covers/9780980455274.png"
+      "cover": "http://localhost:4730/covers/9780980455274.png",
+      "userId": 1
     },
     {
       "id": "9780980576818",
@@ -2638,7 +2864,8 @@
       "publisher": "SitePoint",
       "price": "$10.95",
       "numPages": 479,
-      "cover": "http://localhost:4730/covers/9780980576818.png"
+      "cover": "http://localhost:4730/covers/9780980576818.png",
+      "userId": 1
     },
     {
       "id": "9780980576894",
@@ -2650,7 +2877,8 @@
       "publisher": "SitePoint",
       "price": "$3.99",
       "numPages": 170,
-      "cover": "http://localhost:4730/covers/9780980576894.png"
+      "cover": "http://localhost:4730/covers/9780980576894.png",
+      "userId": 1
     },
     {
       "id": "9780987090843",
@@ -2662,7 +2890,8 @@
       "publisher": "SitePoint",
       "price": "$9.80",
       "numPages": 300,
-      "cover": "http://localhost:4730/covers/9780987090843.png"
+      "cover": "http://localhost:4730/covers/9780987090843.png",
+      "userId": 1
     },
     {
       "id": "9780987090850",
@@ -2674,7 +2903,8 @@
       "publisher": "SitePoint",
       "price": "$20.32",
       "numPages": 502,
-      "cover": "http://localhost:4730/covers/9780987090850.png"
+      "cover": "http://localhost:4730/covers/9780987090850.png",
+      "userId": 1
     },
     {
       "id": "9780987090867",
@@ -2686,7 +2916,8 @@
       "publisher": "SitePoint",
       "price": "$29.00",
       "numPages": 776,
-      "cover": "http://localhost:4730/covers/9780987090867.png"
+      "cover": "http://localhost:4730/covers/9780987090867.png",
+      "userId": 1
     },
     {
       "id": "9780987090898",
@@ -2698,7 +2929,8 @@
       "publisher": "SitePoint",
       "price": "$0.00",
       "numPages": 210,
-      "cover": "http://localhost:4730/covers/9780987090898.png"
+      "cover": "http://localhost:4730/covers/9780987090898.png",
+      "userId": 1
     },
     {
       "id": "9780987153081",
@@ -2710,7 +2942,8 @@
       "publisher": "SitePoint",
       "price": "$5.53",
       "numPages": 481,
-      "cover": "http://localhost:4730/covers/9780987153081.png"
+      "cover": "http://localhost:4730/covers/9780987153081.png",
+      "userId": 1
     },
     {
       "id": "9780987247858",
@@ -2722,7 +2955,8 @@
       "publisher": "SitePoint",
       "price": "$27.82",
       "numPages": 200,
-      "cover": "http://localhost:4730/covers/9780987247858.png"
+      "cover": "http://localhost:4730/covers/9780987247858.png",
+      "userId": 1
     },
     {
       "id": "9780987332165",
@@ -2734,7 +2968,8 @@
       "publisher": "SitePoint",
       "price": "$12.02",
       "numPages": 150,
-      "cover": "http://localhost:4730/covers/9780987332165.png"
+      "cover": "http://localhost:4730/covers/9780987332165.png",
+      "userId": 1
     },
     {
       "id": "9780992279448",
@@ -2746,7 +2981,8 @@
       "publisher": "SitePoint",
       "price": "$24.03",
       "numPages": 220,
-      "cover": "http://localhost:4730/covers/9780992279448.png"
+      "cover": "http://localhost:4730/covers/9780992279448.png",
+      "userId": 1
     },
     {
       "id": "9780992279462",
@@ -2758,7 +2994,8 @@
       "publisher": "SitePoint",
       "price": "$29.00",
       "numPages": 250,
-      "cover": "http://localhost:4730/covers/9780992279462.png"
+      "cover": "http://localhost:4730/covers/9780992279462.png",
+      "userId": 1
     },
     {
       "id": "9781118004173",
@@ -2770,7 +3007,8 @@
       "publisher": "Wiley",
       "price": "$7.63",
       "numPages": 264,
-      "cover": "http://localhost:4730/covers/9781118004173.png"
+      "cover": "http://localhost:4730/covers/9781118004173.png",
+      "userId": 1
     },
     {
       "id": "9781118026694",
@@ -2782,7 +3020,8 @@
       "publisher": "Wrox",
       "price": "$4.62",
       "numPages": 960,
-      "cover": "http://localhost:4730/covers/9781118026694.png"
+      "cover": "http://localhost:4730/covers/9781118026694.png",
+      "userId": 1
     },
     {
       "id": "9781118050484",
@@ -2794,7 +3033,8 @@
       "publisher": "Wrox",
       "price": "$12.99",
       "numPages": 408,
-      "cover": "http://localhost:4730/covers/9781118050484.png"
+      "cover": "http://localhost:4730/covers/9781118050484.png",
+      "userId": 1
     },
     {
       "id": "9781118124055",
@@ -2806,7 +3046,8 @@
       "publisher": "Wiley",
       "price": "$3.65",
       "numPages": 896,
-      "cover": "http://localhost:4730/covers/9781118124055.png"
+      "cover": "http://localhost:4730/covers/9781118124055.png",
+      "userId": 1
     },
     {
       "id": "9781118487525",
@@ -2818,7 +3059,8 @@
       "publisher": "Wrox",
       "price": "$17.36",
       "numPages": 480,
-      "cover": "http://localhost:4730/covers/9781118487525.png"
+      "cover": "http://localhost:4730/covers/9781118487525.png",
+      "userId": 1
     },
     {
       "id": "9781118540572",
@@ -2830,7 +3072,8 @@
       "publisher": "Wiley",
       "price": "$7.92",
       "numPages": 360,
-      "cover": "http://localhost:4730/covers/9781118540572.png"
+      "cover": "http://localhost:4730/covers/9781118540572.png",
+      "userId": 1
     },
     {
       "id": "9781118656464",
@@ -2842,7 +3085,8 @@
       "publisher": "Wrox",
       "price": "$35.59",
       "numPages": 936,
-      "cover": "http://localhost:4730/covers/9781118656464.png"
+      "cover": "http://localhost:4730/covers/9781118656464.png",
+      "userId": 1
     },
     {
       "id": "9781118678640",
@@ -2854,7 +3098,8 @@
       "publisher": "Wrox",
       "price": "$0.00",
       "numPages": 120,
-      "cover": "http://localhost:4730/covers/9781118678640.png"
+      "cover": "http://localhost:4730/covers/9781118678640.png",
+      "userId": 1
     },
     {
       "id": "9781118855386",
@@ -2866,7 +3111,8 @@
       "publisher": "Wiley",
       "price": "$19.83",
       "numPages": 456,
-      "cover": "http://localhost:4730/covers/9781118855386.png"
+      "cover": "http://localhost:4730/covers/9781118855386.png",
+      "userId": 1
     },
     {
       "id": "9781118866078",
@@ -2878,7 +3124,8 @@
       "publisher": "Wrox",
       "price": "$17.55",
       "numPages": 672,
-      "cover": "http://localhost:4730/covers/9781118866078.png"
+      "cover": "http://localhost:4730/covers/9781118866078.png",
+      "userId": 1
     },
     {
       "id": "9781118885727",
@@ -2890,7 +3137,8 @@
       "publisher": "Wiley",
       "price": "$5.28",
       "numPages": 288,
-      "cover": "http://localhost:4730/covers/9781118885727.png"
+      "cover": "http://localhost:4730/covers/9781118885727.png",
+      "userId": 1
     },
     {
       "id": "9781119473923",
@@ -2902,7 +3150,8 @@
       "publisher": "Wiley",
       "price": "$26.33",
       "numPages": 840,
-      "cover": "http://localhost:4730/covers/9781119473923.png"
+      "cover": "http://localhost:4730/covers/9781119473923.png",
+      "userId": 1
     },
     {
       "id": "9781430219859",
@@ -2914,7 +3163,8 @@
       "publisher": "Apress",
       "price": "$7.99",
       "numPages": 440,
-      "cover": "http://localhost:4730/covers/9781430219859.png"
+      "cover": "http://localhost:4730/covers/9781430219859.png",
+      "userId": 1
     },
     {
       "id": "9781430225515",
@@ -2926,7 +3176,8 @@
       "publisher": "Apress",
       "price": "$6.03",
       "numPages": 350,
-      "cover": "http://localhost:4730/covers/9781430225515.png"
+      "cover": "http://localhost:4730/covers/9781430225515.png",
+      "userId": 1
     },
     {
       "id": "9781430226208",
@@ -2938,7 +3189,8 @@
       "publisher": "Apress",
       "price": "$8.05",
       "numPages": 368,
-      "cover": "http://localhost:4730/covers/9781430226208.png"
+      "cover": "http://localhost:4730/covers/9781430226208.png",
+      "userId": 1
     },
     {
       "id": "9781430228745",
@@ -2950,7 +3202,8 @@
       "publisher": "Apress",
       "price": "$38.12",
       "numPages": 624,
-      "cover": "http://localhost:4730/covers/9781430228745.png"
+      "cover": "http://localhost:4730/covers/9781430228745.png",
+      "userId": 1
     },
     {
       "id": "9781430228981",
@@ -2962,7 +3215,8 @@
       "publisher": "Apress",
       "price": "$32.94",
       "numPages": 264,
-      "cover": "http://localhost:4730/covers/9781430228981.png"
+      "cover": "http://localhost:4730/covers/9781430228981.png",
+      "userId": 1
     },
     {
       "id": "9781430230458",
@@ -2974,7 +3228,8 @@
       "publisher": "Apress",
       "price": "$25.94",
       "numPages": 512,
-      "cover": "http://localhost:4730/covers/9781430230458.png"
+      "cover": "http://localhost:4730/covers/9781430230458.png",
+      "userId": 1
     },
     {
       "id": "9781430232469",
@@ -2986,7 +3241,8 @@
       "publisher": "Apress",
       "price": "$32.91",
       "numPages": 484,
-      "cover": "http://localhost:4730/covers/9781430232469.png"
+      "cover": "http://localhost:4730/covers/9781430232469.png",
+      "userId": 1
     },
     {
       "id": "9781430232766",
@@ -2998,7 +3254,8 @@
       "publisher": "Apress",
       "price": "$34.99",
       "numPages": 392,
-      "cover": "http://localhost:4730/covers/9781430232766.png"
+      "cover": "http://localhost:4730/covers/9781430232766.png",
+      "userId": 1
     }
   ]
 }

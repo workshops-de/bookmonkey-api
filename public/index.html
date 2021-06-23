@@ -37,6 +37,15 @@
           <li class="nav-item">
             <a class="nav-link" href="#operations">Further Operations</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#authentication">Authentication</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#users">User Relation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#guarded_routes">Guarded Routes</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -92,6 +101,7 @@
       <h2 id="create">Book Create</h2>
       <p>POST <a href="/books" target="_blank">/books</a></p>
       <p>Include a <code>Content-Type: application/json</code> header to use the JSON in the request body. Otherwise it will return a 2XX status code, but without changes being made to the data.</p>
+      <p>Title and ISBN are required fields.</p>
 
       <div class="row">
         <div class="col-6">
@@ -131,6 +141,27 @@
           </pre>
         </div>
       </div>
+
+      <strong>Error Response</strong>
+      <p>400 Status Code</p>
+      <pre class="mb-4">
+        <code class="json">
+          {
+            "errors": {
+              "isbn": {
+                "msg": "Es muss eine ISBN angegeben werden.",
+                "param": "isbn",
+                "location": "body"
+              },
+              "title": {
+                "msg": "Es muss ein Titel angegeben werden.",
+                "param": "title",
+                "location": "body"
+              }
+            }
+          }
+        </code>
+      </pre>
 
       <!-- Book Update -->
       <h2 id="update">Book Update</h2>
@@ -138,6 +169,7 @@
         PUT <a href="/books/9781787125421" target="_blank">/books/:isbn</a>
       </p>
       <p>Include a <code>Content-Type: application/json</code> header to use the JSON in the request body. Otherwise it will return a 2XX status code, but without changes being made to the data.</p>
+      <p>Title and ISBN are required fields.</p>
 
       <div class="row">
         <div class="col-6">
@@ -177,6 +209,27 @@
           </pre>
         </div>
       </div>
+
+      <strong>Error Response</strong>
+      <p>400 Status Code</p>
+      <pre class="mb-4">
+        <code class="json">
+          {
+            "errors": {
+              "isbn": {
+                "msg": "Es muss eine ISBN angegeben werden.",
+                "param": "isbn",
+                "location": "body"
+              },
+              "title": {
+                "msg": "Es muss ein Titel angegeben werden.",
+                "param": "title",
+                "location": "body"
+              }
+            }
+          }
+        </code>
+      </pre>
 
       <!-- Book Delete -->
       <h2 id="delete">Book Delete</h2>
@@ -322,6 +375,246 @@
           ]
         </code>
       </pre>
+
+      <h2 id="authentication">Authentication</h2>
+
+      <!-- Register -->
+      <h2 id="register">Register</h2>
+      <p>The response contains the JWT access token (expiration time of 1 hour). The access token has the following claims:
+        <ul>
+          <li><code>sub:</code> the user id.</li>
+          <li><code>email:</code> the user email.</li>
+        </ul>
+      </p>
+
+      <div class="row">
+        <div class="col-6">
+          <strong>Payload:</strong>
+          <pre class="mb-4">
+            <code class="json">
+              {
+                email: "youremail@demo.com",
+                password: "bestPassw0rd",
+              }
+            </code>
+          </pre>
+        </div>
+        <div class="col-6">
+          <strong>Response:</strong>
+          <pre class="mb-4">
+            <code class="json">
+              {
+                accessToken: "xxx.xxx.xxx"
+              }
+            </code>
+          </pre>
+        </div>
+      </div>
+
+      <strong>Other propreties</strong>
+      <p>Any other property can be added to the request body without being validated</p>
+      <pre class="mb-4">
+        <code class="json">
+          {
+            email: "youremail@demo.com",
+            password: "bestPassw0rd",
+            "firstname": "Max",
+            "lastname": "Mustermann",
+            "age": 101
+          }
+        </code>
+      </pre>
+
+      <!-- Login -->
+      <h2 id="login">Login</h2>
+      <p>The response contains the JWT access token (expiration time of 1 hour).  The access token has the following claims:
+        <ul>
+          <li><code>sub:</code> the user id.</li>
+          <li><code>email:</code> the user email.</li>
+        </ul>
+      </p>
+
+      <div class="row">
+        <div class="col-6">
+          <strong>Payload:</strong>
+          <pre class="mb-4">
+            <code class="json">
+              {
+                email: "youremail@demo.com",
+                password: "bestPassw0rd",
+              }
+            </code>
+          </pre>
+        </div>
+        <div class="col-6">
+          <strong>Response:</strong>
+          <pre class="mb-4">
+            <code class="json">
+              {
+                accessToken: "xxx.xxx.xxx"
+              }
+            </code>
+          </pre>
+        </div>
+      </div>
+
+      <!-- User Update -->
+      <h2 id="user_update">User Update</h2>
+      <p>Any update to an existing user (via PATCH or PUT methods) will go through the same process for email and password.</p>
+      <p>PUT <a href="/users/1" target="_blank">/users/:id</a> <br/>
+        PATCH <a href="/users/1" target="_blank">/users/:id</a></p>
+
+      <h2 id="user_default_login" class="mt-5">Admin User - Login Data</h2>
+      <p>There is already a demo user inserted into the database. The credentials to login as this admin user are as follows:
+        <ul>
+          <li><code>admin@bookmonkey.api</code></li>
+          <li><code>password1!</code></li>
+        </ul>
+      </p>
+
+      <!-- Users -->
+      <h2 id="users" class="mt-5">User Relation</h2>
+
+      <p>A book can be linked to a specific user by sending the <code>userId</code> parameter when adding a book via <code>POST</code>.</p>
+
+      <div class="row">
+        <div class="col-6">
+          <strong>Payload:</strong>
+          <pre class="mb-4">
+            <code class="json">
+              {
+                title: "…",
+                subtitle: "…",
+                isbn: "…",
+                abstract: "…",
+                numPages: 123,
+                author: "…",
+                publisher: "…",
+                price: "$..",
+                cover: "http://….png",
+                userId: "1"
+              }
+            </code>
+          </pre>
+        </div>
+        <div class="col-6">
+          <strong>Response:</strong>
+          <pre class="mb-4">
+            <code class="json">
+              {
+                title: "…",
+                subtitle: "…",
+                isbn: "…",
+                abstract: "…",
+                numPages: 123,
+                author: "…",
+                publisher: "…",
+                price: "$..",
+                cover: "http://….png",
+                userId: "1"
+              }
+            </code>
+          </pre>
+        </div>
+      </div>
+
+      <h3>Relational Request</h3>
+      <p>You can retrieve a book list for a specific user with the nested book route.</p>
+      <p>PUT <a href="/users/1/books" target="_blank">/users/:id/books</a></p>
+
+      <h2 id="guarded_routes" class="mt-5">Guarded Routes</h2>
+
+      <div class="row">
+        <div class="col-12">
+          <p>Guarded routes exist at the root and can restrict access to any resource you put after them:</p>
+
+          <table class="w-100">
+            <thead>
+              <tr>
+                <th width="30%">Route</th>
+                <th width="70%">Resource permissions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>/664/*</code></td>
+                <td>User must be logged to <i>write</i> the resource. <br> Everyone can <i>read</i> the resource.</td>
+              </tr>
+              <tr>
+                <td><code>/660/*</code></td>
+                <td>User must be logged to <i>write</i> and <i>read</i> the resource.</td>
+              </tr>
+              <tr>
+                <td><code>/644/*</code></td>
+                <td>User must own the resource to <i>write</i> the resource. <br> Everyone can <i>read</i> the resource.</td>
+              </tr>
+              <tr>
+                <td><code>/640/*</code></td>
+                <td>User must own the resource to <i>write</i> the resource. <br> User must be logged to <i>read</i> the resource.</td>
+              </tr>
+              <tr>
+                <td><code>/600/*</code></td>
+                <td>User must own the resource to <i>write</i> or <i>read</i> the resource.</td>
+              </tr>
+              <tr>
+                <td><code>/444/*</code></td>
+                <td>No one can <i>write</i> the resource. <br> Everyone can <i>read</i> the resource.</td>
+              </tr>
+              <tr>
+                <td><code>/440/*</code></td>
+                <td>No one can <i>write</i> the resource. <br> User must be logged to <i>read</i> the resource.</td>
+              </tr>
+              <tr>
+                <td><code>/400/*</code></td>
+                <td>No one can <i>write</i> the resource. <br> User must own the resource to <i>read</i> the resource.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 class="mt-2">Examples:</h3>
+          <p>Public user (not logged-in) does the following requests:</p>
+
+          <table class="w-100">
+            <thead>
+              <tr>
+                <th width="30%">Request</th>
+                <th width="70%">Response</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>GET /664/books</code></td>
+                <td><code>200 OK</code></td>
+              </tr>
+              <tr>
+                <td><code>POST /664/books</code><br><code>{isbn: '123123123'}</code></td>
+                <td><code>401 UNAUTHORIZED</code></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p class="mt-3">Logged-in user with <code>id: 1</code> does the following requests:</p>
+
+          <table class="w-100">
+            <thead>
+              <tr>
+                <th width="30%">Request</th>
+                <th width="70%">Response</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>GET /600/users/1</code><br><code>Authorization: Bearer xxx.xxx.xxx</code></td>
+                <td><code>200 OK</code></td>
+              </tr>
+              <tr>
+                <td><code>GET /600/users/42</code><br><code>Authorization: Bearer xxx.xxx.xxx</code></td>
+                <td><code>403 FORBIDDEN</code></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </main>
   </body>
 </html>
