@@ -1,9 +1,9 @@
-import { Router } from 'express'
-import jwt from 'jsonwebtoken'
-import jsonServer from 'json-server'
-import { stringify } from 'querystring'
-import { JWT_SECRET_KEY } from '../constants.js'
-import { bodyParsingHandler, errorHandler, goNext } from './shared.js'
+const Router = require('express').Router
+const jwt = require('jsonwebtoken')
+const jsonServer = require('json-server')
+const stringify = require('querystring').stringify
+const JWT_SECRET_KEY = require ('../constants.js').JWT_SECRET_KEY
+const sharedMiddleware = require('./shared.js')
 
 /**
  * Logged Guard.
@@ -168,18 +168,18 @@ const flattenUrl = (req, res, next) => {
 /**
  * Guards router
  */
-export default Router()
-	.use(bodyParsingHandler)
+const router = Router()
+	.use(sharedMiddleware.bodyParsingHandler)
 	.all('/666/*', flattenUrl)
-	.all('/664/*', branch({ read: goNext, write: loggedOnly }), flattenUrl)
+	.all('/664/*', branch({ read: sharedMiddleware.goNext, write: loggedOnly }), flattenUrl)
 	.all('/660/*', loggedOnly, flattenUrl)
-	.all('/644/*', branch({ read: goNext, write: privateOnly }), flattenUrl)
+	.all('/644/*', branch({ read: sharedMiddleware.goNext, write: privateOnly }), flattenUrl)
 	.all('/640/*', branch({ read: loggedOnly, write: privateOnly }), flattenUrl)
 	.all('/600/*', privateOnly, flattenUrl)
 	.all('/444/*', readOnly, flattenUrl)
 	.all('/440/*', loggedOnly, readOnly, flattenUrl)
 	.all('/400/*', privateOnly, readOnly, flattenUrl)
-	.use(errorHandler)
+	.use(sharedMiddleware.errorHandler)
 
 /**
  * Transform resource-guard mapping to proper rewrite rule supported by express-urlrewrite.
@@ -187,7 +187,7 @@ export default Router()
  * @example
  * { 'users': 600 } => { '/users*': '/600/users$1' }
  */
-export function parseGuardsRules(resourceGuardMap) {
+const parseGuardsRules = (resourceGuardMap) => {
 	return Object.entries(resourceGuardMap).reduce((routes, [resource, guard]) => {
 		const isGuard = /^[640]{3}$/m.test(String(guard))
 
@@ -207,7 +207,13 @@ export function parseGuardsRules(resourceGuardMap) {
  * with JSON Server rewriter (which itself uses express-urlrewrite).
  * Works with normal rewrite rules as well.
  */
-export function rewriter(resourceGuardMap) {
+const rewriter = (resourceGuardMap) => {
 	const routes = parseGuardsRules(resourceGuardMap)
 	return jsonServer.rewriter(routes)
+}
+
+module.exports = {
+	router,
+	parseGuardsRules,
+	rewriter,
 }
