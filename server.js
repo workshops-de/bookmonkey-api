@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const jsonServer = require('json-server')
 const guards = require('./middlewares/guards.js')
 const bookValidation = require('./middlewares/book-validation.js')
