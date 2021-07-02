@@ -1,14 +1,7 @@
-#!/usr/bin/env node
-
-import jsonServer from 'json-server'
-import path from 'path'
-import { fileURLToPath } from 'url'
-import guardsRouter, { rewriter } from './middlewares/guards.js'
-import bookValidation from './middlewares/book-validation.js'
-import usersRouter from './users.js'
-
-//we need to change up how __dirname is used for ES6 purposes
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const jsonServer = require('json-server')
+const guards = require('./middlewares/guards.js')
+const bookValidation = require('./middlewares/book-validation.js')
+const users = require('./users.js')
 
 const server = jsonServer.create()
 const router = jsonServer.router(__dirname + '/db.json')
@@ -19,12 +12,12 @@ const middlewares = jsonServer.defaults({
 // /!\ Bind the router db to the app
 server.db = router.db
 
-const authenticationMiddlewares = [usersRouter, guardsRouter]
-Object.defineProperty(authenticationMiddlewares, 'rewriter', { value: rewriter, enumerable: false })
+const authenticationMiddlewares = [users.router, guards.router]
+Object.defineProperty(authenticationMiddlewares, 'rewriter', { value: guards.rewriter, enumerable: false })
 
 server.use(middlewares)
 server.use(authenticationMiddlewares)
-server.use(bookValidation)
+server.use(bookValidation.middleware)
 server.use(router)
 
 const port = process.env.PORT || 4730

@@ -1,14 +1,8 @@
-import bcrypt from 'bcryptjs'
-import { Router } from 'express'
-import jwt from 'jsonwebtoken'
-import { bodyParsingHandler, errorHandler } from './middlewares/shared.js'
-import {
-	EMAIL_REGEX,
-	JWT_EXPIRES_IN,
-	JWT_SECRET_KEY,
-	MIN_PASSWORD_LENGTH,
-	SALT_LENGTH,
-} from './constants.js';
+const bcrypt = require('bcryptjs')
+const Router = require('express').Router
+const jwt = require('jsonwebtoken')
+const sharedMiddleware = require('./middlewares/shared.js')
+const CONSTANTS = require('./constants.js')
 
 /**
  * Validate email and password
@@ -21,12 +15,12 @@ const validate = ({ required }) => (req, res, next) => {
 		return
 	}
 
-	if (email && !email.match(EMAIL_REGEX)) {
+	if (email && !email.match(CONSTANTS.EMAIL_REGEX)) {
 		res.status(400).jsonp('Email format is invalid')
 		return
 	}
 
-	if (password && password.length < MIN_PASSWORD_LENGTH) {
+	if (password && password.length < CONSTANTS.MIN_PASSWORD_LENGTH) {
 		res.status(400).jsonp('Password is too short')
 		return
 	}
@@ -55,7 +49,7 @@ const create = (req, res, next) => {
 	}
 
 	bcrypt
-		.hash(password, SALT_LENGTH)
+		.hash(password, CONSTANTS.SALT_LENGTH)
 		.then((hash) => {
 			// Create users collection if doesn't exist,
 			// save password as hash and add any other field without validation
@@ -72,8 +66,8 @@ const create = (req, res, next) => {
 			return new Promise((resolve, reject) => {
 				jwt.sign(
 					{ email },
-					JWT_SECRET_KEY,
-					{ expiresIn: JWT_EXPIRES_IN, subject: String(user.id) },
+					CONSTANTS.JWT_SECRET_KEY,
+					{ expiresIn: CONSTANTS.JWT_EXPIRES_IN, subject: String(user.id) },
 					(error, idToken) => {
 						if (error) reject(error)
 						else resolve(idToken)
@@ -114,8 +108,8 @@ const login = (req, res, next) => {
 			return new Promise((resolve, reject) => {
 				jwt.sign(
 					{ email },
-					JWT_SECRET_KEY,
-					{ expiresIn: JWT_EXPIRES_IN, subject: String(user.id) },
+					CONSTANTS.JWT_SECRET_KEY,
+					{ expiresIn: CONSTANTS.JWT_EXPIRES_IN, subject: String(user.id) },
 					(error, idToken) => {
 						if (error) reject(error)
 						else resolve(idToken)
@@ -145,7 +139,7 @@ const update = (req, res, next) => {
 	}
 
 	bcrypt
-		.hash(password, SALT_LENGTH)
+		.hash(password, CONSTANTS.SALT_LENGTH)
 		.then((hash) => {
 			req.body.password = hash
 			next()
@@ -156,12 +150,16 @@ const update = (req, res, next) => {
 /**
  * Users router
  */
-export default Router()
-	.use(bodyParsingHandler)
+const router = Router()
+	.use(sharedMiddleware.bodyParsingHandler)
 	.post('/users|register|signup', validate({ required: true }), create)
 	// Bypass eventual users guards to still allow creation
 	.post('/[640]{3}/users', validate({ required: true }), create)
 	.post('/login|signin', validate({ required: true }), login)
 	.put('/users/:id', validate({ required: true }), update)
 	.patch('/users/:id', validate({ required: false }), update)
-	.use(errorHandler)
+	.use(sharedMiddleware.errorHandler)
+
+module.exports = {
+	router,
+}

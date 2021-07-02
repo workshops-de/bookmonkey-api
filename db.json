@@ -4,6 +4,11 @@
       "email": "admin@bookmonkey.api",
       "password": "$2a$10$Evsbmwpt5JIsDb3hSRklq.u7zapUWPCNPl8EFE1igm9B1bqroGfSq",
       "id": 1
+    },
+    {
+      "email": "admin2@bookmonkey.api",
+      "password": "$2a$10$d1XObyB2FFCBM6kyxQ6oMOA7ksm2VLSZ0la0Ax7jQtWreOZDPnmv6",
+      "id": 2
     }
   ],
   "books": [
@@ -3256,6 +3261,11 @@
       "numPages": 392,
       "cover": "http://localhost:4730/covers/9781430232766.png",
       "userId": 1
+    },
+    {
+      "title": "asdf",
+      "isbn": "123456",
+      "id": "123456"
     }
   ]
 }
