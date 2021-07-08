@@ -4,6 +4,9 @@ const jsonServer = require('json-server')
 const guards = require('./middlewares/guards.js')
 const bookValidation = require('./middlewares/book-validation.js')
 const users = require('./users.js')
+const fs = require('fs')
+
+console.log(fs.readFileSync('./banner.txt', {encoding: "ascii"}))
 
 const server = jsonServer.create()
 const router = jsonServer.router(__dirname + '/db.json')
