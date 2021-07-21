@@ -5,8 +5,9 @@ const guards = require('./middlewares/guards.js')
 const bookValidation = require('./middlewares/book-validation.js')
 const users = require('./users.js')
 const fs = require('fs')
+const path = require('path')
 
-console.log(fs.readFileSync('./banner.txt', {encoding: "ascii"}))
+console.log(fs.readFileSync(path.join(__dirname, 'banner.txt'), {encoding: "ascii"}))
 
 const server = jsonServer.create()
 const router = jsonServer.router(__dirname + '/db.json')
