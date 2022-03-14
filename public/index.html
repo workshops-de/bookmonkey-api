@@ -380,6 +380,7 @@
 
       <!-- Register -->
       <h2 id="register">Register</h2>
+      <p>POST <a href="/register" target="_blank">/register</a></p>
       <p>The response contains the JWT access token (expiration time of 1 hour). The access token has the following claims:
         <ul>
           <li><code>sub:</code> the user id.</li>
@@ -404,7 +405,12 @@
           <pre class="mb-4">
             <code class="json">
               {
-                accessToken: "xxx.xxx.xxx"
+                accessToken: "xxx.xxx.xxx",
+                user: {
+                  email: "email@domain.com",
+                  password: "HASH",
+                  id: 1
+                }
               }
             </code>
           </pre>
@@ -418,16 +424,17 @@
           {
             email: "youremail@demo.com",
             password: "bestPassw0rd",
-            "firstname": "Max",
-            "lastname": "Mustermann",
-            "age": 101
+            firstname: "Max",
+            lastname: "Mustermann",
+            age: 101
           }
         </code>
       </pre>
 
       <!-- Login -->
       <h2 id="login">Login</h2>
-      <p>The response contains the JWT access token (expiration time of 1 hour).  The access token has the following claims:
+      <p>POST <a href="/login" target="_blank">/login</a></p>
+      <p>The response contains the JWT access token (expiration time of 1 hour). The access token has the following claims:
         <ul>
           <li><code>sub:</code> the user id.</li>
           <li><code>email:</code> the user email.</li>
@@ -451,7 +458,12 @@
           <pre class="mb-4">
             <code class="json">
               {
-                accessToken: "xxx.xxx.xxx"
+                accessToken: "xxx.xxx.xxx",
+                user: {
+                  email: "email@domain.com",
+                  password: "HASH",
+                  id: 1
+                }
               }
             </code>
           </pre>
