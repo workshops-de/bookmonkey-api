@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="boomonkey-logo" width="120px"/>
+</p>
+
 # bookmonkey-api
 
 The bookmonkey-api is a demo api to list, get, create, update and delete books.
