@@ -20,3 +20,13 @@ It's very handy for [workshops](https://workshops.de). It comes with its own doc
     POST    /books          // Create a new book
     PUT     /books/:isbn    // Update a book by ISBN
     DELETE  /books/:isbn    // Delete a book by ISBN
+
+## Credits
+
+This project exists, thanks to all the people who contribute.
+
+<a href="https://github.com/workshops-de/bookmonkey-api/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=workshops-de/bookmonkey-api" />
+</a>
+
+Additionally we would like to give credits to https://github.com/Farxa for creating the bookmonkey logo.
