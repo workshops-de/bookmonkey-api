@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="boomonkey-logo" width="120px"/>
+  <img src="logo.png" alt="boomonkey-logo" width="350px"/>
 </p>
 
 # bookmonkey-api
