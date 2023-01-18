@@ -29,4 +29,5 @@ This project exists, thanks to all the people who contribute.
   <img src="https://contrib.rocks/image?repo=workshops-de/bookmonkey-api" />
 </a>
 
+
 Additionally we would like to give credits to https://github.com/Farxa for creating the bookmonkey logo.
