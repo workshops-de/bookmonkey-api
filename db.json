@@ -3261,11 +3261,6 @@
       "numPages": 392,
       "cover": "http://localhost:4730/covers/9781430232766.png",
       "userId": 1
-    },
-    {
-      "title": "asdf",
-      "isbn": "123456",
-      "id": "123456"
     }
   ]
 }
