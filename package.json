@@ -1,7 +1,7 @@
 {
   "name": "bookmonkey-api",
   "description": "A simple backend for the BookMonkey example application.",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "compose-middleware": "^5.0.1",
