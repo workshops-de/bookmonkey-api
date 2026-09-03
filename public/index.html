@@ -68,7 +68,9 @@
               author: "…",
               publisher: "…",
               price: "$..",
-              cover: "http://….png"
+              cover: "http://….png",
+              publishedAt: "2021-01-01",
+              coAuthors: ["…"]
             },
             …
           ]
@@ -92,7 +94,9 @@
             author: "…",
             publisher: "…",
             price: "$..",
-            cover: "http://….png"
+            cover: "http://….png",
+            publishedAt: "2021-01-01",
+            coAuthors: ["…"]
           }
         </code>
       </pre>
@@ -102,6 +106,7 @@
       <p>POST <a href="/books" target="_blank">/books</a></p>
       <p>Include a <code>Content-Type: application/json</code> header to use the JSON in the request body. Otherwise it will return a 2XX status code, but without changes being made to the data.</p>
       <p>Title and ISBN are required fields.</p>
+      <p>The optional fields <code>publishedAt</code> (an ISO-8601 date string) and <code>coAuthors</code> (an array of strings) may also be sent. They can be omitted for backward compatibility.</p>
 
       <div class="row">
         <div class="col-6">
@@ -117,7 +122,9 @@
                 author: "…",
                 publisher: "…",
                 price: "$..",
-                cover: "http://….png"
+                cover: "http://….png",
+                publishedAt: "2021-01-01",
+                coAuthors: ["…"]
               }
             </code>
           </pre>
@@ -135,7 +142,9 @@
                 author: "…",
                 publisher: "…",
                 price: "$..",
-                cover: "http://….png"
+                cover: "http://….png",
+                publishedAt: "2021-01-01",
+                coAuthors: ["…"]
               }
             </code>
           </pre>
@@ -170,6 +179,7 @@
       </p>
       <p>Include a <code>Content-Type: application/json</code> header to use the JSON in the request body. Otherwise it will return a 2XX status code, but without changes being made to the data.</p>
       <p>Title and ISBN are required fields.</p>
+      <p>The optional fields <code>publishedAt</code> (an ISO-8601 date string) and <code>coAuthors</code> (an array of strings) may also be sent. They can be omitted for backward compatibility.</p>
 
       <div class="row">
         <div class="col-6">
@@ -185,7 +195,9 @@
                 author: "…",
                 publisher: "…",
                 price: "$..",
-                cover: "http://….png"
+                cover: "http://….png",
+                publishedAt: "2021-01-01",
+                coAuthors: ["…"]
               }
             </code>
           </pre>
@@ -203,7 +215,9 @@
                 author: "…",
                 publisher: "…",
                 price: "$..",
-                cover: "http://….png"
+                cover: "http://….png",
+                publishedAt: "2021-01-01",
+                coAuthors: ["…"]
               }
             </code>
           </pre>
@@ -265,7 +279,9 @@
               author: "…",
               publisher: "…",
               price: "$..",
-              cover: "http://….png"
+              cover: "http://….png",
+              publishedAt: "2021-01-01",
+              coAuthors: ["…"]
             },
             …
           ]
@@ -291,7 +307,9 @@
               author: "…",
               publisher: "…",
               price: "$..",
-              cover: "http://….png"
+              cover: "http://….png",
+              publishedAt: "2021-01-01",
+              coAuthors: ["…"]
             },
             …
           ]
@@ -317,7 +335,9 @@
               author: "…",
               publisher: "…",
               price: "$..",
-              cover: "http://….png"
+              cover: "http://….png",
+              publishedAt: "2021-01-01",
+              coAuthors: ["…"]
             },
             …
           ]
@@ -344,7 +364,9 @@
               author: "…",
               publisher: "…",
               price: "$..",
-              cover: "http://….png"
+              cover: "http://….png",
+              publishedAt: "2021-01-01",
+              coAuthors: ["…"]
             },
             …
           ]
@@ -369,7 +391,9 @@
               author: "…",
               publisher: "…",
               price: "$..",
-              cover: "http://….png"
+              cover: "http://….png",
+              publishedAt: "2021-01-01",
+              coAuthors: ["…"]
             },
             …
           ]
@@ -504,6 +528,8 @@
                 publisher: "…",
                 price: "$..",
                 cover: "http://….png",
+                publishedAt: "2021-01-01",
+                coAuthors: ["…"],
                 userId: "1"
               }
             </code>
@@ -523,6 +549,8 @@
                 publisher: "…",
                 price: "$..",
                 cover: "http://….png",
+                publishedAt: "2021-01-01",
+                coAuthors: ["…"],
                 userId: "1"
               }
             </code>

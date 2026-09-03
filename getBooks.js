@@ -12,7 +12,7 @@ async function createBook(bookIsbn) {
   const response = await fetch(`https://api.itbook.store/1.0/books/${bookIsbn}`);
   const book = await response.json();
 
-  const {title, subtitle, isbn13: isbn, desc: abstract, authors: author, publisher, price, pages} = book;
+  const {title, subtitle, isbn13: isbn, desc: abstract, authors: author, publisher, price, pages, year} = book;
 
   await download(book.image, book.isbn13);
 
@@ -27,6 +27,8 @@ async function createBook(bookIsbn) {
     price,
     numPages: +pages,
     cover: `http://localhost:4730/covers/${isbn}.png`,
+    publishedAt: year ? `${year}-01-01` : null,
+    coAuthors: [],
   };
 }
 

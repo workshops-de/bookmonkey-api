@@ -12,6 +12,9 @@ const middleware = conditional(
   compose([
     expressValidator.body('isbn').exists().withMessage('Es muss eine ISBN angegeben werden.').isString().withMessage('Die ISBN muss als String übergeben werden.'),
     expressValidator.body('title').exists().withMessage('Es muss ein Titel angegeben werden.').isString().withMessage('Der Titel muss als String übergeben werden.'),
+    expressValidator.body('publishedAt').optional().isISO8601().withMessage('publishedAt muss ein gültiges Datum im ISO-8601-Format sein.'),
+    expressValidator.body('coAuthors').optional().isArray().withMessage('coAuthors muss ein Array sein.'),
+    expressValidator.body('coAuthors.*').optional().isString().withMessage('Jeder Eintrag in coAuthors muss ein String sein.'),
     (req, res, next) => {
       const result = expressValidator.validationResult(req)
 
