@@ -9,6 +9,18 @@ on:
     - cron: '30 10 * * 2'
 
 jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm test
+
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
