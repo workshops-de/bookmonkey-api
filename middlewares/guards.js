@@ -1,8 +1,7 @@
 const Router = require('express').Router
 const jwt = require('jsonwebtoken')
 const jsonServer = require('json-server')
-const stringify = require('querystring').stringify
-const JWT_SECRET_KEY = require ('../constants.js').JWT_SECRET_KEY
+const JWT_SECRET_KEY = require('../constants.js').JWT_SECRET_KEY
 const sharedMiddleware = require('./shared.js')
 
 /**
@@ -66,7 +65,7 @@ const privateOnly = (req, res, next) => {
 		}
 
 		// TODO: handle query params instead of removing them
-		const path = req.url.replace(`?${stringify(req.query)}`, '')
+		const path = req.url.split('?')[0]
 		const [, mod, resource, id] = path.split('/')
 
 		// Creation and replacement
