@@ -10,9 +10,9 @@ with [NestJS 12](https://nestjs.com) and ships an OpenAPI/Swagger documentation.
 
 ## Installation & Usage
 
-* Run `npm install -g bookmonkey-api`.
-* Start the api server with `bookmonkey-api` (optionally `bookmonkey-api --port 4730`).
-* Open the interactive documentation on `http://localhost:4730/api`
+- Run `npm install -g bookmonkey-api`.
+- Start the api server with `bookmonkey-api` (optionally `bookmonkey-api --port 4730`).
+- Open the interactive documentation on `http://localhost:4730/api`
   (OpenAPI JSON: `http://localhost:4730/api-json`).
 
 The database is a plain JSON file. It lives next to the installed package
@@ -20,12 +20,13 @@ The database is a plain JSON file. It lives next to the installed package
 
 ## Supported actions
 
-    GET     /books          // Get all books (json-server style queries, see below)
-    GET     /books/:isbn    // Get a specific book by ISBN
-    POST    /books          // Create a new book
-    PUT     /books/:isbn    // Replace a book by ISBN
-    PATCH   /books/:isbn    // Update a book by ISBN
-    DELETE  /books/:isbn    // Delete a book by ISBN
+    GET     /books               // Get all books (json-server style queries, see below)
+    GET     /books/:isbn         // Get a specific book by ISBN
+    GET     /books/:isbn/exists  // Check whether a book with a certain isbn does exist
+    POST    /books               // Create a new book
+    PUT     /books/:isbn         // Replace a book by ISBN
+    PATCH   /books/:isbn         // Update a book by ISBN
+    DELETE  /books/:isbn         // Delete a book by ISBN
     GET     /users/:id/books
 
     POST    /register | /signup | /users   // { email, password } -> { accessToken, user }
@@ -46,10 +47,10 @@ Demo user (part of the seed): `admin@bookmonkey.api` / `password1!`.
 
 ### Book shape (4.0.0)
 
-* `id` is a **server-generated GUID** and is no longer identical to `isbn`.
+- `id` is a **server-generated GUID** and is no longer identical to `isbn`.
   Detail routes stay addressed by `:isbn`.
-* `price` is a **number** (previously the string `"$34.99"`).
-* `currency` is a string enum `EUR | USD | GBP | CNY | RUB`, default `EUR`.
+- `price` is a **number** (previously the string `"$34.99"`).
+- `currency` is a string enum `EUR | USD | GBP | CNY | RUB`, default `EUR`.
   Seed books use `USD`.
 
 ### Query parameters for `GET /books`
