@@ -13,23 +13,23 @@ import {
 } from '@nestjs/common';
 import { ApiBody, ApiOkResponse, ApiResponse, ApiTags } from '@nestjs/swagger';
 import type { Response } from 'express';
-import { ZodValidationPipe } from '../common/zod-validation.pipe';
-import { ApiBookQuery } from '../common/api-book-query.decorator';
+import { ZodValidationPipe } from '../common/zod-validation.pipe.js';
+import { ApiBookQuery } from '../common/api-book-query.decorator.js';
 import {
   BOOK_DRAFT_INPUT_SCHEMA,
   BOOK_OUTPUT_SCHEMA,
   BOOK_UPDATE_INPUT_SCHEMA,
   VALIDATION_ERROR_SCHEMA,
-} from '../common/openapi';
+} from '../common/openapi.js';
 import {
   bookDraftSchema,
   updateBookSchema,
   type Book,
   type BookDraft,
   type BookUpdate,
-} from '../domain';
-import { BooksService } from './books.service';
-import { BookQueryService } from './book-query.service';
+} from '../domain/index.js';
+import { BooksService } from './books.service.js';
+import { BookQueryService } from './book-query.service.js';
 
 // Alle /books-Endpunkte sind bewusst offen (anonym nutzbar) – so wie im
 // Ist-Server, dessen Oktal-Guard-System nie verdrahtet war.

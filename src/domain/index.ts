@@ -1,3 +1,3 @@
-export * from './constants';
-export * from './book.schema';
-export * from './user.schema';
+export * from './constants.js';
+export * from './book.schema.js';
+export * from './user.schema.js';

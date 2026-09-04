@@ -1,6 +1,6 @@
 import type { Response } from 'express';
-import { BookQueryService } from './book-query.service';
-import type { Book } from '../domain';
+import { BookQueryService } from './book-query.service.js';
+import type { Book } from '../domain/index.js';
 
 const makeBook = (over: Partial<Book>): Book =>
   ({

@@ -1,4 +1,4 @@
-import { bookDraftSchema, updateBookSchema } from './book.schema';
+import { bookDraftSchema, updateBookSchema } from './book.schema.js';
 
 describe('bookDraftSchema', () => {
   it('requires isbn and title', () => {

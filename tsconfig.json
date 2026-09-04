@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "target": "ES2023",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "resolvePackageJsonExports": true,
     "ignoreDeprecations": "6.0",
     "declaration": false,
     "removeComments": true,
@@ -10,19 +11,19 @@
     "emitDecoratorMetadata": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "isolatedModules": true,
     "sourceMap": true,
-    "rootDir": "./src",
     "outDir": "./dist",
     "incremental": true,
     "skipLibCheck": true,
     "strict": true,
     "strictNullChecks": true,
+    "strictPropertyInitialization": false,
     "noImplicitAny": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
-    "types": ["node", "jest"]
+    "types": ["vitest/globals", "node"]
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist", "tools", "test"]
+  "exclude": ["node_modules", "dist", "tools"]
 }

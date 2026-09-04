@@ -5,12 +5,12 @@ import {
 } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import * as bcrypt from 'bcryptjs';
-import { DatabaseService, UserRecord } from '../database/database.service';
+import { DatabaseService, UserRecord } from '../database/database.service.js';
 import {
   EMAIL_REGEX,
   MIN_PASSWORD_LENGTH,
   SALT_LENGTH,
-} from '../domain';
+} from '../domain/index.js';
 
 export interface AuthResponse {
   accessToken: string;

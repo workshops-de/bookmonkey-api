@@ -1,6 +1,6 @@
 import { Controller, HttpCode, Post } from '@nestjs/common';
 import { ApiOkResponse, ApiOperation, ApiTags } from '@nestjs/swagger';
-import { DatabaseService } from '../database/database.service';
+import { DatabaseService } from '../database/database.service.js';
 
 @ApiTags('dev')
 @Controller('dev')

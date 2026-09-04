@@ -1,11 +1,11 @@
 import { Controller, Get, Param, Query, Res } from '@nestjs/common';
 import { ApiOkResponse, ApiTags } from '@nestjs/swagger';
 import type { Response } from 'express';
-import { ApiBookQuery } from '../common/api-book-query.decorator';
-import { BOOK_OUTPUT_SCHEMA } from '../common/openapi';
-import type { Book } from '../domain';
-import { BooksService } from './books.service';
-import { BookQueryService } from './book-query.service';
+import { ApiBookQuery } from '../common/api-book-query.decorator.js';
+import { BOOK_OUTPUT_SCHEMA } from '../common/openapi.js';
+import type { Book } from '../domain/index.js';
+import { BooksService } from './books.service.js';
+import { BookQueryService } from './book-query.service.js';
 
 @ApiTags('books')
 @Controller('users')

@@ -2,7 +2,7 @@ import { copyFileSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from '
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { DatabaseService } from './database.service';
+import { DatabaseService } from './database.service.js';
 
 const REPO_SEED = join(
   dirname(fileURLToPath(import.meta.url)),

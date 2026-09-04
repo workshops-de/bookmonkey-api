@@ -5,8 +5,11 @@ import {
   readFileSync,
   writeFileSync,
 } from 'node:fs';
-import { join } from 'node:path';
-import type { Book } from '../domain';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import type { Book } from '../domain/index.js';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export interface UserRecord {
   id: number;

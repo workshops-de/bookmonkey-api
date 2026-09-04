@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { EMAIL_REGEX, MIN_PASSWORD_LENGTH } from './constants';
+import { EMAIL_REGEX, MIN_PASSWORD_LENGTH } from './constants.js';
 
 /**
  * Optionaler Zucker. Die maßgeblichen Auth-Fehlertexte ("Email and password are

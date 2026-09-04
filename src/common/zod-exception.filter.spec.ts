@@ -1,12 +1,11 @@
-import { jest } from '@jest/globals';
 import type { ArgumentsHost } from '@nestjs/common';
 import type { Response } from 'express';
-import { ZodExceptionFilter } from './zod-exception.filter';
-import { bookDraftSchema } from '../domain';
+import { ZodExceptionFilter } from './zod-exception.filter.js';
+import { bookDraftSchema } from '../domain/index.js';
 
 const makeHost = () => {
-  const json = jest.fn();
-  const status = jest.fn().mockReturnValue({ json });
+  const json = vi.fn();
+  const status = vi.fn().mockReturnValue({ json });
   const host = {
     switchToHttp: () => ({ getResponse: () => ({ status }) as unknown as Response }),
   } as unknown as ArgumentsHost;

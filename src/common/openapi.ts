@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { bookSchema, bookDraftSchema, updateBookSchema } from '../domain';
+import { bookSchema, bookDraftSchema, updateBookSchema } from '../domain/index.js';
 
 /**
  * Zod-4-natives JSON-Schema. `target: 'openapi-3.0'` erzeugt den

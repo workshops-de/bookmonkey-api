@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import type { Response } from 'express';
-import type { Book } from '../domain';
+import type { Book } from '../domain/index.js';
 
 type RawQuery = Record<string, string | string[] | undefined>;
 

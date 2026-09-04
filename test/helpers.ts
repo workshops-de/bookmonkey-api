@@ -44,8 +44,8 @@ export async function bootstrapTestApp(): Promise<INestApplication> {
   // Verzögerte Imports: erst nachdem DB_PATH gesetzt ist.
   const { Test } = await import('@nestjs/testing');
   const { SwaggerModule } = await import('@nestjs/swagger');
-  const { AppModule } = await import('../src/app.module');
-  const { configureApp, buildSwaggerDocument } = await import('../src/main');
+  const { AppModule } = await import('../src/app.module.js');
+  const { configureApp, buildSwaggerDocument } = await import('../src/main.js');
 
   const moduleRef = await Test.createTestingModule({
     imports: [AppModule],

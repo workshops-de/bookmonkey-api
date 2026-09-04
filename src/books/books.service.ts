@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { randomUUID } from 'node:crypto';
-import { DatabaseService } from '../database/database.service';
-import type { Book, BookDraft, BookUpdate } from '../domain';
+import { DatabaseService } from '../database/database.service.js';
+import type { Book, BookDraft, BookUpdate } from '../domain/index.js';
 
 @Injectable()
 export class BooksService {

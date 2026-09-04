@@ -1,15 +1,14 @@
-import { jest } from '@jest/globals';
 import {
   BadRequestException,
   NotFoundException,
   type ArgumentsHost,
 } from '@nestjs/common';
 import type { Response } from 'express';
-import { LegacyStringExceptionFilter } from './legacy-string-exception.filter';
+import { LegacyStringExceptionFilter } from './legacy-string-exception.filter.js';
 
 const makeHost = () => {
-  const json = jest.fn();
-  const status = jest.fn().mockReturnValue({ json });
+  const json = vi.fn();
+  const status = vi.fn().mockReturnValue({ json });
   const host = {
     switchToHttp: () => ({ getResponse: () => ({ status }) as unknown as Response }),
   } as unknown as ArgumentsHost;

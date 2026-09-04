@@ -1,6 +1,6 @@
 import type { INestApplication } from '@nestjs/common';
 import request from 'supertest';
-import { bootstrapTestApp, setupTmpDb, type TmpDb } from './helpers';
+import { bootstrapTestApp, setupTmpDb, type TmpDb } from './helpers.js';
 
 let app: INestApplication;
 let tmp: TmpDb;

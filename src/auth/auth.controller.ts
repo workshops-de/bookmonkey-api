@@ -8,7 +8,7 @@ import {
   Put,
 } from '@nestjs/common';
 import { ApiBody, ApiTags } from '@nestjs/swagger';
-import { AuthService } from './auth.service';
+import { AuthService } from './auth.service.js';
 
 const CREDENTIALS_BODY = {
   schema: {

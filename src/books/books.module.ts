@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
-import { BooksController } from './books.controller';
-import { UsersBooksController } from './users-books.controller';
-import { BooksService } from './books.service';
-import { BookQueryService } from './book-query.service';
+import { BooksController } from './books.controller.js';
+import { UsersBooksController } from './users-books.controller.js';
+import { BooksService } from './books.service.js';
+import { BookQueryService } from './book-query.service.js';
 
 @Module({
   controllers: [BooksController, UsersBooksController],

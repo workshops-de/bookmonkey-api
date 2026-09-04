@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { JwtModule } from '@nestjs/jwt';
-import { JWT_EXPIRES_IN, JWT_SECRET_KEY } from '../domain';
-import { AuthController } from './auth.controller';
-import { AuthService } from './auth.service';
+import { JWT_EXPIRES_IN, JWT_SECRET_KEY } from '../domain/index.js';
+import { AuthController } from './auth.controller.js';
+import { AuthService } from './auth.service.js';
 
 @Module({
   imports: [

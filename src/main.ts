@@ -1,6 +1,7 @@
 import 'reflect-metadata';
 import { readFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import type { INestApplication } from '@nestjs/common';
 import express from 'express';
 import type { Request, Response, NextFunction } from 'express';
@@ -12,9 +13,11 @@ import {
   type OpenAPIObject,
   SwaggerModule,
 } from '@nestjs/swagger';
-import { AppModule } from './app.module';
-import { ZodExceptionFilter } from './common/zod-exception.filter';
-import { LegacyStringExceptionFilter } from './common/legacy-string-exception.filter';
+import { AppModule } from './app.module.js';
+import { ZodExceptionFilter } from './common/zod-exception.filter.js';
+import { LegacyStringExceptionFilter } from './common/legacy-string-exception.filter.js';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 /** Wendet dieselbe Laufzeit-Konfiguration wie `bootstrap()` an – auch von den E2E-Tests genutzt. */
 export function configureApp(app: INestApplication): void {
@@ -86,7 +89,7 @@ export async function bootstrap(): Promise<void> {
   );
 }
 
-// Beim direkten Start (CLI/`bin`) booten; unter Jest (`NODE_ENV=test`) nicht.
+// Beim direkten Start (CLI/`bin`) booten; unter Vitest (`NODE_ENV=test`) nicht.
 if (process.env.NODE_ENV !== 'test') {
-  void bootstrap();
+  await bootstrap();
 }

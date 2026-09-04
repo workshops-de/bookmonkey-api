@@ -7,7 +7,7 @@ import {
   isUuid,
   setupTmpDb,
   type TmpDb,
-} from './helpers';
+} from './helpers.js';
 
 let app: INestApplication;
 let tmp: TmpDb;
