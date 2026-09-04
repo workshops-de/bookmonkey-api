@@ -51,6 +51,22 @@ export class BooksController {
     return this.queries.apply(this.books.findAll(), query, res);
   }
 
+  // Muss vor `@Get(':isbn')` stehen, sonst würde "exists" als isbn interpretiert.
+  @Get(':isbn/exists')
+  @ApiOkResponse({
+    schema: {
+      type: 'object',
+      properties: {
+        isbn: { type: 'string' },
+        exists: { type: 'boolean' },
+      },
+      required: ['isbn', 'exists'],
+    },
+  })
+  exists(@Param('isbn') isbn: string): { isbn: string; exists: boolean } {
+    return { isbn, exists: this.books.existsByIsbn(isbn) };
+  }
+
   @Get(':isbn')
   @ApiOkResponse({ schema: BOOK_OUTPUT_SCHEMA })
   findOne(@Param('isbn') isbn: string): Book {

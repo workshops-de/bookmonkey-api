@@ -17,6 +17,10 @@ export class BooksService {
     return book;
   }
 
+  existsByIsbn(isbn: string): boolean {
+    return this.db.books.some((b) => b.isbn === isbn);
+  }
+
   create(draft: BookDraft): Book {
     const book: Book = {
       ...draft,

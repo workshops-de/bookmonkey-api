@@ -158,6 +158,67 @@ describe('BooksController (e2e)', () => {
     expect(res.body.errors.title.param).toBe('title');
   });
 
+  it('ignores a misspelled property and does not treat it as a valid field', async () => {
+    const isbn = 'test-typo-authr-0001';
+    const res = await http()
+      .post('/books')
+      .send({
+        isbn,
+        title: 'Typo Author',
+        // "author" mit fehlendem "o" -> darf nicht als "author" durchrutschen
+        authr: 'Ada Lovelace',
+      })
+      .expect(201);
+
+    expect('authr' in res.body).toBe(false);
+    expect('author' in res.body).toBe(false);
+
+    const { body: reloaded } = await http().get(`/books/${isbn}`).expect(200);
+    expect('authr' in reloaded).toBe(false);
+    expect(reloaded.author).toBeUndefined();
+  });
+
+  it('strips unknown properties so no dead data reaches the store', async () => {
+    const isbn = 'test-extra-props-0001';
+    const res = await http()
+      .post('/books')
+      .send({
+        isbn,
+        title: 'Extra Props',
+        bogus: 'should not be stored',
+        rating: 5,
+        internalNote: { secret: true },
+      })
+      .expect(201);
+
+    expect('bogus' in res.body).toBe(false);
+    expect('rating' in res.body).toBe(false);
+    expect('internalNote' in res.body).toBe(false);
+
+    const { body: reloaded } = await http().get(`/books/${isbn}`).expect(200);
+    expect('bogus' in reloaded).toBe(false);
+    expect('rating' in reloaded).toBe(false);
+    expect('internalNote' in reloaded).toBe(false);
+    // Nur bekannte Schema-Felder dürfen zurückkommen.
+    const allowedKeys = new Set([
+      'id',
+      'isbn',
+      'title',
+      'subtitle',
+      'abstract',
+      'author',
+      'publisher',
+      'price',
+      'currency',
+      'numPages',
+      'cover',
+      'userId',
+      'publishedAt',
+      'coAuthors',
+    ]);
+    expect(Object.keys(reloaded).every((key) => allowedKeys.has(key))).toBe(true);
+  });
+
   it('write endpoints are public (no token needed)', async () => {
     await http()
       .post('/books')
@@ -195,6 +256,24 @@ describe('BooksController (e2e)', () => {
       .expect(200);
     expect(Array.isArray(res.body)).toBe(true);
     expect(res.body.every((b: { userId: number }) => b.userId === 1)).toBe(true);
+  });
+
+  it('GET /books/:isbn/exists reports true for a taken isbn', async () => {
+    const isbn = 'test-exists-taken-0001';
+    await http().post('/books').send({ isbn, title: 'exists' }).expect(201);
+
+    const res = await http().get(`/books/${isbn}/exists`).expect(200);
+    expect(res.body).toEqual({ isbn, exists: true });
+  });
+
+  it('GET /books/:isbn/exists reports false for a free isbn', async () => {
+    const res = await http()
+      .get('/books/test-exists-free-does-not-exist/exists')
+      .expect(200);
+    expect(res.body).toEqual({
+      isbn: 'test-exists-free-does-not-exist',
+      exists: false,
+    });
   });
 
   it('static cover asset is served', async () => {
