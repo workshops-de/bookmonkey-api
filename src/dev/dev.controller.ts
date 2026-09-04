@@ -10,14 +10,13 @@ export class DevController {
   @Post('reset')
   @HttpCode(200)
   @ApiOperation({
-    summary:
-      'Setzt die Datenbank auf den Auslieferungsstand zurück (Workshop-Werkzeug).',
+    summary: 'DevTool: Resets the database to its shipped state.'
   })
   @ApiOkResponse({
     schema: {
       type: 'object',
-      properties: { ok: { type: 'boolean' } },
-    },
+      properties: { ok: { type: 'boolean' } }
+    }
   })
   reset(): { ok: true } {
     this.db.restoreSeed();
