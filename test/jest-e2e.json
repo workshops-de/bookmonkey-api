@@ -1,0 +1,28 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "..",
+  "roots": ["<rootDir>/test"],
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "extensionsToTreatAsEsm": [".ts"],
+  "testTimeout": 30000,
+  "transform": {
+    "^.+\\.(t|j)s$": [
+      "ts-jest",
+      {
+        "useESM": true,
+        "isolatedModules": true,
+        "tsconfig": {
+          "module": "ES2022",
+          "moduleResolution": "node",
+          "esModuleInterop": true,
+          "allowSyntheticDefaultImports": true,
+          "experimentalDecorators": true,
+          "emitDecoratorMetadata": true,
+          "target": "ES2022",
+          "verbatimModuleSyntax": false
+        }
+      }
+    ]
+  }
+}
