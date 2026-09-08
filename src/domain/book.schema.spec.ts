@@ -51,6 +51,31 @@ describe('bookDraftSchema', () => {
   });
 });
 
+describe('server-managed timestamps', () => {
+  it('strips a client-supplied createdAt / updatedAt from the draft', () => {
+    const r = bookDraftSchema.safeParse({
+      isbn: 'i',
+      title: 't',
+      createdAt: '2020-01-01T00:00:00+00:00',
+      updatedAt: '2020-01-01T00:00:00+00:00',
+    });
+    expect(r.success).toBe(true);
+    if (!r.success) return;
+    expect(r.data).not.toHaveProperty('createdAt');
+    expect(r.data).not.toHaveProperty('updatedAt');
+  });
+
+  it('are also stripped from a PATCH body', () => {
+    const r = updateBookSchema.safeParse({
+      title: 't',
+      createdAt: '2020-01-01T00:00:00+00:00',
+    });
+    expect(r.success).toBe(true);
+    if (!r.success) return;
+    expect(r.data).not.toHaveProperty('createdAt');
+  });
+});
+
 describe('updateBookSchema (.partial())', () => {
   it('allows an empty patch and does NOT inject the currency default', () => {
     const r = updateBookSchema.parse({});

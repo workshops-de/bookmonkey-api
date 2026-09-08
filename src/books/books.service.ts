@@ -22,11 +22,14 @@ export class BooksService {
   }
 
   create(draft: BookDraft): Book {
+    const now = new Date().toISOString();
     const book: Book = {
       ...draft,
       id: randomUUID(),
       cover:
         draft.cover ?? `http://localhost:4730/covers/${draft.isbn}.png`,
+      createdAt: now,
+      updatedAt: now,
     };
     // Ist-Verhalten: doppelte isbn wird zugelassen (kein Konflikt-Check).
     this.db.books.push(book);
@@ -38,7 +41,13 @@ export class BooksService {
     const index = this.db.books.findIndex((b) => b.isbn === isbn);
     if (index === -1) throw new NotFoundException();
     const existing = this.db.books[index];
-    const replaced: Book = { ...draft, id: existing.id, isbn };
+    const replaced: Book = {
+      ...draft,
+      id: existing.id,
+      isbn,
+      createdAt: existing.createdAt,
+      updatedAt: new Date().toISOString(),
+    };
     this.db.books[index] = replaced;
     this.db.commit();
     return replaced;
@@ -57,6 +66,8 @@ export class BooksService {
     }
     merged.id = existing.id;
     merged.isbn = existing.isbn;
+    merged.createdAt = existing.createdAt;
+    merged.updatedAt = new Date().toISOString();
     this.db.books[index] = merged;
     this.db.commit();
     return merged;

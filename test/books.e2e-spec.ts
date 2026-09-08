@@ -215,6 +215,8 @@ describe('BooksController (e2e)', () => {
       'userId',
       'publishedAt',
       'coAuthors',
+      'createdAt',
+      'updatedAt',
     ]);
     expect(Object.keys(reloaded).every((key) => allowedKeys.has(key))).toBe(true);
   });
@@ -279,5 +281,64 @@ describe('BooksController (e2e)', () => {
   it('static cover asset is served', async () => {
     const res = await http().get('/covers/1001606140805.png').expect(200);
     expect(res.headers['content-type']).toContain('image/png');
+  });
+
+  it('POST sets server-managed createdAt / updatedAt and returns them', async () => {
+    const res = await http()
+      .post('/books')
+      .send({ isbn: 'test-createdat-0001', title: 'Timestamps' })
+      .expect(201);
+
+    expect(typeof res.body.createdAt).toBe('string');
+    expect(Number.isNaN(Date.parse(res.body.createdAt))).toBe(false);
+    // Beim Anlegen sind beide Zeitstempel identisch.
+    expect(res.body.updatedAt).toBe(res.body.createdAt);
+  });
+
+  it('sorts by createdAt desc so the most recently created book comes first', async () => {
+    const older = await http()
+      .post('/books')
+      .send({ isbn: 'test-sort-createdat-older', title: 'Older' })
+      .expect(201);
+
+    // ms-Kollision vermeiden: applySort ist stabil und würde bei gleichem
+    // Zeitstempel die Einfügereihenfolge (neuestes zuletzt) behalten.
+    await new Promise((resolve) => setTimeout(resolve, 5));
+
+    const newest = await http()
+      .post('/books')
+      .send({ isbn: 'test-sort-createdat-newest', title: 'Newest' })
+      .expect(201);
+
+    const res = await http()
+      .get('/books')
+      .query({ _sort: 'createdAt', _order: 'desc' })
+      .expect(200);
+
+    expect(res.body[0].id).toBe(newest.body.id);
+    expect(res.body[0].isbn).toBe('test-sort-createdat-newest');
+    expect(Date.parse(res.body[0].createdAt)).toBeGreaterThan(
+      Date.parse(older.body.createdAt),
+    );
+  });
+
+  it('PATCH bumps updatedAt but leaves createdAt untouched', async () => {
+    const isbn = 'test-updatedat-patch-0001';
+    const created = await http()
+      .post('/books')
+      .send({ isbn, title: 'before' })
+      .expect(201);
+
+    await new Promise((resolve) => setTimeout(resolve, 5));
+
+    const patched = await http()
+      .patch(`/books/${isbn}`)
+      .send({ title: 'after' })
+      .expect(200);
+
+    expect(patched.body.createdAt).toBe(created.body.createdAt);
+    expect(Date.parse(patched.body.updatedAt)).toBeGreaterThan(
+      Date.parse(created.body.updatedAt),
+    );
   });
 });

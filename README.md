@@ -45,19 +45,26 @@ and `POST /login` still hand out a JWT so workshops can practise sending an
 
 Demo user (part of the seed): `admin@bookmonkey.api` / `password1!`.
 
-### Book shape (4.0.0)
+### Book shape (4.1.0)
 
 - `id` is a **server-generated GUID** and is no longer identical to `isbn`.
   Detail routes stay addressed by `:isbn`.
 - `price` is a **number** (previously the string `"$34.99"`).
 - `currency` is a string enum `EUR | USD | GBP | CNY | RUB`, default `EUR`.
   Seed books use `USD`.
+- `createdAt` / `updatedAt` are **server-managed** ISO-8601 timestamps, always
+  present, and cannot be supplied by the client. `createdAt` is set once on
+  `POST`; `updatedAt` is set to the same value on `POST` and refreshed on every
+  `PUT` / `PATCH`. Seed books carry synthetic timestamps. Use them with `_sort`
+  to page newest-first (`?_sort=createdAt&_order=desc`).
 
 ### Query parameters for `GET /books`
 
 `_page`, `_limit` (default 10), `_sort`, `_order`, `_start`, `_end`, `q` (full text),
 exact field filters (`?author=Kevin Sahin`), and the operators `_gte`, `_lte`,
-`_ne`, `_like`. `X-Total-Count` and a RFC-5988 `Link` header are set when paging.
+`_ne`, `_like`. Sort by `createdAt` / `updatedAt` to control paging order
+(`?_sort=createdAt&_order=desc` = newest first). `X-Total-Count` and a RFC-5988
+`Link` header are set when paging.
 The json-server extras `_embed` / `_expand` are **not** supported.
 
 See [docs/querying.md](docs/querying.md) for worked examples of pagination,

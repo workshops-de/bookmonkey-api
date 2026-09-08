@@ -27,10 +27,24 @@ export const bookSchema = z.object({
     .nullable()
     .optional(),
   coAuthors: z.array(z.string()).optional(),
+  /**
+   * Rein serverseitig gepflegt und stets vorhanden: `createdAt` wird einmalig
+   * beim Anlegen gesetzt, `updatedAt` initial auf denselben Wert und danach bei
+   * jedem PUT/PATCH neu. Die Seed-Daten tragen bereits Zeitstempel.
+   */
+  createdAt: z.iso.datetime({ offset: true }),
+  updatedAt: z.iso.datetime({ offset: true }),
 });
 
-/** Eingabe beim Anlegen (POST) und beim Vollersatz (PUT): Client liefert isbn, keine id. */
-export const bookDraftSchema = bookSchema.omit({ id: true });
+/**
+ * Eingabe beim Anlegen (POST) und beim Vollersatz (PUT): Client liefert isbn,
+ * keine id. `createdAt` / `updatedAt` sind serverseitig und daher kein Draft-Feld.
+ */
+export const bookDraftSchema = bookSchema.omit({
+  id: true,
+  createdAt: true,
+  updatedAt: true,
+});
 
 /**
  * Teil-Update (PATCH): jedes Feld optional. `currency` wird bewusst **ohne**

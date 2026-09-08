@@ -21,7 +21,9 @@
       "publishedAt": "2006-11-30",
       "coAuthors": [],
       "price": 0,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:00:00.000Z",
+      "updatedAt": "2024-01-01T09:00:00.000Z"
     },
     {
       "id": "5d8fd1f0-0206-486c-b1f4-cebeac2f05aa",
@@ -37,7 +39,9 @@
       "publishedAt": "2020-06-22",
       "coAuthors": [],
       "price": 12.03,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:01:00.000Z",
+      "updatedAt": "2024-01-01T09:01:00.000Z"
     },
     {
       "id": "a6b00e92-d2cd-4cd1-81a4-2e526b9ef3e1",
@@ -53,7 +57,9 @@
       "publishedAt": "2019-12-15",
       "coAuthors": [],
       "price": 9.5,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:02:00.000Z",
+      "updatedAt": "2024-01-01T09:02:00.000Z"
     },
     {
       "id": "9367f8cd-0cd9-4290-8706-ac37380c9068",
@@ -69,7 +75,9 @@
       "publishedAt": "2012-03-23",
       "coAuthors": [],
       "price": 33.16,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:03:00.000Z",
+      "updatedAt": "2024-01-01T09:03:00.000Z"
     },
     {
       "id": "144f452d-efd6-43dc-afc8-327390955d55",
@@ -85,7 +93,9 @@
       "publishedAt": "2010-06-26",
       "coAuthors": [],
       "price": 4.65,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:04:00.000Z",
+      "updatedAt": "2024-01-01T09:04:00.000Z"
     },
     {
       "id": "8995dfae-435c-4b95-ba4e-4641cf046cd7",
@@ -101,7 +111,9 @@
       "publishedAt": "2010-12-17",
       "coAuthors": [],
       "price": 4.13,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:05:00.000Z",
+      "updatedAt": "2024-01-01T09:05:00.000Z"
     },
     {
       "id": "2e3c62d3-b222-448d-90c3-3dbb8b5d32cd",
@@ -117,7 +129,9 @@
       "publishedAt": "2009-10-22",
       "coAuthors": [],
       "price": 2.6,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:06:00.000Z",
+      "updatedAt": "2024-01-01T09:06:00.000Z"
     },
     {
       "id": "ffb5252e-838c-425d-87d0-6869760be6de",
@@ -133,7 +147,9 @@
       "publishedAt": "2005-06-06",
       "coAuthors": [],
       "price": 3.49,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:07:00.000Z",
+      "updatedAt": "2024-01-01T09:07:00.000Z"
     },
     {
       "id": "d634151a-888f-41ee-bf5b-78d1cffe63cb",
@@ -149,7 +165,9 @@
       "publishedAt": "2005-11-07",
       "coAuthors": [],
       "price": 34.21,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:08:00.000Z",
+      "updatedAt": "2024-01-01T09:08:00.000Z"
     },
     {
       "id": "0f530f32-9ff3-4d36-be85-142a5408913f",
@@ -165,7 +183,9 @@
       "publishedAt": "2015-05-05",
       "coAuthors": [],
       "price": 19.95,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:09:00.000Z",
+      "updatedAt": "2024-01-01T09:09:00.000Z"
     },
     {
       "id": "ee76af91-a7ab-45e5-8017-6d09311109a2",
@@ -181,7 +201,9 @@
       "publishedAt": "2018-03-08",
       "coAuthors": [],
       "price": 6.96,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:10:00.000Z",
+      "updatedAt": "2024-01-01T09:10:00.000Z"
     },
     {
       "id": "489b52c1-3eb2-462f-b365-a2abcb04433e",
@@ -197,7 +219,9 @@
       "publishedAt": "2019-11-21",
       "coAuthors": [],
       "price": 5.5,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:11:00.000Z",
+      "updatedAt": "2024-01-01T09:11:00.000Z"
     },
     {
       "id": "747cb5c6-6a89-4355-befd-fd85846bcb9c",
@@ -213,7 +237,9 @@
       "publishedAt": "2006-09-29",
       "coAuthors": [],
       "price": 29.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:12:00.000Z",
+      "updatedAt": "2024-01-01T09:12:00.000Z"
     },
     {
       "id": "e843cb9e-b6d4-431c-8c92-84ae5ad8b024",
@@ -229,7 +255,9 @@
       "publishedAt": "2004-07-18",
       "coAuthors": [],
       "price": 34.47,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:13:00.000Z",
+      "updatedAt": "2024-01-01T09:13:00.000Z"
     },
     {
       "id": "3f88600a-eb7c-48a0-a8fc-c0fd3bb01d41",
@@ -245,7 +273,9 @@
       "publishedAt": "2011-05-21",
       "coAuthors": [],
       "price": 33.55,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:14:00.000Z",
+      "updatedAt": "2024-01-01T09:14:00.000Z"
     },
     {
       "id": "86f1a7fc-5697-4d81-9636-f009436f280f",
@@ -261,7 +291,9 @@
       "publishedAt": "2010-05-28",
       "coAuthors": [],
       "price": 36.11,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:15:00.000Z",
+      "updatedAt": "2024-01-01T09:15:00.000Z"
     },
     {
       "id": "133ae64f-fe6e-4d9c-b8ee-ee4b3d8f3d3b",
@@ -277,7 +309,9 @@
       "publishedAt": "2011-12-11",
       "coAuthors": [],
       "price": 41.39,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:16:00.000Z",
+      "updatedAt": "2024-01-01T09:16:00.000Z"
     },
     {
       "id": "65d7fa36-02c4-4519-bfc2-e0e69b971bef",
@@ -293,7 +327,9 @@
       "publishedAt": "2006-05-01",
       "coAuthors": [],
       "price": 15.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:17:00.000Z",
+      "updatedAt": "2024-01-01T09:17:00.000Z"
     },
     {
       "id": "dc0db70d-44a6-4919-8f39-59c8ba92027d",
@@ -309,7 +345,9 @@
       "publishedAt": "2013-09-14",
       "coAuthors": [],
       "price": 15,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:18:00.000Z",
+      "updatedAt": "2024-01-01T09:18:00.000Z"
     },
     {
       "id": "317fdfbb-ff1a-44cb-93cc-c543cd316072",
@@ -325,7 +363,9 @@
       "publishedAt": "2020-03-14",
       "coAuthors": [],
       "price": 9,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:19:00.000Z",
+      "updatedAt": "2024-01-01T09:19:00.000Z"
     },
     {
       "id": "2b83f270-fa29-420f-8663-a2ef91ad0aa9",
@@ -341,7 +381,9 @@
       "publishedAt": "2014-07-23",
       "coAuthors": [],
       "price": 3.88,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:20:00.000Z",
+      "updatedAt": "2024-01-01T09:20:00.000Z"
     },
     {
       "id": "b060c5a3-132c-44dd-a142-64c97c2a18db",
@@ -357,7 +399,9 @@
       "publishedAt": "2016-03-31",
       "coAuthors": [],
       "price": 26.21,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:21:00.000Z",
+      "updatedAt": "2024-01-01T09:21:00.000Z"
     },
     {
       "id": "fe45a9c4-136d-4650-89a9-cd1c8a37d629",
@@ -373,7 +417,9 @@
       "publishedAt": "2008-06-04",
       "coAuthors": [],
       "price": 8.92,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:22:00.000Z",
+      "updatedAt": "2024-01-01T09:22:00.000Z"
     },
     {
       "id": "fdef55fd-35f8-490d-952e-a3a8b60ad1db",
@@ -389,7 +435,9 @@
       "publishedAt": "2016-08-26",
       "coAuthors": [],
       "price": 31.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:23:00.000Z",
+      "updatedAt": "2024-01-01T09:23:00.000Z"
     },
     {
       "id": "de93f7b2-2c0b-4321-b436-52858c920730",
@@ -405,7 +453,9 @@
       "publishedAt": "2010-09-13",
       "coAuthors": [],
       "price": 50.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:24:00.000Z",
+      "updatedAt": "2024-01-01T09:24:00.000Z"
     },
     {
       "id": "dc0feab9-ce3d-4ab7-80b4-0ceba959b3fb",
@@ -421,7 +471,9 @@
       "publishedAt": "2009-12-07",
       "coAuthors": [],
       "price": 29.9,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:25:00.000Z",
+      "updatedAt": "2024-01-01T09:25:00.000Z"
     },
     {
       "id": "4a4968ef-0f9e-4dd1-801a-92686f5fab98",
@@ -437,7 +489,9 @@
       "publishedAt": "2005-08-27",
       "coAuthors": [],
       "price": 14,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:26:00.000Z",
+      "updatedAt": "2024-01-01T09:26:00.000Z"
     },
     {
       "id": "daaf3a35-e52b-480e-9faa-43ec74c63e70",
@@ -453,7 +507,9 @@
       "publishedAt": "2009-07-23",
       "coAuthors": [],
       "price": 57.12,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:27:00.000Z",
+      "updatedAt": "2024-01-01T09:27:00.000Z"
     },
     {
       "id": "b218f640-f4db-4b0a-aa2a-8d4a36a56a7e",
@@ -469,7 +525,9 @@
       "publishedAt": "2012-02-14",
       "coAuthors": [],
       "price": 42.39,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:28:00.000Z",
+      "updatedAt": "2024-01-01T09:28:00.000Z"
     },
     {
       "id": "cbf8294b-7cfc-4915-9783-c70cb9ba90db",
@@ -485,7 +543,9 @@
       "publishedAt": "2012-12-12",
       "coAuthors": [],
       "price": 29.18,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:29:00.000Z",
+      "updatedAt": "2024-01-01T09:29:00.000Z"
     },
     {
       "id": "c50118df-058b-4c5f-8e63-3efaf0a802ec",
@@ -501,7 +561,9 @@
       "publishedAt": "2014-07-26",
       "coAuthors": [],
       "price": 24.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:30:00.000Z",
+      "updatedAt": "2024-01-01T09:30:00.000Z"
     },
     {
       "id": "2d45859e-e4e0-4a07-8f8b-d429e34f75b0",
@@ -517,7 +579,9 @@
       "publishedAt": "2016-09-10",
       "coAuthors": [],
       "price": 44.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:31:00.000Z",
+      "updatedAt": "2024-01-01T09:31:00.000Z"
     },
     {
       "id": "2fde7516-ee98-431b-b448-aa572b2f712e",
@@ -533,7 +597,9 @@
       "publishedAt": "2007-02-17",
       "coAuthors": [],
       "price": 27.57,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:32:00.000Z",
+      "updatedAt": "2024-01-01T09:32:00.000Z"
     },
     {
       "id": "c07ba754-1148-4f03-9dd5-b3bda05c8027",
@@ -549,7 +615,9 @@
       "publishedAt": "2013-04-10",
       "coAuthors": [],
       "price": 36.97,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:33:00.000Z",
+      "updatedAt": "2024-01-01T09:33:00.000Z"
     },
     {
       "id": "be2b1416-f7d7-49c3-87ca-cef9c4a829ed",
@@ -565,7 +633,9 @@
       "publishedAt": "2017-08-20",
       "coAuthors": [],
       "price": 34.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:34:00.000Z",
+      "updatedAt": "2024-01-01T09:34:00.000Z"
     },
     {
       "id": "6c9dbd4f-83be-4ede-89b1-d6ff5ed3ff24",
@@ -581,7 +651,9 @@
       "publishedAt": "2018-12-23",
       "coAuthors": [],
       "price": 28.75,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:35:00.000Z",
+      "updatedAt": "2024-01-01T09:35:00.000Z"
     },
     {
       "id": "aaed0bd1-cdf5-485b-b3b4-b364964f1966",
@@ -597,7 +669,9 @@
       "publishedAt": "2018-10-12",
       "coAuthors": [],
       "price": 25.8,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:36:00.000Z",
+      "updatedAt": "2024-01-01T09:36:00.000Z"
     },
     {
       "id": "ce831e13-119a-44c8-9b33-96544e9dc977",
@@ -613,7 +687,9 @@
       "publishedAt": "2007-05-02",
       "coAuthors": [],
       "price": 14,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:37:00.000Z",
+      "updatedAt": "2024-01-01T09:37:00.000Z"
     },
     {
       "id": "5f137a05-6850-4ec6-9d9c-48f1330a5824",
@@ -629,7 +705,9 @@
       "publishedAt": "2007-06-28",
       "coAuthors": [],
       "price": 7,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:38:00.000Z",
+      "updatedAt": "2024-01-01T09:38:00.000Z"
     },
     {
       "id": "4553220c-b568-433a-b16b-616cbcd6a274",
@@ -645,7 +723,9 @@
       "publishedAt": "2018-06-24",
       "coAuthors": [],
       "price": 29.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:39:00.000Z",
+      "updatedAt": "2024-01-01T09:39:00.000Z"
     },
     {
       "id": "eecfdd64-9e16-40ba-a641-41d88e4ad82f",
@@ -661,7 +741,9 @@
       "publishedAt": "2007-08-23",
       "coAuthors": [],
       "price": 18.59,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:40:00.000Z",
+      "updatedAt": "2024-01-01T09:40:00.000Z"
     },
     {
       "id": "d8e4e508-1d91-484f-a88b-ddf970891e17",
@@ -677,7 +759,9 @@
       "publishedAt": "2013-07-25",
       "coAuthors": [],
       "price": 11,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:41:00.000Z",
+      "updatedAt": "2024-01-01T09:41:00.000Z"
     },
     {
       "id": "151c3ce3-b1f4-4796-b0cd-07e58af9853e",
@@ -693,7 +777,9 @@
       "publishedAt": "2011-09-20",
       "coAuthors": [],
       "price": 21.97,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:42:00.000Z",
+      "updatedAt": "2024-01-01T09:42:00.000Z"
     },
     {
       "id": "80e1357c-dfd7-4488-ac75-81a3aabeeecd",
@@ -709,7 +795,9 @@
       "publishedAt": "2004-06-04",
       "coAuthors": [],
       "price": 45,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:43:00.000Z",
+      "updatedAt": "2024-01-01T09:43:00.000Z"
     },
     {
       "id": "c40c2171-d1e7-4248-ab6e-bf7ef2d8c43c",
@@ -725,7 +813,9 @@
       "publishedAt": "2018-11-18",
       "coAuthors": [],
       "price": 35.87,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:44:00.000Z",
+      "updatedAt": "2024-01-01T09:44:00.000Z"
     },
     {
       "id": "40db88c4-7954-4818-92f8-9bc76776683d",
@@ -741,7 +831,9 @@
       "publishedAt": "2015-12-18",
       "coAuthors": [],
       "price": 28.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:45:00.000Z",
+      "updatedAt": "2024-01-01T09:45:00.000Z"
     },
     {
       "id": "e03c4b2f-410b-424d-be4b-7c7c7511222c",
@@ -757,7 +849,9 @@
       "publishedAt": "2018-09-07",
       "coAuthors": [],
       "price": 24.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:46:00.000Z",
+      "updatedAt": "2024-01-01T09:46:00.000Z"
     },
     {
       "id": "7751ef04-e0a6-4c68-8148-0385855875b2",
@@ -773,7 +867,9 @@
       "publishedAt": "2012-02-11",
       "coAuthors": [],
       "price": 0,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:47:00.000Z",
+      "updatedAt": "2024-01-01T09:47:00.000Z"
     },
     {
       "id": "df9edf7b-df0f-45d2-8225-89d926a3d3d5",
@@ -789,7 +885,9 @@
       "publishedAt": "2015-03-28",
       "coAuthors": [],
       "price": 20.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:48:00.000Z",
+      "updatedAt": "2024-01-01T09:48:00.000Z"
     },
     {
       "id": "9e7a3452-ccd2-49f8-8ddc-8d9eece5b613",
@@ -805,7 +903,9 @@
       "publishedAt": "2020-12-30",
       "coAuthors": [],
       "price": 15.29,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:49:00.000Z",
+      "updatedAt": "2024-01-01T09:49:00.000Z"
     },
     {
       "id": "820e27a8-f9be-43b0-b8bb-bed72db32218",
@@ -821,7 +921,9 @@
       "publishedAt": "2016-12-06",
       "coAuthors": [],
       "price": 28.02,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:50:00.000Z",
+      "updatedAt": "2024-01-01T09:50:00.000Z"
     },
     {
       "id": "fb41d44e-5723-44b9-a531-9e93c3ee8884",
@@ -837,7 +939,9 @@
       "publishedAt": "2013-01-17",
       "coAuthors": [],
       "price": 18.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:51:00.000Z",
+      "updatedAt": "2024-01-01T09:51:00.000Z"
     },
     {
       "id": "587c73a1-073e-4dd3-9693-a15269d6e2ac",
@@ -853,7 +957,9 @@
       "publishedAt": "2021-09-28",
       "coAuthors": [],
       "price": 30.27,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:52:00.000Z",
+      "updatedAt": "2024-01-01T09:52:00.000Z"
     },
     {
       "id": "b7f59b76-8c6e-4957-bba4-19c9c39d699f",
@@ -869,7 +975,9 @@
       "publishedAt": "2012-04-05",
       "coAuthors": [],
       "price": 47.95,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:53:00.000Z",
+      "updatedAt": "2024-01-01T09:53:00.000Z"
     },
     {
       "id": "5da926c2-5d05-4028-b1e5-e7cd985bfa70",
@@ -885,7 +993,9 @@
       "publishedAt": "2009-12-17",
       "coAuthors": [],
       "price": 26.95,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:54:00.000Z",
+      "updatedAt": "2024-01-01T09:54:00.000Z"
     },
     {
       "id": "f938720b-4dbd-4456-9633-ae57ffd3c561",
@@ -901,7 +1011,9 @@
       "publishedAt": "2016-10-23",
       "coAuthors": [],
       "price": 14.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:55:00.000Z",
+      "updatedAt": "2024-01-01T09:55:00.000Z"
     },
     {
       "id": "8bbce699-908e-4ac4-a801-dfc88c3bdee8",
@@ -917,7 +1029,9 @@
       "publishedAt": "2017-02-04",
       "coAuthors": [],
       "price": 29.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:56:00.000Z",
+      "updatedAt": "2024-01-01T09:56:00.000Z"
     },
     {
       "id": "fa595685-3249-4064-a761-2ab5eba0cfc9",
@@ -933,7 +1047,9 @@
       "publishedAt": "2004-03-05",
       "coAuthors": [],
       "price": 29.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:57:00.000Z",
+      "updatedAt": "2024-01-01T09:57:00.000Z"
     },
     {
       "id": "f9fc97a0-79f3-47a4-b634-51f073c3c1ee",
@@ -949,7 +1065,9 @@
       "publishedAt": "2021-06-07",
       "coAuthors": [],
       "price": 22.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:58:00.000Z",
+      "updatedAt": "2024-01-01T09:58:00.000Z"
     },
     {
       "id": "513eb4de-7bfe-46bd-bcac-551fdea0a3a0",
@@ -965,7 +1083,9 @@
       "publishedAt": "2013-10-08",
       "coAuthors": [],
       "price": 12.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T09:59:00.000Z",
+      "updatedAt": "2024-01-01T09:59:00.000Z"
     },
     {
       "id": "1d6613fb-f4d7-4189-897d-168cbdab5aad",
@@ -981,7 +1101,9 @@
       "publishedAt": "2007-02-18",
       "coAuthors": [],
       "price": 26.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:00:00.000Z",
+      "updatedAt": "2024-01-01T10:00:00.000Z"
     },
     {
       "id": "369c1283-fcf3-47fb-9168-4ce2f67edacf",
@@ -997,7 +1119,9 @@
       "publishedAt": "2011-03-28",
       "coAuthors": [],
       "price": 12.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:01:00.000Z",
+      "updatedAt": "2024-01-01T10:01:00.000Z"
     },
     {
       "id": "647ea350-1ce9-4b2b-884e-ab75e8e24f8b",
@@ -1013,7 +1137,9 @@
       "publishedAt": "2021-05-09",
       "coAuthors": [],
       "price": 29.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:02:00.000Z",
+      "updatedAt": "2024-01-01T10:02:00.000Z"
     },
     {
       "id": "f5907abf-ab48-4121-9c42-99dd01a762f9",
@@ -1029,7 +1155,9 @@
       "publishedAt": "2020-04-05",
       "coAuthors": [],
       "price": 23.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:03:00.000Z",
+      "updatedAt": "2024-01-01T10:03:00.000Z"
     },
     {
       "id": "ab0350e0-6a6e-42cd-8a57-3fcddd5bc919",
@@ -1045,7 +1173,9 @@
       "publishedAt": "2014-09-25",
       "coAuthors": [],
       "price": 29.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:04:00.000Z",
+      "updatedAt": "2024-01-01T10:04:00.000Z"
     },
     {
       "id": "23897dc4-2fd1-42ce-9e54-8b48c00de2a0",
@@ -1061,7 +1191,9 @@
       "publishedAt": "2005-03-25",
       "coAuthors": [],
       "price": 17.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:05:00.000Z",
+      "updatedAt": "2024-01-01T10:05:00.000Z"
     },
     {
       "id": "fd5b0b14-39f1-49bf-b596-646e0a4896e5",
@@ -1077,7 +1209,9 @@
       "publishedAt": "2019-01-02",
       "coAuthors": [],
       "price": 14.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:06:00.000Z",
+      "updatedAt": "2024-01-01T10:06:00.000Z"
     },
     {
       "id": "f32e0214-47c5-4665-8b23-795527926e97",
@@ -1093,7 +1227,9 @@
       "publishedAt": "2014-10-07",
       "coAuthors": [],
       "price": 26.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:07:00.000Z",
+      "updatedAt": "2024-01-01T10:07:00.000Z"
     },
     {
       "id": "caff5cdc-e360-4907-bfb9-c6f3b237777c",
@@ -1109,7 +1245,9 @@
       "publishedAt": "2015-10-04",
       "coAuthors": [],
       "price": 20.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:08:00.000Z",
+      "updatedAt": "2024-01-01T10:08:00.000Z"
     },
     {
       "id": "750d6c97-2441-46a6-a13b-1f103d71330e",
@@ -1125,7 +1263,9 @@
       "publishedAt": "2019-03-03",
       "coAuthors": [],
       "price": 26.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:09:00.000Z",
+      "updatedAt": "2024-01-01T10:09:00.000Z"
     },
     {
       "id": "3346b8ee-0a7c-4151-9f69-8cea1fe27012",
@@ -1141,7 +1281,9 @@
       "publishedAt": "2012-02-13",
       "coAuthors": [],
       "price": 29.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:10:00.000Z",
+      "updatedAt": "2024-01-01T10:10:00.000Z"
     },
     {
       "id": "c1c5cf4e-65f4-404f-8888-a5e0ed8870e7",
@@ -1157,7 +1299,9 @@
       "publishedAt": "2011-05-20",
       "coAuthors": [],
       "price": 14.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:11:00.000Z",
+      "updatedAt": "2024-01-01T10:11:00.000Z"
     },
     {
       "id": "3d84b10a-487f-4c1e-b133-323dfc96150f",
@@ -1173,7 +1317,9 @@
       "publishedAt": "2018-04-24",
       "coAuthors": [],
       "price": 39.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:12:00.000Z",
+      "updatedAt": "2024-01-01T10:12:00.000Z"
     },
     {
       "id": "43878832-3400-492f-a865-f78c80217b00",
@@ -1189,7 +1335,9 @@
       "publishedAt": "2007-02-24",
       "coAuthors": [],
       "price": 13.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:13:00.000Z",
+      "updatedAt": "2024-01-01T10:13:00.000Z"
     },
     {
       "id": "3d7d3fe3-e40d-4474-af63-b5dafb5c209a",
@@ -1205,7 +1353,9 @@
       "publishedAt": "2004-03-16",
       "coAuthors": [],
       "price": 29.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:14:00.000Z",
+      "updatedAt": "2024-01-01T10:14:00.000Z"
     },
     {
       "id": "282c9e09-17d0-400e-b98b-4a01b23884a7",
@@ -1221,7 +1371,9 @@
       "publishedAt": "2014-07-24",
       "coAuthors": [],
       "price": 38.17,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:15:00.000Z",
+      "updatedAt": "2024-01-01T10:15:00.000Z"
     },
     {
       "id": "eba4b93b-bbe4-4ad2-8d73-e32a4d40aaac",
@@ -1237,7 +1389,9 @@
       "publishedAt": "2014-11-14",
       "coAuthors": [],
       "price": 17.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:16:00.000Z",
+      "updatedAt": "2024-01-01T10:16:00.000Z"
     },
     {
       "id": "92d98403-11cd-403f-b31d-857dd713e845",
@@ -1253,7 +1407,9 @@
       "publishedAt": "2009-06-21",
       "coAuthors": [],
       "price": 29.46,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:17:00.000Z",
+      "updatedAt": "2024-01-01T10:17:00.000Z"
     },
     {
       "id": "fefe6d75-a8a7-4eff-b852-57fa50e35ead",
@@ -1269,7 +1425,9 @@
       "publishedAt": "2010-07-06",
       "coAuthors": [],
       "price": 17.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:18:00.000Z",
+      "updatedAt": "2024-01-01T10:18:00.000Z"
     },
     {
       "id": "323083e5-2281-4f2a-9572-bd4bf013af24",
@@ -1285,7 +1443,9 @@
       "publishedAt": "2004-07-14",
       "coAuthors": [],
       "price": 25.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:19:00.000Z",
+      "updatedAt": "2024-01-01T10:19:00.000Z"
     },
     {
       "id": "75f724a6-c7cb-450c-bb44-efe4f01ec485",
@@ -1301,7 +1461,9 @@
       "publishedAt": "2006-08-18",
       "coAuthors": [],
       "price": 19.95,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:20:00.000Z",
+      "updatedAt": "2024-01-01T10:20:00.000Z"
     },
     {
       "id": "7f512c4b-a2dc-4d95-9bf2-af005c5c6c00",
@@ -1317,7 +1479,9 @@
       "publishedAt": "2019-04-13",
       "coAuthors": [],
       "price": 23.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:21:00.000Z",
+      "updatedAt": "2024-01-01T10:21:00.000Z"
     },
     {
       "id": "1a16672d-41af-4d81-a8d9-7a0cc799776f",
@@ -1333,7 +1497,9 @@
       "publishedAt": "2008-11-06",
       "coAuthors": [],
       "price": 27.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:22:00.000Z",
+      "updatedAt": "2024-01-01T10:22:00.000Z"
     },
     {
       "id": "b03467ae-ab6a-4bc1-9142-335d6209c138",
@@ -1349,7 +1515,9 @@
       "publishedAt": "2012-06-05",
       "coAuthors": [],
       "price": 35.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:23:00.000Z",
+      "updatedAt": "2024-01-01T10:23:00.000Z"
     },
     {
       "id": "03e77359-9f5e-451d-9d95-1fa79c4fd0af",
@@ -1365,7 +1533,9 @@
       "publishedAt": "2013-07-04",
       "coAuthors": [],
       "price": 47.52,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:24:00.000Z",
+      "updatedAt": "2024-01-01T10:24:00.000Z"
     },
     {
       "id": "92cb7325-f7f7-49ee-bdab-eec4fae7ac23",
@@ -1381,7 +1551,9 @@
       "publishedAt": "2005-11-25",
       "coAuthors": [],
       "price": 26.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:25:00.000Z",
+      "updatedAt": "2024-01-01T10:25:00.000Z"
     },
     {
       "id": "b38d3753-d0e1-4bbc-880b-ddd5a9e6ffc7",
@@ -1397,7 +1569,9 @@
       "publishedAt": "2012-05-26",
       "coAuthors": [],
       "price": 35.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:26:00.000Z",
+      "updatedAt": "2024-01-01T10:26:00.000Z"
     },
     {
       "id": "e54ab264-b995-4fa5-9365-b5febfeeabbb",
@@ -1413,7 +1587,9 @@
       "publishedAt": "2004-10-26",
       "coAuthors": [],
       "price": 20.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:27:00.000Z",
+      "updatedAt": "2024-01-01T10:27:00.000Z"
     },
     {
       "id": "8dd3e5d4-7625-4e4e-8ffe-afcb300e6a3b",
@@ -1429,7 +1605,9 @@
       "publishedAt": "2014-12-07",
       "coAuthors": [],
       "price": 27.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:28:00.000Z",
+      "updatedAt": "2024-01-01T10:28:00.000Z"
     },
     {
       "id": "557b0ce9-83da-498b-879e-a05f5f42335e",
@@ -1445,7 +1623,9 @@
       "publishedAt": "2013-07-26",
       "coAuthors": [],
       "price": 38.01,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:29:00.000Z",
+      "updatedAt": "2024-01-01T10:29:00.000Z"
     },
     {
       "id": "48136774-c6ea-46c5-a31b-51de0ca01a12",
@@ -1461,7 +1641,9 @@
       "publishedAt": "2018-07-21",
       "coAuthors": [],
       "price": 23.95,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:30:00.000Z",
+      "updatedAt": "2024-01-01T10:30:00.000Z"
     },
     {
       "id": "c3c9a75c-426f-4998-b51a-e520dee4ccfe",
@@ -1477,7 +1659,9 @@
       "publishedAt": "2010-10-27",
       "coAuthors": [],
       "price": 34.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:31:00.000Z",
+      "updatedAt": "2024-01-01T10:31:00.000Z"
     },
     {
       "id": "dbabb453-a5ec-476d-89fb-a27c5cb980e4",
@@ -1493,7 +1677,9 @@
       "publishedAt": "2019-08-15",
       "coAuthors": [],
       "price": 39.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:32:00.000Z",
+      "updatedAt": "2024-01-01T10:32:00.000Z"
     },
     {
       "id": "c9c29bec-4039-4231-9d2d-a109be71e2f7",
@@ -1509,7 +1695,9 @@
       "publishedAt": "2021-08-18",
       "coAuthors": [],
       "price": 39.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:33:00.000Z",
+      "updatedAt": "2024-01-01T10:33:00.000Z"
     },
     {
       "id": "e1aafd97-5742-4ebc-bb01-a7cac1a2de7f",
@@ -1525,7 +1713,9 @@
       "publishedAt": "2005-02-14",
       "coAuthors": [],
       "price": 31.02,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:34:00.000Z",
+      "updatedAt": "2024-01-01T10:34:00.000Z"
     },
     {
       "id": "91f932ff-70f4-47a6-870d-2e761a1f0004",
@@ -1541,7 +1731,9 @@
       "publishedAt": "2010-03-15",
       "coAuthors": [],
       "price": 39.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:35:00.000Z",
+      "updatedAt": "2024-01-01T10:35:00.000Z"
     },
     {
       "id": "3cf6488f-b141-4bab-9f48-cf1cdd9b6433",
@@ -1557,7 +1749,9 @@
       "publishedAt": "2007-12-26",
       "coAuthors": [],
       "price": 44.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:36:00.000Z",
+      "updatedAt": "2024-01-01T10:36:00.000Z"
     },
     {
       "id": "f41f975a-b20f-43be-9d28-576af363688d",
@@ -1573,7 +1767,9 @@
       "publishedAt": "2004-06-10",
       "coAuthors": [],
       "price": 31.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:37:00.000Z",
+      "updatedAt": "2024-01-01T10:37:00.000Z"
     },
     {
       "id": "4267a31d-5dc3-4e14-aaa1-0b8982e8d498",
@@ -1589,7 +1785,9 @@
       "publishedAt": "2004-09-17",
       "coAuthors": [],
       "price": 31.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:38:00.000Z",
+      "updatedAt": "2024-01-01T10:38:00.000Z"
     },
     {
       "id": "a028973b-0861-4d18-aab9-427839918621",
@@ -1605,7 +1803,9 @@
       "publishedAt": "2012-04-11",
       "coAuthors": [],
       "price": 39.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:39:00.000Z",
+      "updatedAt": "2024-01-01T10:39:00.000Z"
     },
     {
       "id": "18a92f7f-9c46-4b3e-9877-befbe0395e3d",
@@ -1621,7 +1821,9 @@
       "publishedAt": "2010-08-18",
       "coAuthors": [],
       "price": 44.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:40:00.000Z",
+      "updatedAt": "2024-01-01T10:40:00.000Z"
     },
     {
       "id": "7f1e5ff9-ed2b-4e4e-ad6e-b7296b30559c",
@@ -1637,7 +1839,9 @@
       "publishedAt": "2015-02-07",
       "coAuthors": [],
       "price": 29.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:41:00.000Z",
+      "updatedAt": "2024-01-01T10:41:00.000Z"
     },
     {
       "id": "3b2297f1-3ffc-49e1-978f-f3d1985f34f7",
@@ -1653,7 +1857,9 @@
       "publishedAt": "2005-04-07",
       "coAuthors": [],
       "price": 44.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:42:00.000Z",
+      "updatedAt": "2024-01-01T10:42:00.000Z"
     },
     {
       "id": "5d8340ea-bc51-4759-a457-799f8c121ba1",
@@ -1669,7 +1875,9 @@
       "publishedAt": "2015-10-16",
       "coAuthors": [],
       "price": 35.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:43:00.000Z",
+      "updatedAt": "2024-01-01T10:43:00.000Z"
     },
     {
       "id": "f18746e0-4231-4fd5-8900-c770a4ba3984",
@@ -1685,7 +1893,9 @@
       "publishedAt": "2008-11-08",
       "coAuthors": [],
       "price": 37.37,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:44:00.000Z",
+      "updatedAt": "2024-01-01T10:44:00.000Z"
     },
     {
       "id": "d8a5fc5d-2098-437a-b7da-6330092b1c42",
@@ -1701,7 +1911,9 @@
       "publishedAt": "2010-07-29",
       "coAuthors": [],
       "price": 35.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:45:00.000Z",
+      "updatedAt": "2024-01-01T10:45:00.000Z"
     },
     {
       "id": "d8b6b782-fdcf-4251-a1a5-49f6ee794d69",
@@ -1717,7 +1929,9 @@
       "publishedAt": "2010-03-14",
       "coAuthors": [],
       "price": 49.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:46:00.000Z",
+      "updatedAt": "2024-01-01T10:46:00.000Z"
     },
     {
       "id": "09512db0-e5e2-44e7-ba07-44e6c06abccc",
@@ -1733,7 +1947,9 @@
       "publishedAt": "2014-08-21",
       "coAuthors": [],
       "price": 39.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:47:00.000Z",
+      "updatedAt": "2024-01-01T10:47:00.000Z"
     },
     {
       "id": "3408ef78-5271-4850-ae7f-b9734de976bb",
@@ -1749,7 +1965,9 @@
       "publishedAt": "2007-11-03",
       "coAuthors": [],
       "price": 29.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:48:00.000Z",
+      "updatedAt": "2024-01-01T10:48:00.000Z"
     },
     {
       "id": "44883e08-70bd-446a-885c-a6e57e84e4d9",
@@ -1765,7 +1983,9 @@
       "publishedAt": "2009-06-17",
       "coAuthors": [],
       "price": 29.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:49:00.000Z",
+      "updatedAt": "2024-01-01T10:49:00.000Z"
     },
     {
       "id": "80f49d83-75ba-412a-86a1-c6d5da3f7463",
@@ -1781,7 +2001,9 @@
       "publishedAt": "2010-10-12",
       "coAuthors": [],
       "price": 44.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:50:00.000Z",
+      "updatedAt": "2024-01-01T10:50:00.000Z"
     },
     {
       "id": "ee0b1a27-95e6-43b2-b308-97af51706a04",
@@ -1797,7 +2019,9 @@
       "publishedAt": "2019-07-08",
       "coAuthors": [],
       "price": 35.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:51:00.000Z",
+      "updatedAt": "2024-01-01T10:51:00.000Z"
     },
     {
       "id": "86ba0b84-e44a-473f-b797-89d584d0eedd",
@@ -1813,7 +2037,9 @@
       "publishedAt": "2013-04-12",
       "coAuthors": [],
       "price": 29.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:52:00.000Z",
+      "updatedAt": "2024-01-01T10:52:00.000Z"
     },
     {
       "id": "ee29d9b6-a624-472b-a0be-33c985537db7",
@@ -1829,7 +2055,9 @@
       "publishedAt": "2014-04-20",
       "coAuthors": [],
       "price": 29.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:53:00.000Z",
+      "updatedAt": "2024-01-01T10:53:00.000Z"
     },
     {
       "id": "6c5c6746-d081-49a0-b0b6-ed485eb377e8",
@@ -1845,7 +2073,9 @@
       "publishedAt": "2020-02-12",
       "coAuthors": [],
       "price": 49.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:54:00.000Z",
+      "updatedAt": "2024-01-01T10:54:00.000Z"
     },
     {
       "id": "a98b337d-c50e-48bb-b48b-993b140a7e9e",
@@ -1861,7 +2091,9 @@
       "publishedAt": "2009-04-02",
       "coAuthors": [],
       "price": 39.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:55:00.000Z",
+      "updatedAt": "2024-01-01T10:55:00.000Z"
     },
     {
       "id": "fa82dd97-4e2b-4373-a880-eda051c004e4",
@@ -1877,7 +2109,9 @@
       "publishedAt": "2018-04-11",
       "coAuthors": [],
       "price": 49.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:56:00.000Z",
+      "updatedAt": "2024-01-01T10:56:00.000Z"
     },
     {
       "id": "2c00da32-b616-493a-af6b-d52b8ed48000",
@@ -1893,7 +2127,9 @@
       "publishedAt": "2010-11-26",
       "coAuthors": [],
       "price": 38.18,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:57:00.000Z",
+      "updatedAt": "2024-01-01T10:57:00.000Z"
     },
     {
       "id": "968d000d-31f6-4c17-98c7-d508e485b461",
@@ -1909,7 +2145,9 @@
       "publishedAt": "2008-10-07",
       "coAuthors": [],
       "price": 38.18,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:58:00.000Z",
+      "updatedAt": "2024-01-01T10:58:00.000Z"
     },
     {
       "id": "6997a8cd-8526-4c96-8141-34c352f0c424",
@@ -1925,7 +2163,9 @@
       "publishedAt": "2010-08-21",
       "coAuthors": [],
       "price": 26.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T10:59:00.000Z",
+      "updatedAt": "2024-01-01T10:59:00.000Z"
     },
     {
       "id": "45dea860-2b24-4279-a16b-2d5dc95f76dd",
@@ -1941,7 +2181,9 @@
       "publishedAt": "2007-11-20",
       "coAuthors": [],
       "price": 20.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:00:00.000Z",
+      "updatedAt": "2024-01-01T11:00:00.000Z"
     },
     {
       "id": "32860187-15a2-4814-ac23-3e0869441d07",
@@ -1957,7 +2199,9 @@
       "publishedAt": "2013-03-23",
       "coAuthors": [],
       "price": 24.29,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:01:00.000Z",
+      "updatedAt": "2024-01-01T11:01:00.000Z"
     },
     {
       "id": "71726cad-8123-4168-b479-f8c3ae9dd953",
@@ -1973,7 +2217,9 @@
       "publishedAt": "2017-01-13",
       "coAuthors": [],
       "price": 35.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:02:00.000Z",
+      "updatedAt": "2024-01-01T11:02:00.000Z"
     },
     {
       "id": "891eb4ba-db36-4a7a-9f66-8952a93ad317",
@@ -1989,7 +2235,9 @@
       "publishedAt": "2013-11-19",
       "coAuthors": [],
       "price": 35.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:03:00.000Z",
+      "updatedAt": "2024-01-01T11:03:00.000Z"
     },
     {
       "id": "46cc463b-60ba-4d48-acae-87187ece775e",
@@ -2005,7 +2253,9 @@
       "publishedAt": "2020-05-15",
       "coAuthors": [],
       "price": 23.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:04:00.000Z",
+      "updatedAt": "2024-01-01T11:04:00.000Z"
     },
     {
       "id": "51542710-7885-4bec-99a8-98065689fdff",
@@ -2021,7 +2271,9 @@
       "publishedAt": "2018-06-10",
       "coAuthors": [],
       "price": 26.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:05:00.000Z",
+      "updatedAt": "2024-01-01T11:05:00.000Z"
     },
     {
       "id": "7a756216-56c5-4aad-91ec-3b928a518b73",
@@ -2037,7 +2289,9 @@
       "publishedAt": "2006-08-10",
       "coAuthors": [],
       "price": 26.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:06:00.000Z",
+      "updatedAt": "2024-01-01T11:06:00.000Z"
     },
     {
       "id": "b9924a05-64b0-411f-80f7-6954f2f40a44",
@@ -2053,7 +2307,9 @@
       "publishedAt": "2021-11-11",
       "coAuthors": [],
       "price": 14.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:07:00.000Z",
+      "updatedAt": "2024-01-01T11:07:00.000Z"
     },
     {
       "id": "2f905823-b375-4780-b90c-4dae09dfd9ee",
@@ -2069,7 +2325,9 @@
       "publishedAt": "2018-04-26",
       "coAuthors": [],
       "price": 12.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:08:00.000Z",
+      "updatedAt": "2024-01-01T11:08:00.000Z"
     },
     {
       "id": "4a94969f-229c-4f95-9233-f31ab8496df7",
@@ -2085,7 +2343,9 @@
       "publishedAt": "2006-01-19",
       "coAuthors": [],
       "price": 12.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:09:00.000Z",
+      "updatedAt": "2024-01-01T11:09:00.000Z"
     },
     {
       "id": "5ae2515a-4ef3-4e48-8d11-8bd076a67042",
@@ -2101,7 +2361,9 @@
       "publishedAt": "2019-08-16",
       "coAuthors": [],
       "price": 10,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:10:00.000Z",
+      "updatedAt": "2024-01-01T11:10:00.000Z"
     },
     {
       "id": "efbc16b6-aa66-4883-81e2-e8efa68fc116",
@@ -2117,7 +2379,9 @@
       "publishedAt": "2010-04-16",
       "coAuthors": [],
       "price": 29.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:11:00.000Z",
+      "updatedAt": "2024-01-01T11:11:00.000Z"
     },
     {
       "id": "d252eb0c-8814-4458-9be9-da7936b68f03",
@@ -2133,7 +2397,9 @@
       "publishedAt": "2021-10-07",
       "coAuthors": [],
       "price": 26.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:12:00.000Z",
+      "updatedAt": "2024-01-01T11:12:00.000Z"
     },
     {
       "id": "e8494e51-bffb-46bd-9a90-5ff2e2e0d245",
@@ -2149,7 +2415,9 @@
       "publishedAt": "2005-12-14",
       "coAuthors": [],
       "price": 26.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:13:00.000Z",
+      "updatedAt": "2024-01-01T11:13:00.000Z"
     },
     {
       "id": "3e54c88d-07d4-4830-9f91-fb54d8439db5",
@@ -2165,7 +2433,9 @@
       "publishedAt": "2012-01-06",
       "coAuthors": [],
       "price": 26.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:14:00.000Z",
+      "updatedAt": "2024-01-01T11:14:00.000Z"
     },
     {
       "id": "b6e04f2a-545d-4deb-9bc1-072ff86ccd20",
@@ -2181,7 +2451,9 @@
       "publishedAt": "2006-06-29",
       "coAuthors": [],
       "price": 26.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:15:00.000Z",
+      "updatedAt": "2024-01-01T11:15:00.000Z"
     },
     {
       "id": "987fee99-41d7-4f25-929c-07da04e22615",
@@ -2197,7 +2469,9 @@
       "publishedAt": "2010-06-22",
       "coAuthors": [],
       "price": 26.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:16:00.000Z",
+      "updatedAt": "2024-01-01T11:16:00.000Z"
     },
     {
       "id": "91c0a0a8-7389-410a-aca6-88cadaf89cb5",
@@ -2213,7 +2487,9 @@
       "publishedAt": "2010-05-08",
       "coAuthors": [],
       "price": 6.49,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:17:00.000Z",
+      "updatedAt": "2024-01-01T11:17:00.000Z"
     },
     {
       "id": "6ab272b6-e576-4772-9fb1-9dccf87d3d93",
@@ -2229,7 +2505,9 @@
       "publishedAt": "2012-12-31",
       "coAuthors": [],
       "price": 14.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:18:00.000Z",
+      "updatedAt": "2024-01-01T11:18:00.000Z"
     },
     {
       "id": "185ba2ed-e46a-4671-a8ed-5e8cf88dcfea",
@@ -2245,7 +2523,9 @@
       "publishedAt": "2019-11-10",
       "coAuthors": [],
       "price": 26.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:19:00.000Z",
+      "updatedAt": "2024-01-01T11:19:00.000Z"
     },
     {
       "id": "71178c30-26c2-41dc-9a36-714827a6cb77",
@@ -2261,7 +2541,9 @@
       "publishedAt": "2021-04-26",
       "coAuthors": [],
       "price": 18.08,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:20:00.000Z",
+      "updatedAt": "2024-01-01T11:20:00.000Z"
     },
     {
       "id": "8f8db9ae-5fe0-4e45-9567-34478483f628",
@@ -2277,7 +2559,9 @@
       "publishedAt": "2018-03-16",
       "coAuthors": [],
       "price": 2.1,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:21:00.000Z",
+      "updatedAt": "2024-01-01T11:21:00.000Z"
     },
     {
       "id": "d0213eb4-8fba-4070-8f79-2cbe00107e5a",
@@ -2293,7 +2577,9 @@
       "publishedAt": "2004-01-27",
       "coAuthors": [],
       "price": 27.4,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:22:00.000Z",
+      "updatedAt": "2024-01-01T11:22:00.000Z"
     },
     {
       "id": "4f5e5a39-e563-494e-a575-77b4766d3d94",
@@ -2309,7 +2595,9 @@
       "publishedAt": "2018-03-05",
       "coAuthors": [],
       "price": 4.77,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:23:00.000Z",
+      "updatedAt": "2024-01-01T11:23:00.000Z"
     },
     {
       "id": "5729400e-d7af-43cc-aaf5-bfd545d88e4f",
@@ -2325,7 +2613,9 @@
       "publishedAt": "2003-10-18",
       "coAuthors": [],
       "price": 0,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:24:00.000Z",
+      "updatedAt": "2024-01-01T11:24:00.000Z"
     },
     {
       "id": "20d96dd3-a0fe-4a28-b52d-5088f7a44102",
@@ -2341,7 +2631,9 @@
       "publishedAt": "2010-12-19",
       "coAuthors": [],
       "price": 0,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:25:00.000Z",
+      "updatedAt": "2024-01-01T11:25:00.000Z"
     },
     {
       "id": "7d261582-1c2e-4180-95bd-88a917f46ff8",
@@ -2357,7 +2649,9 @@
       "publishedAt": "2006-02-10",
       "coAuthors": [],
       "price": 20,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:26:00.000Z",
+      "updatedAt": "2024-01-01T11:26:00.000Z"
     },
     {
       "id": "5ad5439e-05e6-442d-ae5e-dc5d867de409",
@@ -2373,7 +2667,9 @@
       "publishedAt": "2021-10-05",
       "coAuthors": [],
       "price": 21.63,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:27:00.000Z",
+      "updatedAt": "2024-01-01T11:27:00.000Z"
     },
     {
       "id": "2ea2ebbf-38b4-4c55-8518-30c27ae1f12f",
@@ -2389,7 +2685,9 @@
       "publishedAt": "2013-03-21",
       "coAuthors": [],
       "price": 8.58,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:28:00.000Z",
+      "updatedAt": "2024-01-01T11:28:00.000Z"
     },
     {
       "id": "97268ac8-65e6-42ec-a55c-37c7493f5673",
@@ -2405,7 +2703,9 @@
       "publishedAt": "2020-08-11",
       "coAuthors": [],
       "price": 4.27,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:29:00.000Z",
+      "updatedAt": "2024-01-01T11:29:00.000Z"
     },
     {
       "id": "feb67dc3-ecb7-4cd8-8801-6fe919e708d7",
@@ -2421,7 +2721,9 @@
       "publishedAt": "2008-07-12",
       "coAuthors": [],
       "price": 8.82,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:30:00.000Z",
+      "updatedAt": "2024-01-01T11:30:00.000Z"
     },
     {
       "id": "df91c949-c2db-435b-a897-22802ee8da5c",
@@ -2437,7 +2739,9 @@
       "publishedAt": "2015-12-03",
       "coAuthors": [],
       "price": 13.69,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:31:00.000Z",
+      "updatedAt": "2024-01-01T11:31:00.000Z"
     },
     {
       "id": "4e74afb7-172e-48b0-ac2d-0158b7369abb",
@@ -2453,7 +2757,9 @@
       "publishedAt": "2015-05-12",
       "coAuthors": [],
       "price": 12.86,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:32:00.000Z",
+      "updatedAt": "2024-01-01T11:32:00.000Z"
     },
     {
       "id": "ab4316d1-bbaa-488d-9780-4990c5586c07",
@@ -2469,7 +2775,9 @@
       "publishedAt": "2005-05-05",
       "coAuthors": [],
       "price": 21.41,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:33:00.000Z",
+      "updatedAt": "2024-01-01T11:33:00.000Z"
     },
     {
       "id": "16bb9360-573a-4791-81d2-42ad2f6d34bf",
@@ -2485,7 +2793,9 @@
       "publishedAt": "2016-04-21",
       "coAuthors": [],
       "price": 5.43,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:34:00.000Z",
+      "updatedAt": "2024-01-01T11:34:00.000Z"
     },
     {
       "id": "1c3b7829-26b8-4906-9ae0-59e3a6df4f3c",
@@ -2501,7 +2811,9 @@
       "publishedAt": "2017-06-03",
       "coAuthors": [],
       "price": 5.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:35:00.000Z",
+      "updatedAt": "2024-01-01T11:35:00.000Z"
     },
     {
       "id": "07389292-de5e-4600-bb45-7c1823572e79",
@@ -2517,7 +2829,9 @@
       "publishedAt": "2007-03-20",
       "coAuthors": [],
       "price": 5.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:36:00.000Z",
+      "updatedAt": "2024-01-01T11:36:00.000Z"
     },
     {
       "id": "5dff1ffc-64e6-41c3-97c3-3aa30667e23e",
@@ -2533,7 +2847,9 @@
       "publishedAt": "2013-03-27",
       "coAuthors": [],
       "price": 12.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:37:00.000Z",
+      "updatedAt": "2024-01-01T11:37:00.000Z"
     },
     {
       "id": "4313e4d4-60a5-42e2-93e9-f60bd1756d6d",
@@ -2549,7 +2865,9 @@
       "publishedAt": "2008-12-22",
       "coAuthors": [],
       "price": 6.98,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:38:00.000Z",
+      "updatedAt": "2024-01-01T11:38:00.000Z"
     },
     {
       "id": "c50f821e-1890-4842-8372-3c46952cd394",
@@ -2565,7 +2883,9 @@
       "publishedAt": "2011-04-16",
       "coAuthors": [],
       "price": 35.41,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:39:00.000Z",
+      "updatedAt": "2024-01-01T11:39:00.000Z"
     },
     {
       "id": "c3fde84e-0972-4b21-bfac-20155f21c05a",
@@ -2581,7 +2901,9 @@
       "publishedAt": "2011-02-17",
       "coAuthors": [],
       "price": 18.83,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:40:00.000Z",
+      "updatedAt": "2024-01-01T11:40:00.000Z"
     },
     {
       "id": "90ec2252-3770-4e84-85ed-013aca9b277c",
@@ -2597,7 +2919,9 @@
       "publishedAt": "2006-10-30",
       "coAuthors": [],
       "price": 15.5,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:41:00.000Z",
+      "updatedAt": "2024-01-01T11:41:00.000Z"
     },
     {
       "id": "404d72fe-9c92-4ece-a935-c08f661056b6",
@@ -2613,7 +2937,9 @@
       "publishedAt": "2013-11-24",
       "coAuthors": [],
       "price": 3.74,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:42:00.000Z",
+      "updatedAt": "2024-01-01T11:42:00.000Z"
     },
     {
       "id": "bba46923-ed16-4caf-adaf-cfb3cbaba05d",
@@ -2629,7 +2955,9 @@
       "publishedAt": "2005-06-07",
       "coAuthors": [],
       "price": 8.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:43:00.000Z",
+      "updatedAt": "2024-01-01T11:43:00.000Z"
     },
     {
       "id": "5b2c72e9-19be-489b-8c09-68f7ee472a37",
@@ -2645,7 +2973,9 @@
       "publishedAt": "2016-04-06",
       "coAuthors": [],
       "price": 62.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:44:00.000Z",
+      "updatedAt": "2024-01-01T11:44:00.000Z"
     },
     {
       "id": "9f097b9c-8d9b-47fc-8a86-ca76ddd7289e",
@@ -2661,7 +2991,9 @@
       "publishedAt": "2008-04-11",
       "coAuthors": [],
       "price": 6.98,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:45:00.000Z",
+      "updatedAt": "2024-01-01T11:45:00.000Z"
     },
     {
       "id": "834f6427-d6b3-482f-9c4b-9d642eac8195",
@@ -2677,7 +3009,9 @@
       "publishedAt": "2012-09-19",
       "coAuthors": [],
       "price": 6.7,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:46:00.000Z",
+      "updatedAt": "2024-01-01T11:46:00.000Z"
     },
     {
       "id": "dc109340-c97b-4e51-8d3d-f117985e650a",
@@ -2693,7 +3027,9 @@
       "publishedAt": "2021-04-10",
       "coAuthors": [],
       "price": 17.45,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:47:00.000Z",
+      "updatedAt": "2024-01-01T11:47:00.000Z"
     },
     {
       "id": "7c485da6-e2b3-4676-a794-242cf89493ea",
@@ -2709,7 +3045,9 @@
       "publishedAt": "2005-11-05",
       "coAuthors": [],
       "price": 10.07,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:48:00.000Z",
+      "updatedAt": "2024-01-01T11:48:00.000Z"
     },
     {
       "id": "7995119e-1dd6-4129-85ea-14780f4e84e1",
@@ -2725,7 +3063,9 @@
       "publishedAt": "2004-05-17",
       "coAuthors": [],
       "price": 17.27,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:49:00.000Z",
+      "updatedAt": "2024-01-01T11:49:00.000Z"
     },
     {
       "id": "9c00a64d-b97e-42b8-ae52-c3b8c2838748",
@@ -2741,7 +3081,9 @@
       "publishedAt": "2004-10-31",
       "coAuthors": [],
       "price": 3.49,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:50:00.000Z",
+      "updatedAt": "2024-01-01T11:50:00.000Z"
     },
     {
       "id": "a8580d62-cbab-49da-b8c6-57bf035a27bf",
@@ -2757,7 +3099,9 @@
       "publishedAt": "2017-04-23",
       "coAuthors": [],
       "price": 3.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:51:00.000Z",
+      "updatedAt": "2024-01-01T11:51:00.000Z"
     },
     {
       "id": "543a6dbc-a90f-4c26-b198-abaa11cf2b7f",
@@ -2773,7 +3117,9 @@
       "publishedAt": "2016-11-24",
       "coAuthors": [],
       "price": 8.98,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:52:00.000Z",
+      "updatedAt": "2024-01-01T11:52:00.000Z"
     },
     {
       "id": "9f3cbca1-6a1e-47fd-a156-f77573913971",
@@ -2789,7 +3135,9 @@
       "publishedAt": "2019-02-22",
       "coAuthors": [],
       "price": 32.21,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:53:00.000Z",
+      "updatedAt": "2024-01-01T11:53:00.000Z"
     },
     {
       "id": "9c33a67c-0205-42cf-8fe0-3ba5758b3170",
@@ -2805,7 +3153,9 @@
       "publishedAt": "2013-02-10",
       "coAuthors": [],
       "price": 27.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:54:00.000Z",
+      "updatedAt": "2024-01-01T11:54:00.000Z"
     },
     {
       "id": "c917f1af-cf08-480d-9d70-48fc750d1248",
@@ -2821,7 +3171,9 @@
       "publishedAt": "2009-12-21",
       "coAuthors": [],
       "price": 3.72,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:55:00.000Z",
+      "updatedAt": "2024-01-01T11:55:00.000Z"
     },
     {
       "id": "6668a37b-4950-4fec-ad90-4c0618f9df56",
@@ -2837,7 +3189,9 @@
       "publishedAt": "2010-05-13",
       "coAuthors": [],
       "price": 3.5,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:56:00.000Z",
+      "updatedAt": "2024-01-01T11:56:00.000Z"
     },
     {
       "id": "c803dfe5-5f1b-4181-a7f4-94fc329bfb91",
@@ -2853,7 +3207,9 @@
       "publishedAt": "2008-03-31",
       "coAuthors": [],
       "price": 15,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:57:00.000Z",
+      "updatedAt": "2024-01-01T11:57:00.000Z"
     },
     {
       "id": "f8be1678-eb7c-4f6b-bb3e-bc130387afd7",
@@ -2869,7 +3225,9 @@
       "publishedAt": "2006-01-29",
       "coAuthors": [],
       "price": 3.65,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:58:00.000Z",
+      "updatedAt": "2024-01-01T11:58:00.000Z"
     },
     {
       "id": "2b41983d-ab88-4ff4-9643-7148e6db1bfe",
@@ -2885,7 +3243,9 @@
       "publishedAt": "2009-12-05",
       "coAuthors": [],
       "price": 4.45,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T11:59:00.000Z",
+      "updatedAt": "2024-01-01T11:59:00.000Z"
     },
     {
       "id": "fdaedbc6-a8f0-4023-837e-3bb694222a74",
@@ -2901,7 +3261,9 @@
       "publishedAt": "2013-08-15",
       "coAuthors": [],
       "price": 3.74,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:00:00.000Z",
+      "updatedAt": "2024-01-01T12:00:00.000Z"
     },
     {
       "id": "c6790480-a050-4ea6-a426-bedfd3b65c55",
@@ -2917,7 +3279,9 @@
       "publishedAt": "2005-06-25",
       "coAuthors": [],
       "price": 31.54,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:01:00.000Z",
+      "updatedAt": "2024-01-01T12:01:00.000Z"
     },
     {
       "id": "568df0fe-3a06-4453-bd4f-619b346850f4",
@@ -2933,7 +3297,9 @@
       "publishedAt": "2011-10-16",
       "coAuthors": [],
       "price": 26.15,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:02:00.000Z",
+      "updatedAt": "2024-01-01T12:02:00.000Z"
     },
     {
       "id": "d538b6ba-8a41-4b44-a631-6dee8dd0438a",
@@ -2949,7 +3315,9 @@
       "publishedAt": "2014-06-27",
       "coAuthors": [],
       "price": 21.87,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:03:00.000Z",
+      "updatedAt": "2024-01-01T12:03:00.000Z"
     },
     {
       "id": "23a997c2-2dbb-4c2c-9081-49e5c5715748",
@@ -2965,7 +3333,9 @@
       "publishedAt": "2021-09-07",
       "coAuthors": [],
       "price": 25.03,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:04:00.000Z",
+      "updatedAt": "2024-01-01T12:04:00.000Z"
     },
     {
       "id": "620f6cb0-b18d-4228-81b1-970dd958c258",
@@ -2981,7 +3351,9 @@
       "publishedAt": "2021-01-25",
       "coAuthors": [],
       "price": 3.73,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:05:00.000Z",
+      "updatedAt": "2024-01-01T12:05:00.000Z"
     },
     {
       "id": "3431e129-343a-4c69-8329-1109e3718dcc",
@@ -2997,7 +3369,9 @@
       "publishedAt": "2007-08-21",
       "coAuthors": [],
       "price": 3.49,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:06:00.000Z",
+      "updatedAt": "2024-01-01T12:06:00.000Z"
     },
     {
       "id": "a14ac6ce-5be9-4823-b53b-5c78e27bffc2",
@@ -3013,7 +3387,9 @@
       "publishedAt": "2011-08-18",
       "coAuthors": [],
       "price": 24.49,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:07:00.000Z",
+      "updatedAt": "2024-01-01T12:07:00.000Z"
     },
     {
       "id": "09b5da03-beee-4df0-b703-c546e4ae6dd8",
@@ -3029,7 +3405,9 @@
       "publishedAt": "2017-09-28",
       "coAuthors": [],
       "price": 14.4,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:08:00.000Z",
+      "updatedAt": "2024-01-01T12:08:00.000Z"
     },
     {
       "id": "a21d1899-6eb4-4e39-a986-e2f553102a2e",
@@ -3045,7 +3423,9 @@
       "publishedAt": "2018-01-08",
       "coAuthors": [],
       "price": 6.43,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:09:00.000Z",
+      "updatedAt": "2024-01-01T12:09:00.000Z"
     },
     {
       "id": "b9ca2990-9d93-404f-865e-1b470402f2ba",
@@ -3061,7 +3441,9 @@
       "publishedAt": "2008-12-13",
       "coAuthors": [],
       "price": 10.19,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:10:00.000Z",
+      "updatedAt": "2024-01-01T12:10:00.000Z"
     },
     {
       "id": "8ee62d58-4fec-4dc9-a2a4-b2e7e6c29368",
@@ -3077,7 +3459,9 @@
       "publishedAt": "2014-04-15",
       "coAuthors": [],
       "price": 19.11,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:11:00.000Z",
+      "updatedAt": "2024-01-01T12:11:00.000Z"
     },
     {
       "id": "75e17981-035a-42f2-9d5e-51d555d692fc",
@@ -3093,7 +3477,9 @@
       "publishedAt": "2021-10-17",
       "coAuthors": [],
       "price": 3.81,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:12:00.000Z",
+      "updatedAt": "2024-01-01T12:12:00.000Z"
     },
     {
       "id": "ae49c7f3-aca8-4054-a2f3-e4ec3403e5e5",
@@ -3109,7 +3495,9 @@
       "publishedAt": "2013-08-16",
       "coAuthors": [],
       "price": 8.54,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:13:00.000Z",
+      "updatedAt": "2024-01-01T12:13:00.000Z"
     },
     {
       "id": "9065a3d7-1fa6-4759-94d8-62296a26c872",
@@ -3125,7 +3513,9 @@
       "publishedAt": "2021-12-06",
       "coAuthors": [],
       "price": 4.38,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:14:00.000Z",
+      "updatedAt": "2024-01-01T12:14:00.000Z"
     },
     {
       "id": "e86b6735-855a-4bdc-9bf8-29d659041a36",
@@ -3141,7 +3531,9 @@
       "publishedAt": "2020-06-15",
       "coAuthors": [],
       "price": 4.3,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:15:00.000Z",
+      "updatedAt": "2024-01-01T12:15:00.000Z"
     },
     {
       "id": "be4777ef-5b53-40fb-a614-3b1e700005ca",
@@ -3157,7 +3549,9 @@
       "publishedAt": "2016-08-22",
       "coAuthors": [],
       "price": 3.83,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:16:00.000Z",
+      "updatedAt": "2024-01-01T12:16:00.000Z"
     },
     {
       "id": "8e443d8a-8c00-427f-9dc9-39b94bd317a9",
@@ -3173,7 +3567,9 @@
       "publishedAt": "2007-08-01",
       "coAuthors": [],
       "price": 11,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:17:00.000Z",
+      "updatedAt": "2024-01-01T12:17:00.000Z"
     },
     {
       "id": "79018b1b-9a21-4ac0-8272-c93c9879c260",
@@ -3189,7 +3585,9 @@
       "publishedAt": "2020-01-24",
       "coAuthors": [],
       "price": 17.23,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:18:00.000Z",
+      "updatedAt": "2024-01-01T12:18:00.000Z"
     },
     {
       "id": "1091a88b-791e-4ca8-935a-03641b240b5e",
@@ -3205,7 +3603,9 @@
       "publishedAt": "2006-05-20",
       "coAuthors": [],
       "price": 18,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:19:00.000Z",
+      "updatedAt": "2024-01-01T12:19:00.000Z"
     },
     {
       "id": "53b9ee5c-98ef-478f-9c41-97c7c005861d",
@@ -3221,7 +3621,9 @@
       "publishedAt": "2011-11-05",
       "coAuthors": [],
       "price": 19.59,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:20:00.000Z",
+      "updatedAt": "2024-01-01T12:20:00.000Z"
     },
     {
       "id": "6e855417-c8d5-4a0b-b36d-1cd858815019",
@@ -3237,7 +3639,9 @@
       "publishedAt": "2014-03-28",
       "coAuthors": [],
       "price": 26.15,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:21:00.000Z",
+      "updatedAt": "2024-01-01T12:21:00.000Z"
     },
     {
       "id": "f96743be-e528-49a0-833a-fcc66634ae3b",
@@ -3253,7 +3657,9 @@
       "publishedAt": "2010-08-08",
       "coAuthors": [],
       "price": 3.74,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:22:00.000Z",
+      "updatedAt": "2024-01-01T12:22:00.000Z"
     },
     {
       "id": "d3baa4a8-c156-4ab3-a6aa-c246868996a5",
@@ -3269,7 +3675,9 @@
       "publishedAt": "2015-08-22",
       "coAuthors": [],
       "price": 14.95,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:23:00.000Z",
+      "updatedAt": "2024-01-01T12:23:00.000Z"
     },
     {
       "id": "210743a1-d80e-465e-80c4-37ce15222a87",
@@ -3285,7 +3693,9 @@
       "publishedAt": "2004-01-27",
       "coAuthors": [],
       "price": 31.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:24:00.000Z",
+      "updatedAt": "2024-01-01T12:24:00.000Z"
     },
     {
       "id": "c6af9120-8b95-4989-8e1b-29c7376907b8",
@@ -3301,7 +3711,9 @@
       "publishedAt": "2018-11-26",
       "coAuthors": [],
       "price": 19.39,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:25:00.000Z",
+      "updatedAt": "2024-01-01T12:25:00.000Z"
     },
     {
       "id": "8af13d26-87e9-4115-8f22-4ce5cab7f607",
@@ -3317,7 +3729,9 @@
       "publishedAt": "2005-12-09",
       "coAuthors": [],
       "price": 7.98,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:26:00.000Z",
+      "updatedAt": "2024-01-01T12:26:00.000Z"
     },
     {
       "id": "e0ac9cc8-1075-4a1c-b88b-a92a9f605daf",
@@ -3333,7 +3747,9 @@
       "publishedAt": "2010-02-05",
       "coAuthors": [],
       "price": 3.37,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:27:00.000Z",
+      "updatedAt": "2024-01-01T12:27:00.000Z"
     },
     {
       "id": "13d2edd9-3145-49f5-8528-012602da60cd",
@@ -3349,7 +3765,9 @@
       "publishedAt": "2013-01-06",
       "coAuthors": [],
       "price": 2.2,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:28:00.000Z",
+      "updatedAt": "2024-01-01T12:28:00.000Z"
     },
     {
       "id": "5f060ab4-361b-419c-9cdb-aec5a2abfde0",
@@ -3365,7 +3783,9 @@
       "publishedAt": "2017-01-18",
       "coAuthors": [],
       "price": 5.96,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:29:00.000Z",
+      "updatedAt": "2024-01-01T12:29:00.000Z"
     },
     {
       "id": "c27d1fd4-34fc-4bb5-a3ea-c4d1baf652a4",
@@ -3381,7 +3801,9 @@
       "publishedAt": "2020-09-30",
       "coAuthors": [],
       "price": 23.35,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:30:00.000Z",
+      "updatedAt": "2024-01-01T12:30:00.000Z"
     },
     {
       "id": "f0c891d9-5264-4069-aeef-7a07e27b39de",
@@ -3397,7 +3819,9 @@
       "publishedAt": "2009-07-14",
       "coAuthors": [],
       "price": 17.37,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:31:00.000Z",
+      "updatedAt": "2024-01-01T12:31:00.000Z"
     },
     {
       "id": "a4e493a2-c7f7-4a8f-8fba-4121f17eed49",
@@ -3413,7 +3837,9 @@
       "publishedAt": "2010-12-01",
       "coAuthors": [],
       "price": 7.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:32:00.000Z",
+      "updatedAt": "2024-01-01T12:32:00.000Z"
     },
     {
       "id": "f0226b35-d7c2-4c90-81e9-23aa1e01f421",
@@ -3429,7 +3855,9 @@
       "publishedAt": "2008-01-30",
       "coAuthors": [],
       "price": 23.08,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:33:00.000Z",
+      "updatedAt": "2024-01-01T12:33:00.000Z"
     },
     {
       "id": "b57c69e8-a3b5-4e36-9dcb-8ab0e2759483",
@@ -3445,7 +3873,9 @@
       "publishedAt": "2004-02-03",
       "coAuthors": [],
       "price": 3.74,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:34:00.000Z",
+      "updatedAt": "2024-01-01T12:34:00.000Z"
     },
     {
       "id": "1de1b203-a836-49bf-aac9-ca276b3cdd15",
@@ -3461,7 +3891,9 @@
       "publishedAt": "2020-10-14",
       "coAuthors": [],
       "price": 9.14,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:35:00.000Z",
+      "updatedAt": "2024-01-01T12:35:00.000Z"
     },
     {
       "id": "4ec48b19-a229-4fab-95a0-7ddc9e6e3e18",
@@ -3477,7 +3909,9 @@
       "publishedAt": "2014-05-14",
       "coAuthors": [],
       "price": 3.49,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:36:00.000Z",
+      "updatedAt": "2024-01-01T12:36:00.000Z"
     },
     {
       "id": "5ee8e014-41e0-44a0-bc32-901f194ded71",
@@ -3493,7 +3927,9 @@
       "publishedAt": "2015-12-20",
       "coAuthors": [],
       "price": 24.62,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:37:00.000Z",
+      "updatedAt": "2024-01-01T12:37:00.000Z"
     },
     {
       "id": "d307ba7a-1fca-472e-91da-dca30b910131",
@@ -3509,7 +3945,9 @@
       "publishedAt": "2008-03-06",
       "coAuthors": [],
       "price": 2.95,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:38:00.000Z",
+      "updatedAt": "2024-01-01T12:38:00.000Z"
     },
     {
       "id": "845b2ff0-7f49-4d8d-8b66-13d6d44a57d5",
@@ -3525,7 +3963,9 @@
       "publishedAt": "2008-03-08",
       "coAuthors": [],
       "price": 10.95,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:39:00.000Z",
+      "updatedAt": "2024-01-01T12:39:00.000Z"
     },
     {
       "id": "bf8c784b-e0a6-407d-84f0-a59c8de49a46",
@@ -3541,7 +3981,9 @@
       "publishedAt": "2018-07-06",
       "coAuthors": [],
       "price": 3.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:40:00.000Z",
+      "updatedAt": "2024-01-01T12:40:00.000Z"
     },
     {
       "id": "f8838e72-ab8b-410e-9168-f75ac94e3f4f",
@@ -3557,7 +3999,9 @@
       "publishedAt": "2010-04-26",
       "coAuthors": [],
       "price": 9.8,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:41:00.000Z",
+      "updatedAt": "2024-01-01T12:41:00.000Z"
     },
     {
       "id": "ce74b61f-edf5-4635-b448-f2e1aea18835",
@@ -3573,7 +4017,9 @@
       "publishedAt": "2015-02-13",
       "coAuthors": [],
       "price": 20.32,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:42:00.000Z",
+      "updatedAt": "2024-01-01T12:42:00.000Z"
     },
     {
       "id": "42177f8b-125d-4054-8c7a-f04c011c3300",
@@ -3589,7 +4035,9 @@
       "publishedAt": "2010-07-20",
       "coAuthors": [],
       "price": 29,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:43:00.000Z",
+      "updatedAt": "2024-01-01T12:43:00.000Z"
     },
     {
       "id": "af99ded4-ad08-4203-9d83-2dd235ebc56c",
@@ -3605,7 +4053,9 @@
       "publishedAt": "2008-04-17",
       "coAuthors": [],
       "price": 0,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:44:00.000Z",
+      "updatedAt": "2024-01-01T12:44:00.000Z"
     },
     {
       "id": "5037ba5f-a39a-4e14-9fb0-7c1cfa64930a",
@@ -3621,7 +4071,9 @@
       "publishedAt": "2016-05-16",
       "coAuthors": [],
       "price": 5.53,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:45:00.000Z",
+      "updatedAt": "2024-01-01T12:45:00.000Z"
     },
     {
       "id": "880118e1-209a-4edb-b07c-277b34f95ab9",
@@ -3637,7 +4089,9 @@
       "publishedAt": "2008-04-10",
       "coAuthors": [],
       "price": 27.82,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:46:00.000Z",
+      "updatedAt": "2024-01-01T12:46:00.000Z"
     },
     {
       "id": "1f5aa5e7-71dd-4fac-987a-221fc6b48316",
@@ -3653,7 +4107,9 @@
       "publishedAt": "2006-04-01",
       "coAuthors": [],
       "price": 12.02,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:47:00.000Z",
+      "updatedAt": "2024-01-01T12:47:00.000Z"
     },
     {
       "id": "3d4eee8b-5d14-4f47-814e-90ec957a6aff",
@@ -3669,7 +4125,9 @@
       "publishedAt": "2020-06-14",
       "coAuthors": [],
       "price": 24.03,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:48:00.000Z",
+      "updatedAt": "2024-01-01T12:48:00.000Z"
     },
     {
       "id": "c32d34d7-0c05-4056-96aa-b1c3570a5094",
@@ -3685,7 +4143,9 @@
       "publishedAt": "2007-08-28",
       "coAuthors": [],
       "price": 29,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:49:00.000Z",
+      "updatedAt": "2024-01-01T12:49:00.000Z"
     },
     {
       "id": "397c8e78-ecfe-4f93-8f78-65f759164d03",
@@ -3701,7 +4161,9 @@
       "publishedAt": "2017-05-28",
       "coAuthors": [],
       "price": 7.63,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:50:00.000Z",
+      "updatedAt": "2024-01-01T12:50:00.000Z"
     },
     {
       "id": "3a9cbf28-3d2a-4cb8-a6b5-bcfd8891f69f",
@@ -3717,7 +4179,9 @@
       "publishedAt": "2011-12-13",
       "coAuthors": [],
       "price": 4.62,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:51:00.000Z",
+      "updatedAt": "2024-01-01T12:51:00.000Z"
     },
     {
       "id": "a9d482f6-e969-43d8-bcb6-53dd011503c0",
@@ -3733,7 +4197,9 @@
       "publishedAt": "2015-11-28",
       "coAuthors": [],
       "price": 12.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:52:00.000Z",
+      "updatedAt": "2024-01-01T12:52:00.000Z"
     },
     {
       "id": "67837582-edf2-4bca-a0a6-04783dbf8101",
@@ -3749,7 +4215,9 @@
       "publishedAt": "2004-11-25",
       "coAuthors": [],
       "price": 3.65,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:53:00.000Z",
+      "updatedAt": "2024-01-01T12:53:00.000Z"
     },
     {
       "id": "137a9856-ca21-41a6-ac3d-4d635b37b1f4",
@@ -3765,7 +4233,9 @@
       "publishedAt": "2019-02-23",
       "coAuthors": [],
       "price": 17.36,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:54:00.000Z",
+      "updatedAt": "2024-01-01T12:54:00.000Z"
     },
     {
       "id": "7fb2dab5-ce53-424e-b6a2-81c17f00124d",
@@ -3781,7 +4251,9 @@
       "publishedAt": "2011-04-27",
       "coAuthors": [],
       "price": 7.92,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:55:00.000Z",
+      "updatedAt": "2024-01-01T12:55:00.000Z"
     },
     {
       "id": "11e7716d-95c1-461c-ba9b-5e20ee43e0ee",
@@ -3797,7 +4269,9 @@
       "publishedAt": "2008-06-12",
       "coAuthors": [],
       "price": 35.59,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:56:00.000Z",
+      "updatedAt": "2024-01-01T12:56:00.000Z"
     },
     {
       "id": "42f60a19-f59e-42a8-9ef4-18f1ca5f00cc",
@@ -3813,7 +4287,9 @@
       "publishedAt": "2007-09-19",
       "coAuthors": [],
       "price": 0,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:57:00.000Z",
+      "updatedAt": "2024-01-01T12:57:00.000Z"
     },
     {
       "id": "d49ccc8f-b81e-459d-8123-7b512f10670b",
@@ -3829,7 +4305,9 @@
       "publishedAt": "2009-01-15",
       "coAuthors": [],
       "price": 19.83,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:58:00.000Z",
+      "updatedAt": "2024-01-01T12:58:00.000Z"
     },
     {
       "id": "ea309380-2e01-45ff-81b3-b2f986c55632",
@@ -3845,7 +4323,9 @@
       "publishedAt": "2012-04-21",
       "coAuthors": [],
       "price": 17.55,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T12:59:00.000Z",
+      "updatedAt": "2024-01-01T12:59:00.000Z"
     },
     {
       "id": "7ea1d5f8-aed1-4b0e-a479-6e57b9acbf38",
@@ -3861,7 +4341,9 @@
       "publishedAt": "2016-04-08",
       "coAuthors": [],
       "price": 5.28,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T13:00:00.000Z",
+      "updatedAt": "2024-01-01T13:00:00.000Z"
     },
     {
       "id": "2aecd0d1-ae5b-45b3-9783-f615ca0dd3f1",
@@ -3877,7 +4359,9 @@
       "publishedAt": "2015-01-16",
       "coAuthors": [],
       "price": 26.33,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T13:01:00.000Z",
+      "updatedAt": "2024-01-01T13:01:00.000Z"
     },
     {
       "id": "7ff7982e-9c5d-4adb-a023-b7426e44d366",
@@ -3893,7 +4377,9 @@
       "publishedAt": "2017-06-26",
       "coAuthors": [],
       "price": 7.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T13:02:00.000Z",
+      "updatedAt": "2024-01-01T13:02:00.000Z"
     },
     {
       "id": "bd40d28e-fa7d-410a-a71c-85b9de3e39bb",
@@ -3909,7 +4395,9 @@
       "publishedAt": "2016-05-22",
       "coAuthors": [],
       "price": 6.03,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T13:03:00.000Z",
+      "updatedAt": "2024-01-01T13:03:00.000Z"
     },
     {
       "id": "df194e64-a996-4d34-8b9f-62089c978cc9",
@@ -3925,7 +4413,9 @@
       "publishedAt": "2012-10-08",
       "coAuthors": [],
       "price": 8.05,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T13:04:00.000Z",
+      "updatedAt": "2024-01-01T13:04:00.000Z"
     },
     {
       "id": "70e96188-18e3-41fe-894f-1bf0cc347c09",
@@ -3941,7 +4431,9 @@
       "publishedAt": "2006-10-17",
       "coAuthors": [],
       "price": 38.12,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T13:05:00.000Z",
+      "updatedAt": "2024-01-01T13:05:00.000Z"
     },
     {
       "id": "005b2f44-b7a0-446f-9c07-c5254afb4135",
@@ -3957,7 +4449,9 @@
       "publishedAt": "2021-10-13",
       "coAuthors": [],
       "price": 32.94,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T13:06:00.000Z",
+      "updatedAt": "2024-01-01T13:06:00.000Z"
     },
     {
       "id": "6326cf6e-e6e8-458c-80b5-0a8d696e1992",
@@ -3973,7 +4467,9 @@
       "publishedAt": "2016-03-24",
       "coAuthors": [],
       "price": 25.94,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T13:07:00.000Z",
+      "updatedAt": "2024-01-01T13:07:00.000Z"
     },
     {
       "id": "e6cd9f1a-69e4-4258-9d7d-c18aeb0b7810",
@@ -3989,7 +4485,9 @@
       "publishedAt": "2013-05-02",
       "coAuthors": [],
       "price": 32.91,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T13:08:00.000Z",
+      "updatedAt": "2024-01-01T13:08:00.000Z"
     },
     {
       "id": "004ec3c5-72f5-4ae6-b0ed-022ffaf5b4ef",
@@ -4005,7 +4503,9 @@
       "publishedAt": "2006-04-11",
       "coAuthors": [],
       "price": 34.99,
-      "currency": "USD"
+      "currency": "USD",
+      "createdAt": "2024-01-01T13:09:00.000Z",
+      "updatedAt": "2024-01-01T13:09:00.000Z"
     }
   ]
 }

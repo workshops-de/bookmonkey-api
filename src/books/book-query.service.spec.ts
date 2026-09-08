@@ -9,6 +9,8 @@ const makeBook = (over: Partial<Book>): Book =>
     title: 'T',
     currency: 'EUR',
     coAuthors: [],
+    createdAt: '2024-01-01T00:00:00.000Z',
+    updatedAt: '2024-01-01T00:00:00.000Z',
     ...over,
   }) as Book;
 
