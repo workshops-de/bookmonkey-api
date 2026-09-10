@@ -28,6 +28,13 @@ export const bookSchema = z.object({
     .optional(),
   coAuthors: z.array(z.string()).optional(),
   /**
+   * ISBN des vorherigen bzw. nächsten Bandes derselben Reihe. `null` bei
+   * Einzelbänden und an den Enden einer Reihe. Über `GET /books/:isbn` direkt
+   * nachladbar – Übungen können so durch eine Serie navigieren.
+   */
+  predecessorIsbn: z.string().nullable().optional(),
+  successorIsbn: z.string().nullable().optional(),
+  /**
    * Rein serverseitig gepflegt und stets vorhanden: `createdAt` wird einmalig
    * beim Anlegen gesetzt, `updatedAt` initial auf denselben Wert und danach bei
    * jedem PUT/PATCH neu. Die Seed-Daten tragen bereits Zeitstempel.

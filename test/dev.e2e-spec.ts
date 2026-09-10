@@ -39,7 +39,7 @@ describe('DevController (e2e)', () => {
       .get('/books')
       .query({ _page: 1, _limit: 1000 })
       .expect(200);
-    expect(all.body).toHaveLength(250);
+    expect(all.body).toHaveLength(50);
   });
 
   it('exposes swagger UI and JSON', async () => {

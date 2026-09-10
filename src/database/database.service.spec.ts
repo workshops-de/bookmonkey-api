@@ -32,7 +32,7 @@ describe('DatabaseService', () => {
   it('onModuleInit creates the db from the seed when the file is missing', () => {
     const svc = new DatabaseService();
     svc.onModuleInit();
-    expect(svc.books).toHaveLength(250);
+    expect(svc.books).toHaveLength(50);
     expect(svc.users).toHaveLength(1);
     expect(readFileSync(dbPath, 'utf-8')).toContain('"books"');
   });
@@ -41,7 +41,7 @@ describe('DatabaseService', () => {
     copyFileSync(REPO_SEED, dbPath);
     const svc = new DatabaseService();
     svc.onModuleInit();
-    expect(svc.books.length).toBe(250);
+    expect(svc.books.length).toBe(50);
   });
 
   it('commit persists in-place mutations', () => {
@@ -59,6 +59,6 @@ describe('DatabaseService', () => {
     svc.onModuleInit();
     expect(svc.books).toHaveLength(0);
     svc.restoreSeed();
-    expect(svc.books).toHaveLength(250);
+    expect(svc.books).toHaveLength(50);
   });
 });

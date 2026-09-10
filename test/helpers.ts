@@ -6,8 +6,8 @@ import type { INestApplication } from '@nestjs/common';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 
-export const KNOWN_ISBN = '1001606140805';
-export const KNOWN_TITLE = 'Java Web Scraping Handbook';
+export const KNOWN_ISBN = '9780747532699';
+export const KNOWN_TITLE = 'Harry Potter and the Philosopher’s Stone';
 
 /** RFC-4122 v4 UUID. */
 const UUID_V4_RE =

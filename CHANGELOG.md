@@ -1,5 +1,24 @@
 # Changelog
 
+## 4.2.0
+
+### Changed
+
+* **Seed data replaced.** The 250 technical books are gone; the shipped seed now
+  holds **50 well-known fiction and non-fiction titles** – Harry Potter, The Lord
+  of the Rings, The Hunger Games, The Wheel of Time, A Song of Ice and Fire,
+  Mistborn, His Dark Materials and more, plus standalones such as *The Willpower
+  Instinct* and *How to Win Friends and Influence People*. All cover images under
+  `covers/<isbn>.png` were swapped accordingly. Seed prices are now `currency:
+  "EUR"`.
+
+### Added
+
+* **`predecessorIsbn` / `successorIsbn`** on the book schema: the ISBN of the
+  previous / next volume in the same series, or `null` for standalone titles and
+  at the ends of a series. Follow them with `GET /books/:isbn`. The fields are
+  accepted on `POST` / `PUT` / `PATCH` and appear in the OpenAPI schema.
+
 ## 4.0.0 — Breaking Changes
 
 Complete rewrite from a `json-server` script to a **NestJS 12** application. The

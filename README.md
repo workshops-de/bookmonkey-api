@@ -45,13 +45,16 @@ and `POST /login` still hand out a JWT so workshops can practise sending an
 
 Demo user (part of the seed): `admin@bookmonkey.api` / `password1!`.
 
-### Book shape (4.1.0)
+### Book shape (4.2.0)
 
 - `id` is a **server-generated GUID** and is no longer identical to `isbn`.
   Detail routes stay addressed by `:isbn`.
 - `price` is a **number** (previously the string `"$34.99"`).
 - `currency` is a string enum `EUR | USD | GBP | CNY | RUB`, default `EUR`.
-  Seed books use `USD`.
+  Seed books use `EUR`.
+- `predecessorIsbn` / `successorIsbn` point to the previous / next volume of the
+  same series (e.g. the Harry Potter books), or are `null` for standalone titles
+  and at the ends of a series. Follow them with `GET /books/:isbn`.
 - `createdAt` / `updatedAt` are **server-managed** ISO-8601 timestamps, always
   present, and cannot be supplied by the client. `createdAt` is set once on
   `POST`; `updatedAt` is set to the same value on `POST` and refreshed on every
@@ -61,7 +64,7 @@ Demo user (part of the seed): `admin@bookmonkey.api` / `password1!`.
 ### Query parameters for `GET /books`
 
 `_page`, `_limit` (default 10), `_sort`, `_order`, `_start`, `_end`, `q` (full text),
-exact field filters (`?author=Kevin Sahin`), and the operators `_gte`, `_lte`,
+exact field filters (`?author=J. K. Rowling`), and the operators `_gte`, `_lte`,
 `_ne`, `_like`. Sort by `createdAt` / `updatedAt` to control paging order
 (`?_sort=createdAt&_order=desc` = newest first). `X-Total-Count` and a RFC-5988
 `Link` header are set when paging.

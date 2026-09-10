@@ -53,7 +53,7 @@ describe('BooksController (e2e)', () => {
     expect(res.body.id).not.toBe(KNOWN_ISBN);
     expect(res.body.title).toBe(KNOWN_TITLE);
     expect(typeof res.body.price).toBe('number');
-    expect(res.body.currency).toBe('USD');
+    expect(res.body.currency).toBe('EUR');
     expect('publishedAt' in res.body).toBe(true);
     expect(Array.isArray(res.body.coAuthors)).toBe(true);
   });
@@ -66,8 +66,8 @@ describe('BooksController (e2e)', () => {
 
     expect(Array.isArray(res.body)).toBe(true);
     expect(res.body).toHaveLength(5);
-    // >= 250: vorherige Tests in dieser Datei legen Bücher an (keine DB-Isolation je Test).
-    expect(Number(res.headers['x-total-count'])).toBeGreaterThanOrEqual(250);
+    // >= 50: vorherige Tests in dieser Datei legen Bücher an (keine DB-Isolation je Test).
+    expect(Number(res.headers['x-total-count'])).toBeGreaterThanOrEqual(50);
     expect(res.headers['link']).toContain('rel="next"');
   });
 
@@ -279,7 +279,7 @@ describe('BooksController (e2e)', () => {
   });
 
   it('static cover asset is served', async () => {
-    const res = await http().get('/covers/1001606140805.png').expect(200);
+    const res = await http().get(`/covers/${KNOWN_ISBN}.png`).expect(200);
     expect(res.headers['content-type']).toContain('image/png');
   });
 

@@ -21,42 +21,42 @@ describe('GET /books query pipeline (e2e)', () => {
   it('_page / _limit slice and expose headers', async () => {
     const res = await get('/books?_page=1&_limit=7').expect(200);
     expect(res.body).toHaveLength(7);
-    expect(res.headers['x-total-count']).toBe('250');
+    expect(res.headers['x-total-count']).toBe('50');
     expect(res.headers['link']).toContain('rel="last"');
   });
 
   it('_start / _end slice without _page', async () => {
     const res = await get('/books?_start=0&_end=3').expect(200);
     expect(res.body).toHaveLength(3);
-    expect(res.headers['x-total-count']).toBe('250');
+    expect(res.headers['x-total-count']).toBe('50');
   });
 
   it('no paging params -> no X-Total-Count, full list', async () => {
     const res = await get('/books').expect(200);
-    expect(res.body).toHaveLength(250);
+    expect(res.body).toHaveLength(50);
     expect(res.headers['x-total-count']).toBeUndefined();
   });
 
   it('exact field filter', async () => {
-    const res = await get('/books?author=Kevin Sahin').expect(200);
+    const res = await get('/books?author=J. K. Rowling').expect(200);
     expect(res.body.length).toBeGreaterThanOrEqual(1);
     expect(
-      res.body.every((b: { author: string }) => b.author === 'Kevin Sahin'),
+      res.body.every((b: { author: string }) => b.author === 'J. K. Rowling'),
     ).toBe(true);
   });
 
   it('_like operator (case-insensitive regex)', async () => {
-    const res = await get('/books?title_like=java').expect(200);
+    const res = await get('/books?title_like=harry').expect(200);
     expect(res.body.length).toBeGreaterThan(0);
     expect(
-      res.body.every((b: { title: string }) => /java/i.test(b.title)),
+      res.body.every((b: { title: string }) => /harry/i.test(b.title)),
     ).toBe(true);
   });
 
   it('_gte / _lte numeric on numPages', async () => {
-    const res = await get('/books?numPages_gte=100&numPages_lte=150').expect(200);
+    const res = await get('/books?numPages_gte=200&numPages_lte=500').expect(200);
     expect(
-      res.body.every((b: { numPages: number }) => b.numPages >= 100 && b.numPages <= 150),
+      res.body.every((b: { numPages: number }) => b.numPages >= 200 && b.numPages <= 500),
     ).toBe(true);
   });
 
@@ -70,13 +70,13 @@ describe('GET /books query pipeline (e2e)', () => {
   });
 
   it('full-text q', async () => {
-    const res = await get('/books?q=scraping').expect(200);
+    const res = await get('/books?q=hogwarts').expect(200);
     expect(res.body.length).toBeGreaterThan(0);
   });
 
   it('GET /users/:id/books composes with the query pipeline', async () => {
     const res = await get('/users/1/books?_page=1&_limit=4').expect(200);
     expect(res.body).toHaveLength(4);
-    expect(res.headers['x-total-count']).toBe('250');
+    expect(res.headers['x-total-count']).toBe('50');
   });
 });

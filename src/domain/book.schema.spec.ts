@@ -28,6 +28,23 @@ describe('bookDraftSchema', () => {
     ).toBe(false);
   });
 
+  it('accepts predecessorIsbn / successorIsbn as string, null or omitted', () => {
+    expect(
+      bookDraftSchema.safeParse({ isbn: 'i', title: 't' }).success,
+    ).toBe(true);
+    expect(
+      bookDraftSchema.safeParse({
+        isbn: 'i',
+        title: 't',
+        predecessorIsbn: null,
+        successorIsbn: '9780747538493',
+      }).success,
+    ).toBe(true);
+    expect(
+      bookDraftSchema.safeParse({ isbn: 'i', title: 't', successorIsbn: 42 }).success,
+    ).toBe(false);
+  });
+
   it('accepts a plain date and an offset datetime for publishedAt, and null', () => {
     expect(
       bookDraftSchema.safeParse({ isbn: 'i', title: 't', publishedAt: '2020-01-01' })
