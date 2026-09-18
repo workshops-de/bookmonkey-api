@@ -1,4 +1,5 @@
 import {
+  BadRequestException,
   Body,
   Controller,
   Delete,
@@ -41,14 +42,28 @@ export class BooksController {
     private readonly queries: BookQueryService,
   ) {}
 
+  // Trainings-Feature: `?dev-error=true` erzwingt auf jedem Endpunkt einen
+  // 400er, damit im Workshop Client-seitiges Error-Handling geübt werden kann.
+  private assertNoDevError(devError?: string): void {
+    if (devError === 'true') {
+      throw new BadRequestException(
+        'This 400 error was triggered intentionally via ?dev-error=true for testing purposes.',
+      );
+    }
+  }
+
   @Get()
   @ApiBookQuery()
   @ApiOkResponse({ schema: { type: 'array', items: BOOK_OUTPUT_SCHEMA } })
+  @ApiResponse({ status: 400, schema: VALIDATION_ERROR_SCHEMA })
   list(
     @Query() query: Record<string, string | string[]>,
+    @Query('dev-error') devError: string | undefined,
     @Res({ passthrough: true }) res: Response,
   ): Book[] {
-    return this.queries.apply(this.books.findAll(), query, res);
+    this.assertNoDevError(devError);
+    const { 'dev-error': _devError, ...filters } = query;
+    return this.queries.apply(this.books.findAll(), filters, res);
   }
 
   // Muss vor `@Get(':isbn')` stehen, sonst würde "exists" als isbn interpretiert.
@@ -63,13 +78,23 @@ export class BooksController {
       required: ['isbn', 'exists'],
     },
   })
-  exists(@Param('isbn') isbn: string): { isbn: string; exists: boolean } {
+  @ApiResponse({ status: 400, schema: VALIDATION_ERROR_SCHEMA })
+  exists(
+    @Param('isbn') isbn: string,
+    @Query('dev-error') devError: string | undefined,
+  ): { isbn: string; exists: boolean } {
+    this.assertNoDevError(devError);
     return { isbn, exists: this.books.existsByIsbn(isbn) };
   }
 
   @Get(':isbn')
   @ApiOkResponse({ schema: BOOK_OUTPUT_SCHEMA })
-  findOne(@Param('isbn') isbn: string): Book {
+  @ApiResponse({ status: 400, schema: VALIDATION_ERROR_SCHEMA })
+  findOne(
+    @Param('isbn') isbn: string,
+    @Query('dev-error') devError: string | undefined,
+  ): Book {
+    this.assertNoDevError(devError);
     return this.books.findByIsbn(isbn);
   }
 
@@ -79,7 +104,9 @@ export class BooksController {
   @ApiResponse({ status: 400, schema: VALIDATION_ERROR_SCHEMA })
   create(
     @Body(new ZodValidationPipe(bookDraftSchema)) draft: BookDraft,
+    @Query('dev-error') devError: string | undefined,
   ): Book {
+    this.assertNoDevError(devError);
     return this.books.create(draft);
   }
 
@@ -89,7 +116,9 @@ export class BooksController {
   replace(
     @Param('isbn') isbn: string,
     @Body(new ZodValidationPipe(bookDraftSchema)) draft: BookDraft,
+    @Query('dev-error') devError: string | undefined,
   ): Book {
+    this.assertNoDevError(devError);
     return this.books.replace(isbn, draft);
   }
 
@@ -99,13 +128,20 @@ export class BooksController {
   update(
     @Param('isbn') isbn: string,
     @Body(new ZodValidationPipe(updateBookSchema)) patch: BookUpdate,
+    @Query('dev-error') devError: string | undefined,
   ): Book {
+    this.assertNoDevError(devError);
     return this.books.update(isbn, patch);
   }
 
   @Delete(':isbn')
   @HttpCode(200)
-  remove(@Param('isbn') isbn: string): Record<string, never> {
+  @ApiResponse({ status: 400, schema: VALIDATION_ERROR_SCHEMA })
+  remove(
+    @Param('isbn') isbn: string,
+    @Query('dev-error') devError: string | undefined,
+  ): Record<string, never> {
+    this.assertNoDevError(devError);
     this.books.remove(isbn);
     return {};
   }
