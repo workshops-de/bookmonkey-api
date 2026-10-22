@@ -41,10 +41,29 @@ export const VALIDATION_ERROR_SCHEMA = {
   },
 } as const;
 
+/**
+ * Blanker JSON-String als Fehlerbody (`LegacyStringExceptionFilter`), z. B.
+ * `"Incorrect password"` oder der `?_devError=true`-Text.
+ */
+export const LEGACY_ERROR_SCHEMA = { type: 'string' } as const;
+
+/**
+ * 400 bei Endpunkten mit Body: Zod-Fehlerobjekt (`ZodExceptionFilter`) oder
+ * – bei `?_devError=true` – der blanke String.
+ */
+export const BODY_ERROR_SCHEMA = {
+  oneOf: [VALIDATION_ERROR_SCHEMA, LEGACY_ERROR_SCHEMA],
+};
+
+export const USER_SCHEMA = {
+  type: 'object',
+  additionalProperties: true,
+} as const;
+
 export const ACCESS_TOKEN_SCHEMA = {
   type: 'object',
   properties: {
     accessToken: { type: 'string' },
-    user: { type: 'object', additionalProperties: true },
+    user: USER_SCHEMA,
   },
 } as const;

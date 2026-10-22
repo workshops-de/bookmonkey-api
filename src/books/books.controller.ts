@@ -12,14 +12,21 @@ import {
   Query,
   Res
 } from '@nestjs/common';
-import { ApiBody, ApiOkResponse, ApiResponse, ApiTags } from '@nestjs/swagger';
+import {
+  ApiBody,
+  ApiCreatedResponse,
+  ApiOkResponse,
+  ApiResponse,
+  ApiTags
+} from '@nestjs/swagger';
 import type { Response } from 'express';
 import { ApiBookQuery } from '../common/api-book-query.decorator.js';
 import {
   BOOK_DRAFT_INPUT_SCHEMA,
   BOOK_OUTPUT_SCHEMA,
   BOOK_UPDATE_INPUT_SCHEMA,
-  VALIDATION_ERROR_SCHEMA
+  BODY_ERROR_SCHEMA,
+  LEGACY_ERROR_SCHEMA
 } from '../common/openapi.js';
 import { ZodValidationPipe } from '../common/zod-validation.pipe.js';
 import {
@@ -56,7 +63,7 @@ export class BooksController {
   @Get()
   @ApiBookQuery()
   @ApiOkResponse({ schema: { type: 'array', items: BOOK_OUTPUT_SCHEMA } })
-  @ApiResponse({ status: 400, schema: VALIDATION_ERROR_SCHEMA })
+  @ApiResponse({ status: 400, schema: LEGACY_ERROR_SCHEMA })
   list(
     @Query() query: Record<string, string | string[]>,
     @Query('_devError') devError: string | undefined,
@@ -79,7 +86,7 @@ export class BooksController {
       required: ['isbn', 'exists']
     }
   })
-  @ApiResponse({ status: 400, schema: VALIDATION_ERROR_SCHEMA })
+  @ApiResponse({ status: 400, schema: LEGACY_ERROR_SCHEMA })
   exists(
     @Param('isbn') isbn: string,
     @Query('_devError') devError: string | undefined
@@ -90,7 +97,7 @@ export class BooksController {
 
   @Get(':isbn')
   @ApiOkResponse({ schema: BOOK_OUTPUT_SCHEMA })
-  @ApiResponse({ status: 400, schema: VALIDATION_ERROR_SCHEMA })
+  @ApiResponse({ status: 400, schema: LEGACY_ERROR_SCHEMA })
   findOne(
     @Param('isbn') isbn: string,
     @Query('_devError') devError: string | undefined
@@ -102,7 +109,8 @@ export class BooksController {
   @Post()
   @HttpCode(201)
   @ApiBody({ schema: BOOK_DRAFT_INPUT_SCHEMA })
-  @ApiResponse({ status: 400, schema: VALIDATION_ERROR_SCHEMA })
+  @ApiCreatedResponse({ schema: BOOK_OUTPUT_SCHEMA })
+  @ApiResponse({ status: 400, schema: BODY_ERROR_SCHEMA })
   create(
     @Body(new ZodValidationPipe(bookDraftSchema)) draft: BookDraft,
     @Query('_devError') devError: string | undefined
@@ -113,7 +121,8 @@ export class BooksController {
 
   @Put(':isbn')
   @ApiBody({ schema: BOOK_DRAFT_INPUT_SCHEMA })
-  @ApiResponse({ status: 400, schema: VALIDATION_ERROR_SCHEMA })
+  @ApiOkResponse({ schema: BOOK_OUTPUT_SCHEMA })
+  @ApiResponse({ status: 400, schema: BODY_ERROR_SCHEMA })
   replace(
     @Param('isbn') isbn: string,
     @Body(new ZodValidationPipe(bookDraftSchema)) draft: BookDraft,
@@ -125,7 +134,8 @@ export class BooksController {
 
   @Patch(':isbn')
   @ApiBody({ schema: BOOK_UPDATE_INPUT_SCHEMA })
-  @ApiResponse({ status: 400, schema: VALIDATION_ERROR_SCHEMA })
+  @ApiOkResponse({ schema: BOOK_OUTPUT_SCHEMA })
+  @ApiResponse({ status: 400, schema: BODY_ERROR_SCHEMA })
   update(
     @Param('isbn') isbn: string,
     @Body(new ZodValidationPipe(updateBookSchema)) patch: BookUpdate,
@@ -137,7 +147,8 @@ export class BooksController {
 
   @Delete(':isbn')
   @HttpCode(200)
-  @ApiResponse({ status: 400, schema: VALIDATION_ERROR_SCHEMA })
+  @ApiOkResponse({ schema: { type: 'object', properties: {} } })
+  @ApiResponse({ status: 400, schema: LEGACY_ERROR_SCHEMA })
   remove(
     @Param('isbn') isbn: string,
     @Query('_devError') devError: string | undefined
