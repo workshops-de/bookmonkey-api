@@ -1,4 +1,8 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
+import {
+  ConflictException,
+  Injectable,
+  NotFoundException,
+} from '@nestjs/common';
 import { randomUUID } from 'node:crypto';
 import { DatabaseService } from '../database/database.service.js';
 import type { Book, BookDraft, BookUpdate } from '../domain/index.js';
@@ -22,6 +26,11 @@ export class BooksService {
   }
 
   create(draft: BookDraft): Book {
+    if (this.existsByIsbn(draft.isbn)) {
+      throw new ConflictException(
+        `Book with ISBN ${draft.isbn} already exists`,
+      );
+    }
     const now = new Date().toISOString();
     const book: Book = {
       ...draft,
@@ -31,7 +40,6 @@ export class BooksService {
       createdAt: now,
       updatedAt: now,
     };
-    // Ist-Verhalten: doppelte isbn wird zugelassen (kein Konflikt-Check).
     this.db.books.push(book);
     this.db.commit();
     return book;

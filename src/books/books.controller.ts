@@ -111,6 +111,11 @@ export class BooksController {
   @ApiBody({ schema: BOOK_DRAFT_INPUT_SCHEMA })
   @ApiCreatedResponse({ schema: BOOK_OUTPUT_SCHEMA })
   @ApiResponse({ status: 400, schema: BODY_ERROR_SCHEMA })
+  @ApiResponse({
+    status: 409,
+    description: 'A book with this ISBN already exists.',
+    schema: LEGACY_ERROR_SCHEMA
+  })
   create(
     @Body(new ZodValidationPipe(bookDraftSchema)) draft: BookDraft,
     @Query('_devError') devError: string | undefined

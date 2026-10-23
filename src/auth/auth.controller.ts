@@ -44,6 +44,11 @@ export class AuthController {
   @ApiBody(CREDENTIALS_BODY)
   @ApiCreatedResponse({ schema: ACCESS_TOKEN_SCHEMA })
   @ApiResponse({ status: 400, schema: LEGACY_ERROR_SCHEMA })
+  @ApiResponse({
+    status: 409,
+    description: 'A user with this email already exists.',
+    schema: LEGACY_ERROR_SCHEMA
+  })
   register(@Body() body: Record<string, unknown>) {
     return this.auth.register(body);
   }

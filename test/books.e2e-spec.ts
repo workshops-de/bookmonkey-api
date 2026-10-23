@@ -260,6 +260,27 @@ describe('BooksController (e2e)', () => {
     expect(res.body.every((b: { userId: number }) => b.userId === 1)).toBe(true);
   });
 
+  it('POST rejects a duplicate isbn with 409 and does not store a second book', async () => {
+    const before = await http()
+      .get('/books')
+      .query({ isbn: KNOWN_ISBN })
+      .expect(200);
+    expect(before.body).toHaveLength(1);
+
+    const res = await http()
+      .post('/books')
+      .send({ isbn: KNOWN_ISBN, title: 'Duplicate' })
+      .expect(409);
+    expect(res.body).toBe(`Book with ISBN ${KNOWN_ISBN} already exists`);
+
+    const after = await http()
+      .get('/books')
+      .query({ isbn: KNOWN_ISBN })
+      .expect(200);
+    expect(after.body).toHaveLength(1);
+    expect(after.body[0].title).toBe(KNOWN_TITLE);
+  });
+
   it('GET /books/:isbn/exists reports true for a taken isbn', async () => {
     const isbn = 'test-exists-taken-0001';
     await http().post('/books').send({ isbn, title: 'exists' }).expect(201);

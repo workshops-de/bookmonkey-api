@@ -30,11 +30,11 @@ describe('AuthController (e2e)', () => {
     expect(res.body.user.password).toMatch(/^\$2[aby]\$/);
   });
 
-  it('register rejects a duplicate email with a blank string body', async () => {
+  it('register rejects a duplicate email with 409 and a blank string body', async () => {
     const res = await request(app.getHttpServer())
       .post('/register')
       .send(creds)
-      .expect(400);
+      .expect(409);
     expect(res.body).toBe('Email already exists');
   });
 

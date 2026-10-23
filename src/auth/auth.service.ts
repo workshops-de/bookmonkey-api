@@ -1,5 +1,6 @@
 import {
   BadRequestException,
+  ConflictException,
   Injectable,
   NotFoundException,
 } from '@nestjs/common';
@@ -59,7 +60,7 @@ export class AuthService {
       throw new BadRequestException('Password is too short');
     }
     if (this.db.users.find((u) => u.email === email)) {
-      throw new BadRequestException('Email already exists');
+      throw new ConflictException('Email already exists');
     }
 
     const hash = await bcrypt.hash(password as string, SALT_LENGTH);
