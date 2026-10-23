@@ -54,7 +54,7 @@ export function buildSwaggerDocument(app: INestApplication): OpenAPIObject {
     .setDescription(
       'Demo-Backend für workshops.de – Bücher-CRUD, Auth, Dev-Reset.'
     )
-    .setVersion('4.2.0')
+    .setVersion('5.0.0')
     .build();
   return SwaggerModule.createDocument(app, config);
 }

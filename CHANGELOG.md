@@ -1,5 +1,22 @@
 # Changelog
 
+## 5.0.0
+
+### Breaking
+
+- **`POST /register` (`/signup`, `/users`) returns `409 Conflict` instead of
+  `400` for an email that is already registered.** The body is unchanged
+  (bare JSON string `"Email already exists"`). Clients checking for `400` on
+  this case need to check for `409`. Other register validation errors
+  (missing fields, invalid email, short password) stay `400`.
+- **`POST /books` rejects a duplicate ISBN with `409 Conflict`** and the bare
+  JSON string `"Book with ISBN <isbn> already exists"`; no second book is
+  stored. In 4.x such a request returned `201` and silently stored a duplicate,
+  so clients that create the same ISBN twice now get an error. This restores
+  the 3.x behavior: since 4.0 the `id` is a UUID instead of the ISBN, so the
+  implicit duplicate-id check of json-server (which surfaced as a `500` in 3.x)
+  was gone.
+
 ## 4.2.0
 
 ### Breaking
