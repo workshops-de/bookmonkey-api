@@ -1,5 +1,15 @@
 # Changelog
 
+## 5.0.1
+
+### Changed
+
+- Dependency updates (no API changes): `@nestjs/common`, `@nestjs/core` and
+  `@nestjs/platform-express` 12.2.0, `express` 5.3.0, `multer` 2.4.0,
+  `body-parser` 2.4.0, `morgan` 1.12.1, `compression` 1.8.2, `zod` 4.6.6,
+  `fast-uri` 3.1.9 plus dev-tooling bumps (`vite` 8.3.5, `source-map-js`,
+  `brace-expansion`).
+
 ## 5.0.0
 
 ### Breaking

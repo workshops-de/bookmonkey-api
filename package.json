@@ -1,6 +1,6 @@
 {
   "name": "bookmonkey-api",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "A simple backend for the BookMonkey example application.",
   "author": "workshops.de",
   "license": "MIT",
